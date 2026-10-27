@@ -15,6 +15,12 @@ Built by Avinash Rayudu. Every brand, vendor and number here is synthetic.
 
 Most BFCM receipts arrive one to two weeks later.
 
+Fernwood's week-0 forecast, closing cash by week (from `python -m forecast.baseline_13wk`):
+
+| Week of | Oct 26 | Nov 2 | Nov 9 | Nov 16 | Nov 23 | Nov 30 | Dec 7 | Dec 14 | Dec 21 | Dec 28 | Jan 4 | Jan 11 | Jan 18 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Closing cash, $K | 429 | 567 | 804 | 194 | 595 | 808 | 992 | 1,105 | 1,085 | 1,164 | 968 | 1,015 | 889 |
+
 **The Monday brief** ([reports/cash_brief_fernwood.html](reports/cash_brief_fernwood.html)) is dated Nov 16 and uses actuals through Nov 15. It says:
 
 - Refunds ran 1.7x forecast in the weeks of Nov 2 and Nov 9, and SKU FW-2201 is 99% of the excess. The reforecast carries that rate two more weeks, which moves the low point to **$99,718** after this week's early bill payment.
