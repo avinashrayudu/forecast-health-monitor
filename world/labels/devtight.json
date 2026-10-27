@@ -1,0 +1,275 @@
+[
+ {
+  "id": "E01",
+  "brand": "fernwood-goods",
+  "cause": "refunds",
+  "line": "dtc_payouts",
+  "start": 1,
+  "end": 2,
+  "desc": "quality issue: refunds on SKU FW-2201 run 4x normal",
+  "params": {
+   "sku": "FW-2201",
+   "mult": 4.0
+  },
+  "affected": {
+   "dtc_payouts": [
+    1,
+    2,
+    3
+   ]
+  },
+  "cash_impact": -17537.0,
+  "impact_on_line": -17537.0,
+  "max_weekly_cash_shift": 17537.0
+ },
+ {
+  "id": "E02",
+  "brand": "lark-and-pine",
+  "cause": "timing",
+  "line": "dtc_payouts",
+  "start": 5,
+  "end": 5,
+  "desc": "Shopify holds a week of payouts during a risk review",
+  "params": {
+   "lag": 1.0
+  },
+  "affected": {
+   "dtc_payouts": [
+    5,
+    6
+   ]
+  },
+  "cash_impact": -0.0,
+  "impact_on_line": 0.0,
+  "max_weekly_cash_shift": 81981.95
+ },
+ {
+  "id": "E03",
+  "brand": "tidewater-swim",
+  "cause": "reserve",
+  "line": "marketplace_payouts",
+  "start": 4,
+  "end": 4,
+  "desc": "Amazon holds a reserve on the BFCM settlement, released two settlements later",
+  "params": {
+   "share": 0.35,
+   "release_after": 4
+  },
+  "affected": {
+   "marketplace_payouts": [
+    4,
+    8
+   ]
+  },
+  "cash_impact": -0.0,
+  "impact_on_line": 0.0,
+  "max_weekly_cash_shift": 15112.06
+ },
+ {
+  "id": "E04",
+  "brand": "copperleaf-tea",
+  "cause": "late_receivable",
+  "line": "wholesale_receipts",
+  "start": 3,
+  "end": 5,
+  "desc": "Mapleton Gifts pays three weeks late",
+  "params": {
+   "retailer": "Mapleton Gifts",
+   "delay": 3
+  },
+  "affected": {
+   "wholesale_receipts": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ]
+  },
+  "cash_impact": 0.0,
+  "impact_on_line": -0.0,
+  "max_weekly_cash_shift": 9645.55
+ },
+ {
+  "id": "E05",
+  "brand": "north-arc-outdoor",
+  "cause": "overspend",
+  "line": "ad_spend_accrual",
+  "start": 2,
+  "end": 5,
+  "desc": "Meta campaigns run 45% over plan",
+  "params": {
+   "platform": "meta",
+   "mult": 1.45
+  },
+  "affected": {
+   "card_autopay": [
+    8,
+    12
+   ],
+   "ad_spend_accrual": [
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  "cash_impact": -50974.93,
+  "impact_on_line": -50974.93,
+  "max_weekly_cash_shift": 50974.93
+ },
+ {
+  "id": "E11",
+  "brand": "north-arc-outdoor",
+  "cause": "one_off",
+  "line": "other_opex",
+  "start": 9,
+  "end": 9,
+  "desc": "unplanned legal bill",
+  "params": {
+   "counterparty": "Hartwell Legal LLP",
+   "amount": 24000.0
+  },
+  "affected": {
+   "other_opex": [
+    9
+   ]
+  },
+  "cash_impact": -24000.0,
+  "impact_on_line": -24000.0,
+  "max_weekly_cash_shift": 24000.0
+ },
+ {
+  "id": "E07",
+  "brand": "marigold-skin",
+  "cause": "volume",
+  "line": "dtc_payouts",
+  "start": 7,
+  "end": 9,
+  "desc": "December orders run 30% below plan after a site outage and a weak gift campaign",
+  "params": {
+   "mult": 0.7
+  },
+  "affected": {
+   "dtc_payouts": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "sales_tax": [
+    12
+   ]
+  },
+  "cash_impact": -115841.84,
+  "impact_on_line": -123387.36,
+  "max_weekly_cash_shift": 123387.36
+ },
+ {
+  "id": "E08",
+  "brand": "bramble-pet",
+  "cause": "chargebacks",
+  "line": "dtc_payouts",
+  "start": 6,
+  "end": 6,
+  "desc": "a cluster of fraud chargebacks",
+  "params": {
+   "amount": 9000.0
+  },
+  "affected": {
+   "dtc_payouts": [
+    6,
+    7
+   ]
+  },
+  "cash_impact": -9000.0,
+  "impact_on_line": -9000.0,
+  "max_weekly_cash_shift": 9000.0
+ },
+ {
+  "id": "E12",
+  "brand": "bramble-pet",
+  "cause": "price",
+  "line": "fulfillment_3pl",
+  "start": 10,
+  "end": 10,
+  "desc": "3PL raises its pick-and-pack rate 30% from December",
+  "params": {
+   "bill": "TPL-202612",
+   "mult": 1.3
+  },
+  "affected": {
+   "fulfillment_3pl": [
+    10
+   ]
+  },
+  "cash_impact": -17232.33,
+  "impact_on_line": -17232.33,
+  "max_weekly_cash_shift": 17232.33
+ },
+ {
+  "id": "E09",
+  "brand": "quillon-coffee",
+  "cause": "timing",
+  "line": "inventory",
+  "start": 7,
+  "end": 7,
+  "desc": "supplier asks for the spring deposit three weeks early",
+  "params": {
+   "bill": "PO-SPRING-DEP",
+   "weeks": 3
+  },
+  "affected": {
+   "inventory": [
+    7,
+    10
+   ]
+  },
+  "cash_impact": 0.0,
+  "impact_on_line": 0.0,
+  "max_weekly_cash_shift": 87100.0
+ },
+ {
+  "id": "E06",
+  "brand": "saltmarsh-apparel",
+  "cause": "fx",
+  "line": "inventory",
+  "start": 10,
+  "end": 10,
+  "desc": "USD strengthens 6% against CAD before the spring deposit",
+  "params": {
+   "from_week": 6,
+   "mult": 1.06
+  },
+  "affected": {
+   "inventory": [
+    10
+   ]
+  },
+  "cash_impact": -9602.56,
+  "impact_on_line": -9602.56,
+  "max_weekly_cash_shift": 9602.56
+ },
+ {
+  "id": "E10",
+  "brand": "hollis-home",
+  "cause": "price",
+  "line": "freight_duty",
+  "start": 2,
+  "end": 2,
+  "desc": "BFCM freight invoice comes in 60% above estimate",
+  "params": {
+   "bill": "FRT-BFCM",
+   "mult": 1.6
+  },
+  "affected": {
+   "freight_duty": [
+    2
+   ]
+  },
+  "cash_impact": -33660.0,
+  "impact_on_line": -33660.0,
+  "max_weekly_cash_shift": 33660.0
+ }
+]

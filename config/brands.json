@@ -1,0 +1,1376 @@
+{
+ "fernwood-goods": {
+  "slug": "fernwood-goods",
+  "brand": "Fernwood Goods",
+  "currency": "USD",
+  "refund_rate": 0.06,
+  "fee_rate": 0.03,
+  "chargeback_rate": 0.002,
+  "payout_lag_share": 0.2857,
+  "amz_fee_rate": 0.3,
+  "packaging_pct": 0.01,
+  "saas_annual": 9000,
+  "loc_apr": 0.11,
+  "savings_apy": 0.0258,
+  "dtc_weekly_gross": 114581.12737464963,
+  "amz_weekly_sales": 11458.112737464964,
+  "wh_weekly": 17187.169106197445,
+  "noise": {
+   "dtc": 0.039533180675087626,
+   "amazon": 0.051944241905672824,
+   "wholesale": 0.2660892271216689,
+   "ads": 0.09034000842526069
+  },
+  "payroll_weeks": [
+   1,
+   3,
+   5,
+   7,
+   9,
+   11
+  ],
+  "payroll_run": 50000.0,
+  "fixed_monthly": 24000.0,
+  "tpl_pct": 0.125,
+  "sales_tax_rate": 0.04,
+  "ad_rate": 0.22,
+  "ad_platforms": {
+   "meta": 0.7,
+   "google": 0.3
+  },
+  "card_other_weekly": 2307.6923076923076,
+  "other_opex_weekly": 160.9375,
+  "purchase_orders": [
+   {
+    "id": "PO-BFCM-BAL",
+    "vendor": "Kestrel Knitworks Ltd",
+    "due_week": 3,
+    "amount": 520000
+   },
+   {
+    "id": "PO-SPRING-DEP",
+    "vendor": "Halden Textile Co",
+    "due_week": 10,
+    "amount": 200000
+   }
+  ],
+  "freight_invoices": [
+   {
+    "id": "FRT-BFCM",
+    "issue_week": 1,
+    "amount": 95000
+   }
+  ],
+  "loc_drawn": 400000.0,
+  "loc_limit": 1500000.0,
+  "opening_cash": 300000.0,
+  "cash_buffer": 300000.0,
+  "supplier_currency": "USD",
+  "fx_rate": 1.0,
+  "sku_shares": {
+   "FW-2201": 0.22,
+   "FW-2205": 0.18,
+   "FW-1180": 0.15,
+   "FW-3302": 0.12,
+   "FW-0940": 0.1,
+   "other": 0.23
+  },
+  "retailers": [
+   {
+    "name": "Faire",
+    "share": 0.6,
+    "terms_weeks": 1
+   },
+   {
+    "name": "Hudson Mercantile",
+    "share": 0.4,
+    "terms_weeks": 9
+   }
+  ],
+  "threepl": "ShipNest 3PL",
+  "forwarder": "Harborline Freight",
+  "packaging_vendor": "Noble Box Co",
+  "saas_vendor": "Gorgias",
+  "materiality": 2500.0,
+  "history": {
+   "dtc_weekly": [
+    206237.02,
+    201437.52,
+    219931.23,
+    194019.98,
+    203487.87,
+    213448.61,
+    199063.86,
+    212744.11,
+    217706.48,
+    205453.1,
+    205005.32,
+    222226.87,
+    228710.81,
+    233119.48,
+    235488.82,
+    227042.74
+   ],
+   "wholesale_weekly": [
+    30157.23,
+    20884.76,
+    29090.3,
+    38822.85,
+    22100.88,
+    18240.47,
+    14220.47,
+    23576.49,
+    30142.68,
+    29708.92,
+    21096.38,
+    16665.31,
+    19620.07,
+    16331.63,
+    18907.28,
+    30722.55
+   ],
+   "amazon_deposits": [
+    27240.6,
+    22460.88,
+    25001.81,
+    25122.91,
+    23421.03,
+    23623.89,
+    22437.44,
+    23804.78
+   ]
+  },
+  "refund_rate_jan": 0.09,
+  "meta_direct_debit": false,
+  "plan": {
+   "annual_revenue": 8400000,
+   "channel_mix": {
+    "dtc": 0.8,
+    "amazon": 0.08,
+    "wholesale": 0.12
+   },
+   "gross_margin": 0.62,
+   "fulfillment_pct_revenue": 0.1,
+   "payment_fees_pct_revenue": 0.03,
+   "refunds_pct_revenue": 0.06,
+   "refunds_pct_january": 0.09,
+   "ads_pct_dtc": 0.22,
+   "ad_platforms": {
+    "meta": 0.7,
+    "google": 0.3
+   },
+   "payroll_biweekly": 50000,
+   "fixed_monthly": 34000,
+   "card_software_monthly": 10000,
+   "sales_tax_rate": 0.04,
+   "opening_cash": 300000,
+   "cash_buffer": 300000,
+   "loc_limit": 1500000,
+   "loc_drawn": 400000,
+   "purchase_orders": [
+    {
+     "id": "PO-BFCM-BAL",
+     "vendor": "Kestrel Knitworks Ltd",
+     "due_week": 3,
+     "amount": 520000
+    },
+    {
+     "id": "PO-SPRING-DEP",
+     "vendor": "Halden Textile Co",
+     "due_week": 10,
+     "amount": 200000
+    }
+   ],
+   "freight_invoices": [
+    {
+     "id": "FRT-BFCM",
+     "issue_week": 1,
+     "amount": 95000
+    }
+   ]
+  }
+ },
+ "lark-and-pine": {
+  "slug": "lark-and-pine",
+  "brand": "Lark & Pine Candle Co",
+  "currency": "USD",
+  "refund_rate": 0.055,
+  "fee_rate": 0.032,
+  "chargeback_rate": 0.002,
+  "payout_lag_share": 0.2857,
+  "amz_fee_rate": 0.3,
+  "packaging_pct": 0.01,
+  "saas_annual": 9000,
+  "loc_apr": 0.11,
+  "savings_apy": 0.0258,
+  "dtc_weekly_gross": 75874.96096322723,
+  "amz_weekly_sales": 0.0,
+  "wh_weekly": 20976.9925625,
+  "noise": {
+   "dtc": 0.044029550608368676,
+   "amazon": 0.1,
+   "wholesale": 0.2017184438340548,
+   "ads": 0.06703540381446604
+  },
+  "payroll_weeks": [
+   1,
+   3,
+   5,
+   7,
+   9,
+   11
+  ],
+  "payroll_run": 18564.7,
+  "fixed_monthly": 3331.2472916666666,
+  "tpl_pct": 0.06562780147476209,
+  "sales_tax_rate": 0.05354797647894815,
+  "ad_rate": 0.13779439544050745,
+  "ad_platforms": {
+   "google": 0.3068,
+   "meta": 0.6932
+  },
+  "card_other_weekly": 905.11375,
+  "other_opex_weekly": 160.9375,
+  "purchase_orders": [
+   {
+    "id": "PO-BFCM-BAL",
+    "vendor": "Ashgrove Ceramics",
+    "due_week": 1,
+    "amount": 260300.0
+   },
+   {
+    "id": "PO-SPRING-DEP",
+    "vendor": "Ashgrove Ceramics",
+    "due_week": 10,
+    "amount": 93000.0
+   }
+  ],
+  "freight_invoices": [
+   {
+    "id": "FRT-BFCM",
+    "issue_week": 0,
+    "amount": 32600.0
+   }
+  ],
+  "loc_drawn": 64000.009999999995,
+  "loc_limit": 256000.03999999998,
+  "opening_cash": 239000.0,
+  "cash_buffer": 159000.0,
+  "supplier_currency": "USD",
+  "fx_rate": 1.0,
+  "sku_shares": {
+   "LPC-140": 0.25,
+   "LPC-122": 0.2,
+   "LPC-305": 0.15,
+   "other": 0.4
+  },
+  "retailers": [
+   {
+    "name": "Faire",
+    "share": 1.0,
+    "terms_weeks": 1
+   }
+  ],
+  "threepl": "Packriver Fulfillment",
+  "forwarder": "Bluewake Logistics",
+  "packaging_vendor": "Paper Mart",
+  "saas_vendor": "Klaviyo",
+  "materiality": 2500.0,
+  "history": {
+   "dtc_weekly": [
+    64444.08,
+    67861.74,
+    61980.57,
+    65342.99,
+    67972.76,
+    70092.76,
+    70336.82,
+    72966.03,
+    70018.54,
+    74792.48,
+    63653.18,
+    71916.09,
+    70360.49,
+    76464.64,
+    76879.02,
+    79296.79
+   ],
+   "wholesale_weekly": [
+    22381.11,
+    23276.99,
+    20308.84,
+    15904.19,
+    25412.36,
+    20911.05,
+    30904.44,
+    28329.91,
+    16812.49,
+    20461.2,
+    17285.95,
+    17122.31,
+    25484.42,
+    27971.98,
+    29171.77,
+    20894.48
+   ],
+   "amazon_deposits": []
+  }
+ },
+ "tidewater-swim": {
+  "slug": "tidewater-swim",
+  "brand": "Tidewater Swim",
+  "currency": "USD",
+  "refund_rate": 0.055,
+  "fee_rate": 0.032,
+  "chargeback_rate": 0.002,
+  "payout_lag_share": 0.2857,
+  "amz_fee_rate": 0.3,
+  "packaging_pct": 0.01,
+  "saas_annual": 9000,
+  "loc_apr": 0.11,
+  "savings_apy": 0.0258,
+  "dtc_weekly_gross": 120071.8734220637,
+  "amz_weekly_sales": 17217.672455357144,
+  "wh_weekly": 0.0,
+  "noise": {
+   "dtc": 0.044592517222149596,
+   "amazon": 0.03,
+   "wholesale": 0.1,
+   "ads": 0.16102683102236534
+  },
+  "payroll_weeks": [
+   1,
+   3,
+   5,
+   7,
+   9,
+   11
+  ],
+  "payroll_run": 30019.405,
+  "fixed_monthly": 5132.291666666666,
+  "tpl_pct": 0.06419701304988198,
+  "sales_tax_rate": 0.06309806188638865,
+  "ad_rate": 0.14505684806613095,
+  "meta_direct_debit": true,
+  "ad_platforms": {
+   "google": 0.2818,
+   "tiktok": 0.1405,
+   "meta": 0.5777
+  },
+  "card_other_weekly": 1284.67125,
+  "other_opex_weekly": 160.9375,
+  "purchase_orders": [
+   {
+    "id": "PO-BFCM-BAL",
+    "vendor": "Coralline Textiles",
+    "due_week": 1,
+    "amount": 414800.0
+   },
+   {
+    "id": "PO-SPRING-DEP",
+    "vendor": "Coralline Textiles",
+    "due_week": 10,
+    "amount": 148100.0
+   }
+  ],
+  "freight_invoices": [
+   {
+    "id": "FRT-BFCM",
+    "issue_week": 0,
+    "amount": 52000.0
+   }
+  ],
+  "loc_drawn": 0.0,
+  "loc_limit": 374624.2450768387,
+  "opening_cash": 382000.0,
+  "cash_buffer": 255000.0,
+  "supplier_currency": "USD",
+  "fx_rate": 1.0,
+  "sku_shares": {
+   "TS-210": 0.3,
+   "TS-118": 0.2,
+   "other": 0.5
+  },
+  "retailers": [],
+  "threepl": "Boxline Logistics",
+  "forwarder": "Meridian Cargo",
+  "packaging_vendor": "Uline",
+  "saas_vendor": "Triple Whale",
+  "materiality": 2500.0,
+  "history": {
+   "dtc_weekly": [
+    112887.07,
+    115620.74,
+    108353.23,
+    115144.96,
+    112764.09,
+    113616.86,
+    121109.79,
+    124383.3,
+    115659.85,
+    118857.06,
+    124591.99,
+    113564.83,
+    107106.4,
+    119782.32,
+    122186.07,
+    130423.19
+   ],
+   "wholesale_weekly": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "amazon_deposits": [
+    25493.69,
+    26397.33,
+    24367.9,
+    26622.22,
+    26197.54,
+    26621.84,
+    27195.54,
+    25649.7
+   ]
+  }
+ },
+ "copperleaf-tea": {
+  "slug": "copperleaf-tea",
+  "brand": "Copperleaf Tea",
+  "currency": "USD",
+  "refund_rate": 0.055,
+  "fee_rate": 0.032,
+  "chargeback_rate": 0.002,
+  "payout_lag_share": 0.2857,
+  "amz_fee_rate": 0.3,
+  "packaging_pct": 0.01,
+  "saas_annual": 9000,
+  "loc_apr": 0.11,
+  "savings_apy": 0.0258,
+  "dtc_weekly_gross": 43871.76296652031,
+  "amz_weekly_sales": 15419.473883928573,
+  "wh_weekly": 11328.371166666666,
+  "noise": {
+   "dtc": 0.04362605506332958,
+   "amazon": 0.035469483090959215,
+   "wholesale": 0.35,
+   "ads": 0.11971814700652703
+  },
+  "payroll_weeks": [
+   1,
+   3,
+   5,
+   7,
+   9,
+   11
+  ],
+  "payroll_run": 15193.58,
+  "fixed_monthly": 2762.4972916666666,
+  "tpl_pct": 0.09282543826897875,
+  "sales_tax_rate": 0.048629713185406015,
+  "ad_rate": 0.19203673229246174,
+  "ad_platforms": {
+   "meta": 0.6042,
+   "google": 0.3958
+  },
+  "card_other_weekly": 1550.6806250000002,
+  "other_opex_weekly": 160.9375,
+  "purchase_orders": [
+   {
+    "id": "PO-BFCM-BAL",
+    "vendor": "Uplands Leaf Co",
+    "due_week": 1,
+    "amount": 211500.0
+   },
+   {
+    "id": "PO-SPRING-DEP",
+    "vendor": "Uplands Leaf Co",
+    "due_week": 10,
+    "amount": 75500.0
+   }
+  ],
+  "freight_invoices": [
+   {
+    "id": "FRT-BFCM",
+    "issue_week": 0,
+    "amount": 26500.0
+   }
+  ],
+  "loc_drawn": 0.0,
+  "loc_limit": 136879.90045554336,
+  "opening_cash": 192000.0,
+  "cash_buffer": 128000.0,
+  "supplier_currency": "USD",
+  "fx_rate": 1.0,
+  "sku_shares": {
+   "CT-01": 0.3,
+   "CT-07": 0.2,
+   "other": 0.5
+  },
+  "retailers": [
+   {
+    "name": "Faire",
+    "share": 0.55,
+    "terms_weeks": 1
+   },
+   {
+    "name": "Mapleton Gifts",
+    "share": 0.25,
+    "terms_weeks": 4
+   },
+   {
+    "name": "Hollow Pine Grocers",
+    "share": 0.2,
+    "terms_weeks": 4
+   }
+  ],
+  "threepl": "Fulcrum Fulfillment",
+  "forwarder": "Crestway Forwarding",
+  "packaging_vendor": "Vellum Paper Mills",
+  "saas_vendor": "Klaviyo",
+  "materiality": 2500.0,
+  "history": {
+   "dtc_weekly": [
+    38580.45,
+    39392.13,
+    36698.09,
+    37655.8,
+    36018.96,
+    39259.39,
+    42291.09,
+    39713.51,
+    40856.47,
+    42267.53,
+    40810.61,
+    41820.53,
+    47192.76,
+    42903.76,
+    41351.25,
+    43750.81
+   ],
+   "wholesale_weekly": [
+    8948.75,
+    11576.59,
+    9491.41,
+    11512.09,
+    20752.55,
+    10268.08,
+    12531.8,
+    17283.77,
+    3531.5,
+    16375.84,
+    6066.29,
+    8170.58,
+    26185.09,
+    8073.92,
+    13634.33,
+    12357.71
+   ],
+   "amazon_deposits": [
+    23211.76,
+    23394.8,
+    25819.71,
+    23856.63,
+    22957.44,
+    23806.24,
+    23461.17,
+    24404.25
+   ]
+  }
+ },
+ "north-arc-outdoor": {
+  "slug": "north-arc-outdoor",
+  "brand": "North Arc Outdoor",
+  "currency": "USD",
+  "refund_rate": 0.055,
+  "fee_rate": 0.032,
+  "chargeback_rate": 0.002,
+  "payout_lag_share": 0.2857,
+  "amz_fee_rate": 0.3,
+  "packaging_pct": 0.01,
+  "saas_annual": 9000,
+  "loc_apr": 0.11,
+  "savings_apy": 0.0258,
+  "dtc_weekly_gross": 178189.26135428104,
+  "amz_weekly_sales": 14103.736875,
+  "wh_weekly": 0.0,
+  "noise": {
+   "dtc": 0.03084545155036116,
+   "amazon": 0.035138101810532923,
+   "wholesale": 0.1,
+   "ads": 0.14002167232426208
+  },
+  "payroll_weeks": [
+   1,
+   3,
+   5,
+   7,
+   9,
+   11
+  ],
+  "payroll_run": 36014.155,
+  "fixed_monthly": 6269.791666666666,
+  "tpl_pct": 0.052826398198512134,
+  "sales_tax_rate": 0.07655530429456076,
+  "ad_rate": 0.1152904843640087,
+  "ad_platforms": {
+   "google": 0.4127,
+   "meta": 0.5873
+  },
+  "card_other_weekly": 1206.6887499999998,
+  "other_opex_weekly": 160.9375,
+  "purchase_orders": [
+   {
+    "id": "PO-BFCM-BAL",
+    "vendor": "Ridgeback Manufacturing",
+    "due_week": 1,
+    "amount": 512400.0
+   },
+   {
+    "id": "PO-SPRING-DEP",
+    "vendor": "Ridgeback Manufacturing",
+    "due_week": 10,
+    "amount": 183000.0
+   }
+  ],
+  "freight_invoices": [
+   {
+    "id": "FRT-BFCM",
+    "issue_week": 0,
+    "amount": 64200.0
+   }
+  ],
+  "loc_drawn": 126000.0,
+  "loc_limit": 555950.4954253568,
+  "opening_cash": 482000.0,
+  "cash_buffer": 321000.0,
+  "supplier_currency": "USD",
+  "fx_rate": 1.0,
+  "sku_shares": {
+   "NAO-500": 0.25,
+   "NAO-310": 0.25,
+   "other": 0.5
+  },
+  "retailers": [],
+  "threepl": "Dockside 3PL",
+  "forwarder": "Tidelink Freight",
+  "packaging_vendor": "Uline",
+  "saas_vendor": "Figma",
+  "materiality": 3095.9510265642157,
+  "history": {
+   "dtc_weekly": [
+    158932.28,
+    161055.64,
+    168020.74,
+    163209.36,
+    159594.11,
+    169076.39,
+    170106.9,
+    180233.42,
+    167160.26,
+    176873.89,
+    172032.7,
+    182083.8,
+    182594.12,
+    169708.2,
+    172454.16,
+    186828.91
+   ],
+   "wholesale_weekly": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "amazon_deposits": [
+    21134.79,
+    21152.74,
+    19877.39,
+    20559.39,
+    20905.9,
+    22370.8,
+    20664.02,
+    22613.72
+   ]
+  }
+ },
+ "marigold-skin": {
+  "slug": "marigold-skin",
+  "brand": "Marigold Skin",
+  "currency": "USD",
+  "refund_rate": 0.055,
+  "fee_rate": 0.032,
+  "chargeback_rate": 0.002,
+  "payout_lag_share": 0.2857,
+  "amz_fee_rate": 0.3,
+  "packaging_pct": 0.01,
+  "saas_annual": 9000,
+  "loc_apr": 0.11,
+  "savings_apy": 0.0258,
+  "dtc_weekly_gross": 93150.90727908892,
+  "amz_weekly_sales": 0.0,
+  "wh_weekly": 21527.998083333336,
+  "noise": {
+   "dtc": 0.03435688138179475,
+   "amazon": 0.1,
+   "wholesale": 0.22906227282261138,
+   "ads": 0.054915237409412315
+  },
+  "payroll_weeks": [
+   1,
+   3,
+   5,
+   7,
+   9,
+   11
+  ],
+  "payroll_run": 25815.025,
+  "fixed_monthly": 4468.747291666666,
+  "tpl_pct": 0.07387816529130975,
+  "sales_tax_rate": 0.059831583103121776,
+  "ad_rate": 0.15432957573809053,
+  "ad_platforms": {
+   "meta": 0.6566,
+   "pinterest": 0.1486,
+   "google": 0.1948
+  },
+  "card_other_weekly": 1435.4650000000004,
+  "other_opex_weekly": 160.9375,
+  "purchase_orders": [
+   {
+    "id": "PO-BFCM-BAL",
+    "vendor": "Lumen Formulations",
+    "due_week": 1,
+    "amount": 357900.0
+   },
+   {
+    "id": "PO-SPRING-DEP",
+    "vendor": "Lumen Formulations",
+    "due_week": 10,
+    "amount": 127800.0
+   }
+  ],
+  "freight_invoices": [
+   {
+    "id": "FRT-BFCM",
+    "issue_week": 0,
+    "amount": 44800.0
+   }
+  ],
+  "loc_drawn": 0.0,
+  "loc_limit": 290630.8307107574,
+  "opening_cash": 328000.0,
+  "cash_buffer": 218000.0,
+  "supplier_currency": "USD",
+  "fx_rate": 1.0,
+  "sku_shares": {
+   "MS-SERUM": 0.35,
+   "MS-CLEAN": 0.25,
+   "other": 0.4
+  },
+  "retailers": [
+   {
+    "name": "Faire",
+    "share": 1.0,
+    "terms_weeks": 1
+   }
+  ],
+  "threepl": "Parcelworks",
+  "forwarder": "Northstar Shipping",
+  "packaging_vendor": "Altamira Packaging Co",
+  "saas_vendor": "Recharge",
+  "materiality": 2500.0,
+  "history": {
+   "dtc_weekly": [
+    86693.66,
+    84772.39,
+    87941.68,
+    85856.14,
+    85302.23,
+    91948.95,
+    92872.15,
+    94281.25,
+    95791.65,
+    91709.65,
+    91331.69,
+    86281.2,
+    91996.02,
+    96444.72,
+    88739.38,
+    94811.01
+   ],
+   "wholesale_weekly": [
+    23589.18,
+    16025.77,
+    25963.87,
+    29141.47,
+    30480.58,
+    23239.65,
+    24421.51,
+    15523.25,
+    21695.2,
+    14847.77,
+    34537.24,
+    23997.65,
+    17377.13,
+    20789.05,
+    22059.0,
+    22793.89
+   ],
+   "amazon_deposits": []
+  }
+ },
+ "bramble-pet": {
+  "slug": "bramble-pet",
+  "brand": "Bramble Pet Supply",
+  "currency": "USD",
+  "refund_rate": 0.055,
+  "fee_rate": 0.032,
+  "chargeback_rate": 0.002,
+  "payout_lag_share": 0.2857,
+  "amz_fee_rate": 0.3,
+  "packaging_pct": 0.01,
+  "saas_annual": 9000,
+  "loc_apr": 0.11,
+  "savings_apy": 0.0258,
+  "dtc_weekly_gross": 76879.4747187157,
+  "amz_weekly_sales": 26797.72805803571,
+  "wh_weekly": 0.0,
+  "noise": {
+   "dtc": 0.03329440532345817,
+   "amazon": 0.05714003062220502,
+   "wholesale": 0.1,
+   "ads": 0.033714351240049616
+  },
+  "payroll_weeks": [
+   1,
+   3,
+   5,
+   7,
+   9,
+   11
+  ],
+  "payroll_run": 21925.145,
+  "fixed_monthly": 3899.9972916666666,
+  "tpl_pct": 0.07701852505709879,
+  "sales_tax_rate": 0.050718348613414364,
+  "ad_rate": 0.1759683751677172,
+  "meta_direct_debit": true,
+  "ad_platforms": {
+   "google": 0.4502,
+   "meta": 0.5498
+  },
+  "card_other_weekly": 1266.7462500000001,
+  "other_opex_weekly": 160.9375,
+  "purchase_orders": [
+   {
+    "id": "PO-BFCM-BAL",
+    "vendor": "Thistle Pet Products",
+    "due_week": 1,
+    "amount": 309100.0
+   },
+   {
+    "id": "PO-SPRING-DEP",
+    "vendor": "Thistle Pet Products",
+    "due_week": 10,
+    "amount": 110400.0
+   }
+  ],
+  "freight_invoices": [
+   {
+    "id": "FRT-BFCM",
+    "issue_week": 0,
+    "amount": 38700.0
+   }
+  ],
+  "loc_drawn": 76000.01,
+  "loc_limit": 304000.04,
+  "opening_cash": 283000.0,
+  "cash_buffer": 189000.0,
+  "supplier_currency": "USD",
+  "fx_rate": 1.0,
+  "sku_shares": {
+   "BPS-CHEW": 0.3,
+   "BPS-BED": 0.2,
+   "other": 0.5
+  },
+  "retailers": [],
+  "threepl": "Crateway Fulfillment",
+  "forwarder": "Pallas Logistics",
+  "packaging_vendor": "Uline",
+  "saas_vendor": "Recharge",
+  "materiality": 2500.0,
+  "history": {
+   "dtc_weekly": [
+    73516.18,
+    72893.33,
+    68956.38,
+    70689.72,
+    72934.76,
+    72620.24,
+    75432.56,
+    70533.95,
+    74237.34,
+    75785.96,
+    78834.42,
+    78565.79,
+    76011.18,
+    74787.93,
+    73454.49,
+    82758.79
+   ],
+   "wholesale_weekly": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "amazon_deposits": [
+    42075.7,
+    39354.97,
+    36436.13,
+    42394.54,
+    41581.78,
+    37409.92,
+    43561.98,
+    41903.61
+   ]
+  }
+ },
+ "quillon-coffee": {
+  "slug": "quillon-coffee",
+  "brand": "Quillon Coffee Roasters",
+  "currency": "USD",
+  "refund_rate": 0.055,
+  "fee_rate": 0.032,
+  "chargeback_rate": 0.002,
+  "payout_lag_share": 0.2857,
+  "amz_fee_rate": 0.3,
+  "packaging_pct": 0.01,
+  "saas_annual": 9000,
+  "loc_apr": 0.11,
+  "savings_apy": 0.0258,
+  "dtc_weekly_gross": 57789.21597145994,
+  "amz_weekly_sales": 10033.78970982143,
+  "wh_weekly": 14688.7725625,
+  "noise": {
+   "dtc": 0.03350756226873634,
+   "amazon": 0.05265392715467931,
+   "wholesale": 0.3117490059615376,
+   "ads": 0.07855390679781873
+  },
+  "payroll_weeks": [
+   1,
+   3,
+   5,
+   7,
+   9,
+   11
+  ],
+  "payroll_run": 17402.705,
+  "fixed_monthly": 3141.6666666666665,
+  "tpl_pct": 0.08328427794170003,
+  "sales_tax_rate": 0.03250992582989593,
+  "ad_rate": 0.17293128063781776,
+  "ad_platforms": {
+   "google": 0.2983,
+   "meta": 0.7017
+  },
+  "card_other_weekly": 1042.98875,
+  "other_opex_weekly": 160.9375,
+  "purchase_orders": [
+   {
+    "id": "PO-BFCM-BAL",
+    "vendor": "Altura Green Coffee",
+    "due_week": 1,
+    "amount": 244000.0
+   },
+   {
+    "id": "PO-SPRING-DEP",
+    "vendor": "Altura Green Coffee",
+    "due_week": 10,
+    "amount": 87100.0
+   }
+  ],
+  "freight_invoices": [
+   {
+    "id": "FRT-BFCM",
+    "issue_week": 0,
+    "amount": 30600.0
+   }
+  ],
+  "loc_drawn": 0.0,
+  "loc_limit": 180302.353830955,
+  "opening_cash": 219000.0,
+  "cash_buffer": 146000.0,
+  "supplier_currency": "USD",
+  "fx_rate": 1.0,
+  "sku_shares": {
+   "QC-ESP": 0.3,
+   "QC-DEC": 0.15,
+   "other": 0.55
+  },
+  "retailers": [
+   {
+    "name": "Faire",
+    "share": 0.6,
+    "terms_weeks": 1
+   },
+   {
+    "name": "Corner Larder",
+    "share": 0.2,
+    "terms_weeks": 4
+   },
+   {
+    "name": "Westgate Market Co",
+    "share": 0.2,
+    "terms_weeks": 4
+   }
+  ],
+  "threepl": "Bundle & Ship",
+  "forwarder": "Saltbox Freight",
+  "packaging_vendor": "Tamsin Ceramics",
+  "saas_vendor": "Recharge",
+  "materiality": 2500.0,
+  "history": {
+   "dtc_weekly": [
+    53578.61,
+    51357.47,
+    51295.84,
+    55137.17,
+    52838.54,
+    51821.48,
+    55650.21,
+    58658.25,
+    54336.51,
+    56118.51,
+    56490.18,
+    56445.83,
+    54996.1,
+    61389.19,
+    58023.78,
+    56367.81
+   ],
+   "wholesale_weekly": [
+    13324.85,
+    20438.24,
+    22542.33,
+    30870.96,
+    12253.64,
+    10486.55,
+    16240.01,
+    21127.0,
+    14457.68,
+    18977.81,
+    11808.17,
+    14024.92,
+    13508.91,
+    26214.41,
+    16588.53,
+    14438.77
+   ],
+   "amazon_deposits": [
+    17704.86,
+    15245.84,
+    15011.05,
+    14740.36,
+    15217.35,
+    16183.44,
+    14943.72,
+    15232.72
+   ]
+  }
+ },
+ "saltmarsh-apparel": {
+  "slug": "saltmarsh-apparel",
+  "brand": "Saltmarsh Apparel",
+  "currency": "CAD",
+  "refund_rate": 0.055,
+  "fee_rate": 0.032,
+  "chargeback_rate": 0.002,
+  "payout_lag_share": 0.2857,
+  "amz_fee_rate": 0.3,
+  "packaging_pct": 0.01,
+  "saas_annual": 9000,
+  "loc_apr": 0.11,
+  "savings_apy": 0.0258,
+  "dtc_weekly_gross": 109996.63388446762,
+  "amz_weekly_sales": 0.0,
+  "wh_weekly": 12035.351833333332,
+  "noise": {
+   "dtc": 0.04132068915908574,
+   "amazon": 0.1,
+   "wholesale": 0.2815288103504486,
+   "ads": 0.08591939300573646
+  },
+  "payroll_weeks": [
+   1,
+   3,
+   5,
+   7,
+   9,
+   11
+  ],
+  "payroll_run": 23372.93,
+  "fixed_monthly": 4089.5860416666665,
+  "tpl_pct": 0.058827834284424736,
+  "sales_tax_rate": 0.10053880954771297,
+  "ad_rate": 0.11889443943108438,
+  "ad_platforms": {
+   "google": 0.2472,
+   "meta": 0.606,
+   "tiktok": 0.1468
+  },
+  "card_other_weekly": 1122.399375,
+  "other_opex_weekly": 160.9375,
+  "purchase_orders": [
+   {
+    "id": "PO-BFCM-BAL",
+    "vendor": "Fenwick Mills",
+    "due_week": 1,
+    "amount": 325300.0
+   },
+   {
+    "id": "PO-SPRING-DEP",
+    "vendor": "Fenwick Mills",
+    "due_week": 10,
+    "amount": 116200.0
+   }
+  ],
+  "freight_invoices": [
+   {
+    "id": "FRT-BFCM",
+    "issue_week": 0,
+    "amount": 40800.0
+   }
+  ],
+  "loc_drawn": 79999.99,
+  "loc_limit": 343189.4977195389,
+  "opening_cash": 317000.0,
+  "cash_buffer": 211000.0,
+  "supplier_currency": "USD",
+  "fx_rate": 1.38,
+  "sku_shares": {
+   "SA-PARKA": 0.3,
+   "SA-KNIT": 0.2,
+   "other": 0.5
+  },
+  "retailers": [
+   {
+    "name": "Faire",
+    "share": 1.0,
+    "terms_weeks": 1
+   }
+  ],
+  "threepl": "Relay Fulfillment",
+  "forwarder": "Kingsbridge Cargo",
+  "packaging_vendor": "Boxco Packaging",
+  "saas_vendor": "Gorgias",
+  "materiality": 2500.0,
+  "history": {
+   "dtc_weekly": [
+    95197.49,
+    98267.52,
+    92526.59,
+    97212.79,
+    90492.34,
+    95441.6,
+    98952.3,
+    98593.24,
+    95928.17,
+    96428.43,
+    99295.58,
+    102113.88,
+    111602.68,
+    101360.33,
+    112161.7,
+    114138.56
+   ],
+   "wholesale_weekly": [
+    11856.26,
+    20816.7,
+    13593.64,
+    16300.23,
+    6907.63,
+    14482.87,
+    11604.53,
+    19403.37,
+    12021.24,
+    14569.2,
+    5695.13,
+    11830.57,
+    15845.13,
+    17988.99,
+    12658.69,
+    15118.05
+   ],
+   "amazon_deposits": []
+  }
+ },
+ "hollis-home": {
+  "slug": "hollis-home",
+  "brand": "Hollis Home",
+  "currency": "USD",
+  "refund_rate": 0.055,
+  "fee_rate": 0.032,
+  "chargeback_rate": 0.002,
+  "payout_lag_share": 0.2857,
+  "amz_fee_rate": 0.3,
+  "packaging_pct": 0.01,
+  "saas_annual": 9000,
+  "loc_apr": 0.11,
+  "savings_apy": 0.0258,
+  "dtc_weekly_gross": 133525.46641739848,
+  "amz_weekly_sales": 31537.991205357142,
+  "wh_weekly": 0.0,
+  "noise": {
+   "dtc": 0.0327910804814621,
+   "amazon": 0.03,
+   "wholesale": 0.1,
+   "ads": 0.0995950671982015
+  },
+  "payroll_weeks": [
+   1,
+   3,
+   5,
+   7,
+   9,
+   11
+  ],
+  "payroll_run": 31276.785,
+  "fixed_monthly": 5511.4610416666665,
+  "tpl_pct": 0.06068408403585391,
+  "sales_tax_rate": 0.05922241529777288,
+  "ad_rate": 0.14768356950244307,
+  "meta_direct_debit": true,
+  "ad_platforms": {
+   "google": 0.3173,
+   "pinterest": 0.1391,
+   "meta": 0.5436
+  },
+  "card_other_weekly": 1050.433125,
+  "other_opex_weekly": 160.9375,
+  "purchase_orders": [
+   {
+    "id": "PO-BFCM-BAL",
+    "vendor": "Ostrava Home Goods",
+    "due_week": 1,
+    "amount": 447300.0
+   },
+   {
+    "id": "PO-SPRING-DEP",
+    "vendor": "Ostrava Home Goods",
+    "due_week": 10,
+    "amount": 159800.0
+   }
+  ],
+  "freight_invoices": [
+   {
+    "id": "FRT-BFCM",
+    "issue_week": 0,
+    "amount": 56100.0
+   }
+  ],
+  "loc_drawn": 0.0,
+  "loc_limit": 416599.45522228326,
+  "opening_cash": 412000.0,
+  "cash_buffer": 275000.0,
+  "supplier_currency": "USD",
+  "fx_rate": 1.0,
+  "sku_shares": {
+   "HH-THROW": 0.3,
+   "HH-MUG": 0.2,
+   "other": 0.5
+  },
+  "retailers": [],
+  "threepl": "Corbel Warehousing",
+  "forwarder": "Orchard Line Freight",
+  "packaging_vendor": "Pirate Ship",
+  "saas_vendor": "Notion",
+  "materiality": 2949.0217324216915,
+  "history": {
+   "dtc_weekly": [
+    122570.13,
+    124856.39,
+    116407.23,
+    123200.52,
+    115450.34,
+    120299.79,
+    124507.39,
+    129088.88,
+    125685.11,
+    123836.8,
+    125049.0,
+    130396.05,
+    133926.62,
+    137039.95,
+    136094.49,
+    126162.83
+   ],
+   "wholesale_weekly": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "amazon_deposits": [
+    48648.65,
+    49374.94,
+    46999.91,
+    49266.39,
+    49287.96,
+    47231.66,
+    49256.7,
+    47771.9
+   ]
+  }
+ }
+}

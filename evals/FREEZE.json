@@ -1,0 +1,16 @@
+{
+ "frozen_at": "2026-10-27T09:09:30+00:00",
+ "note": "world/holdout_events.py did not exist when this was written",
+ "files": {
+  "world/engine.py": "4ed135af0d4807e3e7cea2479c5bf6e8c17e8a9d1aaa635fb4fcf3ace4cab7fa",
+  "world/calibrate.py": "9a6eae1e9428878ca51e9949d156ff5dcb0e27b35c2a516ae95b04e108eeb239",
+  "config/overrides.yaml": "007434bdbeb9ec596bba346fb7b94c574ea8484f7e2b4aceb7a7ec7219ed2459",
+  "config/reforecast_rules.yaml": "1fec1cde262f1221b01f809ae25169bbed546cf8ff5e4ba3520654d30a56730c",
+  "monitor/attribute.py": "30fa2de5ee5739a44bfed703f1c767573badff431fa568f53930253e4a27984e",
+  "monitor/detect.py": "a331edcd71cbdbb9afb5de53abfd8ca093f12c324d04a52ff5dea996cb4aaad1",
+  "monitor/reforecast.py": "9ff472ae4a0fd82fadccfff11c49f07d860b5d5e0e02363948ceca851098d9d6",
+  "actions/plan.py": "54d10e5b1f7278daf0f1113ea924f4124d1e8f01e083e39cab4a4f9a0609d92e",
+  "actions/vendor_rules.yaml": "c4310c9dfd4fc828547b4805a203d5c40d3f9c382d5ee2b4f1d60eadaf269b67",
+  "evals/run_evals.py": "73cbf1073c04de5abaf56e264843368a33d7cf4bb7bbe7566673b2b64151f80b"
+ }
+}

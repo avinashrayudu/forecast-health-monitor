@@ -1,0 +1,21 @@
+# Payment rules the AP plan must never break. Built by Avinash Rayudu.
+# Every bill carries a criticality from its category (world/engine.py make_bills):
+#   inventory -> critical, freight and 3PL -> high, packaging -> normal, software -> low
+criticality:
+  critical: {max_weeks_late: 0, note: "supplier holds goods until paid"}
+  high:     {max_weeks_late: 0, note: "freight and 3PL stop work when invoices age"}
+  normal:   {max_weeks_late: 0}
+  low:      {max_weeks_late: 2, note: "annual software renewals can move up to two weeks with notice"}
+
+never_pay_before_issue: true
+
+# A discount is taken only when it beats the cost of the cash it uses: if paying early
+# pushes cash under the buffer, the credit-line interest to cover the gap until the
+# original due date must be smaller than the discount.
+discounts:
+  require_net_benefit: true
+
+credit_line:
+  draw_increment: 25000      # draws are made in round amounts
+  margin_sigma: 1.65         # v2, after the holdout: cushion draws for receipts not yet seen
+  apr_key: loc_apr           # from the brand config

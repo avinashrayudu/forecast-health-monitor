@@ -1,0 +1,7 @@
+# Rules the weekly reforecast applies after a finding. Built by Avinash Rayudu.
+volume_carry_weeks: 4             # a sales miss is assumed to persist this many weeks
+refund_carry_weeks: 2             # an elevated SKU refund rate is assumed to persist this many weeks
+refund_sku_ratio_min: 1.5         # only SKUs running at least this multiple of forecast are carried
+reserve_release_weeks: 4          # Amazon reserves are assumed back two settlements later
+late_receivable_delay_weeks: 4    # overdue wholesale invoices assumed paid about 30 days past due
+overspend_carry_weeks: 3          # ad overspend assumed to continue to about month end

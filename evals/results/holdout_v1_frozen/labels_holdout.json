@@ -1,0 +1,188 @@
+[
+ {
+  "id": "H01",
+  "brand": "fernwood-goods",
+  "cause": "fees",
+  "line": "dtc_payouts",
+  "start": 4,
+  "end": 12,
+  "desc": "Shopify Payments rate rises 0.5 points from BFCM week",
+  "params": {
+   "delta": 0.005
+  },
+  "affected": {
+   "dtc_payouts": [
+    4,
+    5
+   ]
+  },
+  "cash_impact": -8168.67,
+  "impact_on_line": -8168.67,
+  "max_weekly_cash_shift": 8168.67
+ },
+ {
+  "id": "H07",
+  "brand": "lark-and-pine",
+  "cause": "one_off",
+  "line": "other_opex",
+  "start": 4,
+  "end": 4,
+  "desc": "unplanned photo shoot invoice paid by wire",
+  "params": {
+   "counterparty": "Brightline Studio",
+   "amount": 15000.0
+  },
+  "affected": {
+   "other_opex": [
+    4
+   ]
+  },
+  "cash_impact": -15000.0,
+  "impact_on_line": -15000.0,
+  "max_weekly_cash_shift": 15000.0
+ },
+ {
+  "id": "H03",
+  "brand": "tidewater-swim",
+  "cause": "timing",
+  "line": "dtc_payouts",
+  "start": 4,
+  "end": 4,
+  "desc": "Shopify holds most of the BFCM week payout",
+  "params": {
+   "lag": 0.8
+  },
+  "affected": {
+   "dtc_payouts": [
+    4,
+    5
+   ]
+  },
+  "cash_impact": 0.0,
+  "impact_on_line": 0.0,
+  "max_weekly_cash_shift": 234868.6
+ },
+ {
+  "id": "H06",
+  "brand": "copperleaf-tea",
+  "cause": "volume",
+  "line": "dtc_payouts",
+  "start": 3,
+  "end": 5,
+  "desc": "BFCM sales come in 20% under plan",
+  "params": {
+   "mult": 0.8
+  },
+  "affected": {
+   "dtc_payouts": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "fulfillment_3pl": [
+    10
+   ],
+   "sales_tax": [
+    7
+   ]
+  },
+  "cash_impact": -51836.37,
+  "impact_on_line": -60530.37,
+  "max_weekly_cash_shift": 60530.37
+ },
+ {
+  "id": "H02",
+  "brand": "bramble-pet",
+  "cause": "fees",
+  "line": "marketplace_payouts",
+  "start": 6,
+  "end": 12,
+  "desc": "Amazon referral and FBA fees rise 3 points",
+  "params": {
+   "delta": 0.03
+  },
+  "affected": {
+   "marketplace_payouts": [
+    8,
+    10,
+    12
+   ]
+  },
+  "cash_impact": -6578.82,
+  "impact_on_line": -6578.82,
+  "max_weekly_cash_shift": 6578.82
+ },
+ {
+  "id": "H04",
+  "brand": "quillon-coffee",
+  "cause": "late_receivable",
+  "line": "wholesale_receipts",
+  "start": 6,
+  "end": 8,
+  "desc": "Corner Larder pays two weeks late",
+  "params": {
+   "retailer": "Corner Larder",
+   "delay": 2
+  },
+  "affected": {
+   "wholesale_receipts": [
+    6,
+    7,
+    8,
+    9,
+    10
+   ]
+  },
+  "cash_impact": -0.0,
+  "impact_on_line": 0.0,
+  "max_weekly_cash_shift": 19543.09
+ },
+ {
+  "id": "H08",
+  "brand": "saltmarsh-apparel",
+  "cause": "overspend",
+  "line": "ad_spend_accrual",
+  "start": 6,
+  "end": 7,
+  "desc": "Google holiday campaigns run 60% over plan",
+  "params": {
+   "platform": "google",
+   "mult": 1.6
+  },
+  "affected": {
+   "card_autopay": [
+    12
+   ],
+   "ad_spend_accrual": [
+    6,
+    7
+   ]
+  },
+  "cash_impact": -7069.08,
+  "impact_on_line": -7069.08,
+  "max_weekly_cash_shift": 7069.08
+ },
+ {
+  "id": "H05",
+  "brand": "hollis-home",
+  "cause": "refunds",
+  "line": "dtc_payouts",
+  "start": 9,
+  "end": 10,
+  "desc": "January returns on HH-THROW run 3x",
+  "params": {
+   "sku": "HH-THROW",
+   "mult": 3.0
+  },
+  "affected": {
+   "dtc_payouts": [
+    9,
+    10
+   ]
+  },
+  "cash_impact": -10085.11,
+  "impact_on_line": -10085.11,
+  "max_weekly_cash_shift": 10085.11
+ }
+]

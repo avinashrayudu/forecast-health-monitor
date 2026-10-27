@@ -1,0 +1,211 @@
+source,file,row,date,account,description,amount,label,method,confidence,is_duplicate
+bank,stmt_1.csv,0,2026-07-01,operating,SHOPIFY DES:TRANSFER ID:74YEPKKWXB INDN:LARK & PINE CANDLE CO CO ID:2052224279 CCD,9894.27,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,1,2026-07-01,operating,FAIRE WHOLESALE DES:PAYOUT ID:QH5WEDDWRY INDN:LARK & PINE CANDLE CO CO ID:7239541266 CCD,3645.22,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,2,2026-07-01,operating,GOWANUS LOFTS LLC DES:RENT ID:BARCXYMAUD INDN:LARK & PINE CANDLE CO CO ID:4335596308 CCD,-3733.33,rent,model,0.9253006816245274,False
+bank,stmt_1.csv,3,2026-07-02,operating,SHOPIFY DES:TRANSFER ID:TFYYJPS9U4 INDN:LARK & PINE CANDLE CO CO ID:5610919816 CCD,8230.26,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,4,2026-07-03,operating,SHOPIFY DES:TRANSFER ID:6KXTK2EK6F INDN:LARK & PINE CANDLE CO CO ID:2380559861 CCD,9062.52,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,5,2026-07-03,operating,FAIRE WHOLESALE DES:PAYOUT ID:YK7X27MZV7 INDN:LARK & PINE CANDLE CO CO ID:1345110352 CCD,6136.12,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,6,2026-07-03,operating,ADP DES:TAX 286504 ID:WAHRNRFZ5D INDN:LARK & PINE CANDLE CO CO ID:7763522727 CCD,-4309.3,payroll,model,0.963693163582114,False
+bank,stmt_1.csv,7,2026-07-03,operating,ADP DES:NET 503138 ID:GEUTU6YTZL INDN:LARK & PINE CANDLE CO CO ID:4816672642 CCD,-13646.13,payroll,model,0.968045263535374,False
+bank,stmt_1.csv,8,2026-07-06,operating,Online Banking transfer to SAV 3680 Confirmation# 3435706522,-131000.0,own_account_transfer,model,0.9828181630244431,False
+bank,stmt_1.csv,9,2026-07-06,operating,SHOPIFY DES:TRANSFER ID:PXUH5H6YAV INDN:LARK & PINE CANDLE CO CO ID:8555828059 CCD,10182.79,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,10,2026-07-06,operating,FAIRE WHOLESALE DES:PAYOUT ID:D54XEHJUEM INDN:LARK & PINE CANDLE CO CO ID:1223130159 CCD,1383.89,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,11,2026-07-07,operating,SHOPIFY DES:TRANSFER ID:JA83APMJRK INDN:LARK & PINE CANDLE CO CO ID:1893070755 CCD,28250.01,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,12,2026-07-07,operating,FAIRE WHOLESALE DES:PAYOUT ID:SPEP43EEXG INDN:LARK & PINE CANDLE CO CO ID:8946512581 CCD,10857.49,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,13,2026-07-08,operating,SHOPIFY DES:TRANSFER ID:DQGQJLMAB2 INDN:LARK & PINE CANDLE CO CO ID:0634006922 CCD,7725.15,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,14,2026-07-08,operating,FAIRE WHOLESALE DES:PAYOUT ID:HKMWN8GRPV INDN:LARK & PINE CANDLE CO CO ID:1800286337 CCD,5671.76,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,15,2026-07-08,operating,WIRE TRANSFER FEE,-35.0,bank_fee,model,0.9746349671130294,False
+bank,stmt_1.csv,16,2026-07-08,operating,WIRE TYPE:INTL OUT DATE:260708 TIME:1650 ET TRN:2026070806659610 FX:USD BNF:PINECREST WAX SUPPLY ID:1916661422,-63360.0,inventory_purchase,model,0.9359730486141686,False
+bank,stmt_1.csv,17,2026-07-09,operating,SHOPIFY DES:TRANSFER ID:45WWGAUL4N INDN:LARK & PINE CANDLE CO CO ID:5802303720 CCD,9635.02,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,18,2026-07-09,operating,FAIRE WHOLESALE DES:PAYOUT ID:DXQ5MU2D74 INDN:LARK & PINE CANDLE CO CO ID:4005210354 CCD,2325.06,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,19,2026-07-10,operating,SHOPIFY DES:TRANSFER ID:487W3UAEWF INDN:LARK & PINE CANDLE CO CO ID:5119258477 CCD,8651.11,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,20,2026-07-10,operating,FAIRE WHOLESALE DES:PAYOUT ID:SVS87HNQUU INDN:LARK & PINE CANDLE CO CO ID:5175268861 CCD,2142.91,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,21,2026-07-10,operating,PACKRIVER FULFILLMENT DES:BILL PAY ID:LVJNT9HYDD INDN:LARK & PINE CANDLE CO CO ID:2613862278 CCD,-20622.2,fulfillment_3pl,model,0.9242715504032731,False
+bank,stmt_1.csv,22,2026-07-13,operating,SHOPIFY DES:TRANSFER ID:YUD9Z7JYVR INDN:LARK & PINE CANDLE CO CO ID:1123368037 CCD,8724.12,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,23,2026-07-13,operating,FAIRE WHOLESALE DES:PAYOUT ID:G639ZAHV87 INDN:LARK & PINE CANDLE CO CO ID:8464325521 CCD,3339.33,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,24,2026-07-14,operating,SHOPIFY DES:TRANSFER ID:U2XNFKMQJR INDN:LARK & PINE CANDLE CO CO ID:1604627585 CCD,33279.29,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,25,2026-07-14,operating,FAIRE WHOLESALE DES:PAYOUT ID:ZFT846Y2X2 INDN:LARK & PINE CANDLE CO CO ID:2127961458 CCD,3500.02,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,26,2026-07-15,operating,SHOPIFY DES:TRANSFER ID:4G7Q4V85RK INDN:LARK & PINE CANDLE CO CO ID:0195865002 CCD,8708.15,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,27,2026-07-15,operating,FAIRE WHOLESALE DES:PAYOUT ID:CMMB9YN38K INDN:LARK & PINE CANDLE CO CO ID:9255329769 CCD,5608.87,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,28,2026-07-15,operating,INTUIT DES:QB ONLINE ID:4DWT63KF3P INDN:LARK & PINE CANDLE CO CO ID:6143008239 CCD,-275.0,software_opex,model,0.9462607889884613,False
+bank,stmt_1.csv,29,2026-07-16,operating,SHOPIFY DES:TRANSFER ID:4G8Y3ZS4KK INDN:LARK & PINE CANDLE CO CO ID:6967219393 CCD,9435.8,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,30,2026-07-16,operating,FAIRE WHOLESALE DES:PAYOUT ID:ERKVA9CCHW INDN:LARK & PINE CANDLE CO CO ID:3888738860 CCD,4711.85,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,31,2026-07-17,operating,SHOPIFY DES:TRANSFER ID:KS7PM2QQSJ INDN:LARK & PINE CANDLE CO CO ID:3935374790 CCD,7714.38,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,32,2026-07-17,operating,FAIRE WHOLESALE DES:PAYOUT ID:XEEM9AAVTE INDN:LARK & PINE CANDLE CO CO ID:6833418385 CCD,6116.92,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,33,2026-07-17,operating,ADP DES:TAX 296728 ID:SFJ73BT55Q INDN:LARK & PINE CANDLE CO CO ID:5792828663 CCD,-4539.9,payroll,model,0.9564334081697773,False
+bank,stmt_1.csv,34,2026-07-17,operating,ADP DES:NET 208517 ID:UDAGXMF8FV INDN:LARK & PINE CANDLE CO CO ID:5172357965 CCD,-14376.36,payroll,model,0.9705701272247569,False
+bank,stmt_1.csv,35,2026-07-20,operating,Online Banking transfer to SAV 3680 Confirmation# 8970999818,-86000.0,own_account_transfer,model,0.9596243533442478,False
+bank,stmt_1.csv,36,2026-07-20,operating,SHOPIFY DES:TRANSFER ID:FTBU8M68DF INDN:LARK & PINE CANDLE CO CO ID:4206472674 CCD,9103.94,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,37,2026-07-20,operating,FAIRE WHOLESALE DES:PAYOUT ID:F3SEZJN5F7 INDN:LARK & PINE CANDLE CO CO ID:5278831751 CCD,2810.48,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,38,2026-07-20,operating,NJ DIV OF TAXATION DES:TAX PAYMNT ID:E5FY5Y52XT INDN:LARK & PINE CANDLE CO CO ID:9375072997 CCD,-6504.18,sales_tax,model,0.9197303325998665,False
+bank,stmt_1.csv,39,2026-07-21,operating,SHOPIFY DES:TRANSFER ID:LT4RGYM9YE INDN:LARK & PINE CANDLE CO CO ID:5874489160 CCD,28614.84,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,40,2026-07-21,operating,FAIRE WHOLESALE DES:PAYOUT ID:JPQUSBK92C INDN:LARK & PINE CANDLE CO CO ID:5184642517 CCD,9672.34,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,41,2026-07-22,operating,SHOPIFY DES:TRANSFER ID:V38G6GPA5J INDN:LARK & PINE CANDLE CO CO ID:3529365165 CCD,8146.05,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,42,2026-07-22,operating,FAIRE WHOLESALE DES:PAYOUT ID:PW2BRZ5GCE INDN:LARK & PINE CANDLE CO CO ID:7410825536 CCD,2632.08,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,43,2026-07-22,operating,MERIDIAN CARD DES:EPAYMENT ID:5QW5ABVE6K INDN:LARK & PINE CANDLE CO CO ID:7928412532 CCD,-45613.0,card_payment,tie-out,1.0,False
+bank,stmt_1.csv,44,2026-07-23,operating,SHOPIFY DES:TRANSFER ID:VUMZXBRE8M INDN:LARK & PINE CANDLE CO CO ID:6043381122 CCD,8326.44,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,45,2026-07-23,operating,FAIRE WHOLESALE DES:PAYOUT ID:QXDXE5FZGV INDN:LARK & PINE CANDLE CO CO ID:0632525713 CCD,2145.6,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,46,2026-07-24,operating,SHOPIFY DES:TRANSFER ID:CLS5ERG986 INDN:LARK & PINE CANDLE CO CO ID:1865893209 CCD,7789.3,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,47,2026-07-24,operating,FAIRE WHOLESALE DES:PAYOUT ID:DYQLG42SED INDN:LARK & PINE CANDLE CO CO ID:2893870830 CCD,3048.34,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,48,2026-07-27,operating,SHOPIFY DES:TRANSFER ID:EHPJFNCRSK INDN:LARK & PINE CANDLE CO CO ID:7912432393 CCD,10678.09,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,49,2026-07-27,operating,FAIRE WHOLESALE DES:PAYOUT ID:GSWU5Q5S5L INDN:LARK & PINE CANDLE CO CO ID:7852525378 CCD,3943.21,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,50,2026-07-28,operating,SHOPIFY DES:TRANSFER ID:9KJ862K6HB INDN:LARK & PINE CANDLE CO CO ID:5391928341 CCD,29443.02,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,51,2026-07-28,operating,FAIRE WHOLESALE DES:PAYOUT ID:PPHLGY9J5H INDN:LARK & PINE CANDLE CO CO ID:5864768201 CCD,6182.57,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,52,2026-07-29,operating,SHOPIFY DES:TRANSFER ID:7GR9DHSJV3 INDN:LARK & PINE CANDLE CO CO ID:9395591947 CCD,8829.77,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,53,2026-07-29,operating,FAIRE WHOLESALE DES:PAYOUT ID:JE3RM6YUZD INDN:LARK & PINE CANDLE CO CO ID:5860735272 CCD,962.13,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,54,2026-07-30,operating,SHOPIFY DES:TRANSFER ID:U2DSLREZ2S INDN:LARK & PINE CANDLE CO CO ID:7264636933 CCD,8750.23,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,55,2026-07-30,operating,FAIRE WHOLESALE DES:PAYOUT ID:ESGBMTHF84 INDN:LARK & PINE CANDLE CO CO ID:6718540688 CCD,2780.87,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,56,2026-07-31,operating,SHOPIFY DES:TRANSFER ID:79XSVWERBL INDN:LARK & PINE CANDLE CO CO ID:7275572488 CCD,7641.88,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,57,2026-07-31,operating,FAIRE WHOLESALE DES:PAYOUT ID:ZC7VC7HTXR INDN:LARK & PINE CANDLE CO CO ID:4236113362 CCD,2035.41,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,58,2026-07-31,operating,ADP DES:TAX 002109 ID:96TAMW2W2C INDN:LARK & PINE CANDLE CO CO ID:8491402689 CCD,-4306.38,payroll,model,0.9560600911706221,False
+bank,stmt_1.csv,59,2026-07-31,operating,ADP DES:NET 783431 ID:7BN9GUF6UY INDN:LARK & PINE CANDLE CO CO ID:6302512716 CCD,-13636.87,payroll,model,0.9561492220842077,False
+bank,stmt_1.csv,60,2026-08-03,operating,Online Banking transfer to SAV 3680 Confirmation# 8205875205,-92000.0,own_account_transfer,model,0.9596243533442478,False
+bank,stmt_1.csv,61,2026-08-03,operating,SHOPIFY DES:TRANSFER ID:VXEBPMM6BL INDN:LARK & PINE CANDLE CO CO ID:9571416916 CCD,9415.95,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,62,2026-08-03,operating,FAIRE WHOLESALE DES:PAYOUT ID:AGDT38C7HT INDN:LARK & PINE CANDLE CO CO ID:2302828491 CCD,1645.84,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,63,2026-08-03,operating,GOWANUS LOFTS LLC DES:RENT ID:94659XKY4G INDN:LARK & PINE CANDLE CO CO ID:7823442439 CCD,-3733.33,rent,model,0.9230552197331588,False
+bank,stmt_1.csv,64,2026-08-04,operating,SHOPIFY DES:TRANSFER ID:WY8CA8CDFS INDN:LARK & PINE CANDLE CO CO ID:7576033679 CCD,32101.35,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,65,2026-08-04,operating,FAIRE WHOLESALE DES:PAYOUT ID:QSUB6QAWFH INDN:LARK & PINE CANDLE CO CO ID:3491885807 CCD,7979.78,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,66,2026-08-05,operating,SHOPIFY DES:TRANSFER ID:V6TZ9AHFKX INDN:LARK & PINE CANDLE CO CO ID:3879487356 CCD,7110.89,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,67,2026-08-05,operating,FAIRE WHOLESALE DES:PAYOUT ID:H3QUQRT9DS INDN:LARK & PINE CANDLE CO CO ID:4773023303 CCD,3695.25,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,68,2026-08-05,operating,PINECREST WAX SUPPLY DES:REFUND ID:UMH26YL98G INDN:LARK & PINE CANDLE CO CO ID:2560520644 CCD,565.03,vendor_refund,model,0.8520233935752693,False
+bank,stmt_1.csv,69,2026-08-05,operating,WIRE TRANSFER FEE,-35.0,bank_fee,model,0.9746349671130294,False
+bank,stmt_1.csv,70,2026-08-05,operating,WIRE TYPE:INTL OUT DATE:260805 TIME:959 ET TRN:2026080560308051 FX:USD BNF:OSTRAVA GLASSWORKS ID:4019231046,-120960.0,inventory_purchase,model,0.9541928514383732,False
+bank,stmt_1.csv,71,2026-08-06,operating,SHOPIFY DES:TRANSFER ID:G9W8GBM787 INDN:LARK & PINE CANDLE CO CO ID:0516499690 CCD,9960.72,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,72,2026-08-06,operating,FAIRE WHOLESALE DES:PAYOUT ID:J3D3QT2ZPN INDN:LARK & PINE CANDLE CO CO ID:7824357522 CCD,6364.67,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,73,2026-08-07,operating,SHOPIFY DES:TRANSFER ID:AJZGDN8CCT INDN:LARK & PINE CANDLE CO CO ID:2783476253 CCD,9383.85,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,74,2026-08-07,operating,FAIRE WHOLESALE DES:PAYOUT ID:2TS6WE9FDH INDN:LARK & PINE CANDLE CO CO ID:9813682040 CCD,5726.82,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,75,2026-08-10,operating,SHOPIFY DES:TRANSFER ID:6JZ5ZZT5X4 INDN:LARK & PINE CANDLE CO CO ID:3049642486 CCD,8349.06,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,76,2026-08-10,operating,FAIRE WHOLESALE DES:PAYOUT ID:RBZQM3V5DV INDN:LARK & PINE CANDLE CO CO ID:4167323213 CCD,3413.33,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,77,2026-08-10,operating,PACKRIVER FULFILLMENT DES:BILL PAY ID:9WBRBLZFPV INDN:LARK & PINE CANDLE CO CO ID:1043311286 CCD,-19228.63,fulfillment_3pl,model,0.9222808926876189,False
+bank,stmt_1.csv,78,2026-08-11,operating,SHOPIFY DES:TRANSFER ID:EFBDT9F7WE INDN:LARK & PINE CANDLE CO CO ID:6809098640 CCD,33836.85,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,79,2026-08-11,operating,FAIRE WHOLESALE DES:PAYOUT ID:JNSJFFTHS8 INDN:LARK & PINE CANDLE CO CO ID:8746092468 CCD,8031.5,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,80,2026-08-12,operating,SHOPIFY DES:TRANSFER ID:PTC2BHY9S4 INDN:LARK & PINE CANDLE CO CO ID:7430610545 CCD,9376.25,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,81,2026-08-12,operating,FAIRE WHOLESALE DES:PAYOUT ID:5VXV4YUEJ8 INDN:LARK & PINE CANDLE CO CO ID:3186035692 CCD,2142.15,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,82,2026-08-12,operating,WIRE TRANSFER FEE,-35.0,bank_fee,model,0.9746349671130294,False
+bank,stmt_1.csv,83,2026-08-12,operating,WIRE TYPE:INTL OUT DATE:260812 TIME:1324 ET TRN:2026081235022429 FX:USD BNF:PINECREST WAX SUPPLY ID:6576432274,-147840.0,inventory_purchase,model,0.9631115698645344,False
+bank,stmt_1.csv,84,2026-08-13,operating,SHOPIFY DES:TRANSFER ID:XQPX3YC2FG INDN:LARK & PINE CANDLE CO CO ID:3128078676 CCD,8516.76,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,85,2026-08-13,operating,FAIRE WHOLESALE DES:PAYOUT ID:K6WGXSPV8K INDN:LARK & PINE CANDLE CO CO ID:1672159673 CCD,1120.27,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,86,2026-08-14,operating,SHOPIFY DES:TRANSFER ID:F3J5VQS7WQ INDN:LARK & PINE CANDLE CO CO ID:7503708029 CCD,10013.84,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,87,2026-08-14,operating,FAIRE WHOLESALE DES:PAYOUT ID:ATBYDSSABJ INDN:LARK & PINE CANDLE CO CO ID:5661746656 CCD,6203.8,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,88,2026-08-14,operating,ADP DES:TAX 263412 ID:MBF7NYFUHP INDN:LARK & PINE CANDLE CO CO ID:0156045769 CCD,-4459.25,payroll,model,0.9576881610226995,False
+bank,stmt_1.csv,89,2026-08-14,operating,ADP DES:NET 323750 ID:EN4Q2PT3NB INDN:LARK & PINE CANDLE CO CO ID:1844244860 CCD,-14120.97,payroll,model,0.954648313480927,False
+bank,stmt_1.csv,90,2026-08-17,operating,SHOPIFY DES:TRANSFER ID:Q7RMB98UWA INDN:LARK & PINE CANDLE CO CO ID:4362606971 CCD,11051.73,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,91,2026-08-17,operating,FAIRE WHOLESALE DES:PAYOUT ID:7H3RNQTHRK INDN:LARK & PINE CANDLE CO CO ID:1439243630 CCD,6829.05,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,92,2026-08-17,operating,INTUIT DES:QB ONLINE ID:VXBQSU4TZA INDN:LARK & PINE CANDLE CO CO ID:3716875058 CCD,-275.0,software_opex,model,0.9461476229423914,False
+bank,stmt_1.csv,93,2026-08-18,operating,SHOPIFY DES:TRANSFER ID:MAPTFAYXFR INDN:LARK & PINE CANDLE CO CO ID:0180953785 CCD,31976.43,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,94,2026-08-18,operating,FAIRE WHOLESALE DES:PAYOUT ID:R96ACJPT49 INDN:LARK & PINE CANDLE CO CO ID:1453223624 CCD,16609.04,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,95,2026-08-19,operating,SHOPIFY DES:TRANSFER ID:SDEGBVX4UB INDN:LARK & PINE CANDLE CO CO ID:2226054090 CCD,6889.23,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,96,2026-08-19,operating,FAIRE WHOLESALE DES:PAYOUT ID:WNMQJ5264L INDN:LARK & PINE CANDLE CO CO ID:8057848444 CCD,2439.05,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,97,2026-08-20,operating,SHOPIFY DES:TRANSFER ID:6NRFPXMQ67 INDN:LARK & PINE CANDLE CO CO ID:0929788607 CCD,9604.05,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,98,2026-08-20,operating,FAIRE WHOLESALE DES:PAYOUT ID:RN7B7VYEW8 INDN:LARK & PINE CANDLE CO CO ID:6659987325 CCD,2079.32,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,99,2026-08-20,operating,NJ DIV OF TAXATION DES:TAX PAYMNT ID:KQ66YD33CS INDN:LARK & PINE CANDLE CO CO ID:4793409992 CCD,-18590.22,sales_tax,model,0.9315600665066177,False
+bank,stmt_1.csv,100,2026-08-21,operating,SHOPIFY DES:TRANSFER ID:VJE7PDWTTW INDN:LARK & PINE CANDLE CO CO ID:2441979478 CCD,10815.38,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,101,2026-08-21,operating,FAIRE WHOLESALE DES:PAYOUT ID:TXM5CUJBSD INDN:LARK & PINE CANDLE CO CO ID:8819128306 CCD,2947.98,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,102,2026-08-22,operating,MERIDIAN CARD DES:EPAYMENT ID:C7MB7MNJTH INDN:LARK & PINE CANDLE CO CO ID:0838465971 CCD,-51847.4,card_payment,tie-out,1.0,False
+bank,stmt_1.csv,103,2026-08-24,operating,SHOPIFY DES:TRANSFER ID:NWE8CFMTYP INDN:LARK & PINE CANDLE CO CO ID:0543238330 CCD,10752.35,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,104,2026-08-24,operating,FAIRE WHOLESALE DES:PAYOUT ID:5YBWF2T8YR INDN:LARK & PINE CANDLE CO CO ID:6637069664 CCD,3577.17,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,105,2026-08-25,operating,SHOPIFY DES:TRANSFER ID:PXAVQ496PL INDN:LARK & PINE CANDLE CO CO ID:5608060986 CCD,35658.82,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,106,2026-08-25,operating,FAIRE WHOLESALE DES:PAYOUT ID:3WF2DCCBYN INDN:LARK & PINE CANDLE CO CO ID:7715493188 CCD,13576.09,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,107,2026-08-26,operating,SHOPIFY DES:TRANSFER ID:2WUVWWFPLB INDN:LARK & PINE CANDLE CO CO ID:5940652164 CCD,10001.37,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,108,2026-08-26,operating,FAIRE WHOLESALE DES:PAYOUT ID:CT2BNHHED8 INDN:LARK & PINE CANDLE CO CO ID:0994663016 CCD,3240.91,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,109,2026-08-27,operating,SHOPIFY DES:TRANSFER ID:EUJ4UJXLXX INDN:LARK & PINE CANDLE CO CO ID:0127423225 CCD,8944.18,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,110,2026-08-27,operating,FAIRE WHOLESALE DES:PAYOUT ID:RLNU8RDPEK INDN:LARK & PINE CANDLE CO CO ID:7691009878 CCD,5262.81,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,111,2026-08-28,operating,SHOPIFY DES:TRANSFER ID:XJ5VGEKSMB INDN:LARK & PINE CANDLE CO CO ID:4239677407 CCD,7609.31,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,112,2026-08-28,operating,FAIRE WHOLESALE DES:PAYOUT ID:5DE3CAECEK INDN:LARK & PINE CANDLE CO CO ID:7275089373 CCD,2672.93,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,113,2026-08-28,operating,ADP DES:TAX 063053 ID:HBMB43S9JR INDN:LARK & PINE CANDLE CO CO ID:7343989680 CCD,-4368.34,payroll,model,0.9528907166684402,False
+bank,stmt_1.csv,114,2026-08-28,operating,ADP DES:NET 617662 ID:WADNZPHUB7 INDN:LARK & PINE CANDLE CO CO ID:0556061980 CCD,-13833.08,payroll,model,0.9686980677850918,False
+bank,stmt_1.csv,115,2026-08-31,operating,SHOPIFY DES:TRANSFER ID:HNEVJGQCSM INDN:LARK & PINE CANDLE CO CO ID:1694380266 CCD,9620.32,processor_payout,tie-out,1.0,False
+bank,stmt_1.csv,116,2026-08-31,operating,FAIRE WHOLESALE DES:PAYOUT ID:U55ESQ9584 INDN:LARK & PINE CANDLE CO CO ID:0796527681 CCD,5613.34,wholesale_payout,tie-out,1.0,False
+bank,stmt_1.csv,117,2026-08-31,operating,PACKRIVER FULFILLMENT DES:REFUND ID:KJVF9DLF3A INDN:LARK & PINE CANDLE CO CO ID:8286149123 CCD,1553.53,vendor_refund,model,0.8598392035454524,False
+card,card_activity_1.csv,0,2026-06-30,card,GOOGLE *ADS1731772963 cc@google.com CA,1000.0,ad_spend,model,0.9986496500153679,False
+card,card_activity_1.csv,1,2026-06-30,card,FACEBK *7GMXLMDX,2000.0,ad_spend,model,0.9945960150547116,False
+card,card_activity_1.csv,2,2026-07-01,card,GOOGLE *ADS2844532460 cc@google.com CA,576.89,ad_spend,model,0.9910978959998371,False
+card,card_activity_1.csv,3,2026-07-01,card,FACEBK *7QMTXWHM fb.me/ads CA,1270.73,ad_spend,model,0.9985979749127774,False
+card,card_activity_1.csv,4,2026-07-02,card,CORNER BISTRO NYC,266.35,travel_other,model,0.9836085582097129,False
+card,card_activity_1.csv,5,2026-07-02,card,KLAVIYO INC. BOSTON MA,690.0,software_opex,model,0.9830206844572791,False
+card,card_activity_1.csv,6,2026-07-04,card,LYFT *RIDE ETY,362.79,travel_other,model,0.9784607141851608,False
+card,card_activity_1.csv,7,2026-07-04,card,GOOGLE *ADS0647602888,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,8,2026-07-04,card,FACEBK *PJ84SBCX fb.me/ads CA,2000.0,ad_spend,model,0.9978387746168501,False
+card,card_activity_1.csv,9,2026-07-05,card,LYFT *RIDE QRU,386.92,travel_other,model,0.9792815458668496,False
+card,card_activity_1.csv,10,2026-07-05,card,FACEBK *UPN7EKAE fb.me/ads CA,2000.0,ad_spend,model,0.9982071687506292,False
+card,card_activity_1.csv,11,2026-07-06,card,GOOGLE *ADS7533688145,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,12,2026-07-07,card,PAPER MART INC,284.27,shipping_supplies,model,0.9586389726702179,False
+card,card_activity_1.csv,13,2026-07-07,card,LYFT *RIDE PM5,367.44,travel_other,model,0.9766095973580055,False
+card,card_activity_1.csv,14,2026-07-07,card,FACEBK *F46CNKZ2,2000.0,ad_spend,model,0.984986466865188,False
+card,card_activity_1.csv,15,2026-07-08,card,GOOGLE *ADS0174314491 cc@google.com CA,1000.0,ad_spend,model,0.9986496500153679,False
+card,card_activity_1.csv,16,2026-07-09,card,CORNER BISTRO NYC,130.75,travel_other,model,0.9836085582097129,False
+card,card_activity_1.csv,17,2026-07-09,card,SHOPIFY* 288023431,399.0,software_opex,model,0.984379079129398,False
+card,card_activity_1.csv,18,2026-07-09,card,FACEBK *YSKLU9WR,2000.0,ad_spend,model,0.9962513653044749,False
+card,card_activity_1.csv,19,2026-07-10,card,LYFT *RIDE KR8,401.58,travel_other,model,0.9777324321394387,False
+card,card_activity_1.csv,20,2026-07-10,card,GOOGLE *ADS9298628519 cc@google.com CA,1000.0,ad_spend,model,0.9986496500153679,False
+card,card_activity_1.csv,21,2026-07-10,card,BOXCO PACKAGING,1323.44,shipping_supplies,model,0.9723758955669262,False
+card,card_activity_1.csv,22,2026-07-11,card,FACEBK *BFHF462S fb.me/ads CA,2000.0,ad_spend,model,0.996335166714996,False
+card,card_activity_1.csv,23,2026-07-12,card,GOOGLE *ADS8652050227,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,24,2026-07-13,card,FACEBK *QDK3ATWZ,2000.0,ad_spend,model,0.9961627078708531,False
+card,card_activity_1.csv,25,2026-07-15,card,LYFT *RIDE UNS,315.09,travel_other,model,0.9778859952617112,False
+card,card_activity_1.csv,26,2026-07-15,card,GOOGLE *ADS0279420660 cc@google.com CA,1000.0,ad_spend,model,0.9986496500153679,False
+card,card_activity_1.csv,27,2026-07-15,card,FACEBK *NNC839T5,2000.0,ad_spend,model,0.9870848177211293,False
+card,card_activity_1.csv,28,2026-07-17,card,GOOGLE *ADS8542915529 cc@google.com CA,1000.0,ad_spend,model,0.9986496500153679,False
+card,card_activity_1.csv,29,2026-07-17,card,FACEBK *VPFP8A9W fb.me/ads CA,2000.0,ad_spend,model,0.9978105535853589,False
+card,card_activity_1.csv,30,2026-07-19,card,CORNER BISTRO NYC,191.99,travel_other,model,0.9836085582097129,False
+card,card_activity_1.csv,31,2026-07-19,card,BOXCO PACKAGING,898.41,shipping_supplies,model,0.9736955895519589,False
+card,card_activity_1.csv,32,2026-07-19,card,GOOGLE *ADS3653021702,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,33,2026-07-19,card,FACEBK *Z9X95VYV fb.me/ads CA,2000.0,ad_spend,model,0.9962695917630545,False
+card,card_activity_1.csv,34,2026-07-20,card,LYFT *RIDE A4U,29.13,travel_other,model,0.9692206513619278,False
+card,card_activity_1.csv,35,2026-07-20,card,ULINE *S8212509,453.23,shipping_supplies,model,0.9829343037349523,False
+card,card_activity_1.csv,36,2026-07-20,card,FACEBK *YRQXYHP9 fb.me/ads CA,2000.0,ad_spend,model,0.9988289141873886,False
+card,card_activity_1.csv,37,2026-07-21,card,CANVA* 22172655,119.99,software_opex,model,0.9098445544129169,False
+card,card_activity_1.csv,38,2026-07-21,card,GOOGLE *ADS0447669191,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,39,2026-07-22,card,AUTOMATIC PAYMENT - THANK YOU,-45613.0,card_payment_received,tie-out,1.0,False
+card,card_activity_1.csv,40,2026-07-22,card,FACEBK *8M496XZP fb.me/ads CA,2000.0,ad_spend,model,0.9961102526135808,False
+card,card_activity_1.csv,41,2026-07-24,card,GOOGLE *ADS8191147667,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,42,2026-07-24,card,FACEBK *DNMGDURT,2000.0,ad_spend,model,0.9961877087681223,False
+card,card_activity_1.csv,43,2026-07-26,card,LYFT *RIDE USE,130.42,travel_other,model,0.9800646695913895,False
+card,card_activity_1.csv,44,2026-07-26,card,GOOGLE *ADS3957162815,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,45,2026-07-26,card,FACEBK *RVXBV4D9,2000.0,ad_spend,model,0.988614048832263,False
+card,card_activity_1.csv,46,2026-07-27,card,CORNER BISTRO NYC,248.98,travel_other,model,0.9836085582097129,False
+card,card_activity_1.csv,47,2026-07-28,card,GOOGLE *ADS3560699548 cc@google.com CA,1000.0,ad_spend,model,0.9986496500153679,False
+card,card_activity_1.csv,48,2026-07-28,card,FACEBK *8UGBQPXU fb.me/ads CA,2000.0,ad_spend,model,0.997439446525418,False
+card,card_activity_1.csv,49,2026-07-30,card,GOOGLE *ADS5442935061,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,50,2026-07-30,card,FACEBK *UE98QXAN,2000.0,ad_spend,model,0.9893515309118207,False
+card,card_activity_1.csv,51,2026-08-01,card,LYFT *RIDE T3A,293.16,travel_other,model,0.9729844827956927,False
+card,card_activity_1.csv,52,2026-08-01,card,FACEBK *T5386YGL,926.86,ad_spend,model,0.9487153095460816,False
+card,card_activity_1.csv,53,2026-08-01,card,GOOGLE *ADS1415411849,941.6,ad_spend,model,0.9820395042338691,False
+card,card_activity_1.csv,54,2026-08-01,card,FACEBK *G2FZPF25,2000.0,ad_spend,model,0.9910760548883016,False
+card,card_activity_1.csv,55,2026-08-02,card,KLAVIYO INC. BOSTON MA,690.0,software_opex,model,0.9830206844572791,False
+card,card_activity_1.csv,56,2026-08-04,card,ULINE *S9935884,870.99,shipping_supplies,model,0.9829343037349523,False
+card,card_activity_1.csv,57,2026-08-04,card,GOOGLE *ADS3176210650,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,58,2026-08-04,card,FACEBK *GYX5FGWX fb.me/ads CA,2000.0,ad_spend,model,0.9983251697946913,False
+card,card_activity_1.csv,59,2026-08-06,card,GOOGLE *ADS4714268049,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,60,2026-08-06,card,FACEBK *N298HZWD,2000.0,ad_spend,model,0.9883510783229478,False
+card,card_activity_1.csv,61,2026-08-07,card,FACEBK *QH7VJECZ,2000.0,ad_spend,model,0.9936136562140702,False
+card,card_activity_1.csv,62,2026-08-08,card,GOOGLE *ADS1434612625,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,63,2026-08-09,card,SHOPIFY* 911710287 SHOPIFY.COM ON,399.0,software_opex,model,0.9712790398469683,False
+card,card_activity_1.csv,64,2026-08-09,card,FACEBK *Z2UQ65VK,2000.0,ad_spend,model,0.9868830368136511,False
+card,card_activity_1.csv,65,2026-08-10,card,CORNER BISTRO NYC,270.54,travel_other,model,0.9836085582097129,False
+card,card_activity_1.csv,66,2026-08-10,card,GOOGLE *ADS6989101362,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,67,2026-08-11,card,FACEBK *EDVNS2K6,2000.0,ad_spend,model,0.9874467518112781,False
+card,card_activity_1.csv,68,2026-08-12,card,GOOGLE *ADS6872058510,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,69,2026-08-13,card,CORNER BISTRO NYC,84.87,travel_other,model,0.977639671989134,False
+card,card_activity_1.csv,70,2026-08-13,card,FACEBK *SPTQR6LJ fb.me/ads CA,2000.0,ad_spend,model,0.9983222815213076,False
+card,card_activity_1.csv,71,2026-08-15,card,GOOGLE *ADS2081088128 cc@google.com CA,1000.0,ad_spend,model,0.9986496500153679,False
+card,card_activity_1.csv,72,2026-08-15,card,FACEBK *VCTU7RGB,2000.0,ad_spend,model,0.9935500407382954,False
+card,card_activity_1.csv,73,2026-08-17,card,GOOGLE *ADS5149091510 cc@google.com CA,1000.0,ad_spend,model,0.9986496500153679,False
+card,card_activity_1.csv,74,2026-08-17,card,FACEBK *BPR7JAFJ fb.me/ads CA,2000.0,ad_spend,model,0.9983368663261931,False
+card,card_activity_1.csv,75,2026-08-19,card,GOOGLE *ADS8544817252 cc@google.com CA,1000.0,ad_spend,model,0.9986496500153679,False
+card,card_activity_1.csv,76,2026-08-19,card,FACEBK *9YAEH5ZN,2000.0,ad_spend,model,0.9900497329964827,False
+card,card_activity_1.csv,77,2026-08-21,card,CANVA* 35404969,119.99,software_opex,model,0.961487526549129,False
+card,card_activity_1.csv,78,2026-08-21,card,GOOGLE *ADS7359276898 cc@google.com CA,1000.0,ad_spend,model,0.9986496500153679,False
+card,card_activity_1.csv,79,2026-08-21,card,FACEBK *ZSXY7JBV,2000.0,ad_spend,model,0.9938864030718615,False
+card,card_activity_1.csv,80,2026-08-22,card,AUTOMATIC PAYMENT - THANK YOU,-51847.4,card_payment_received,tie-out,1.0,False
+card,card_activity_1.csv,81,2026-08-22,card,BOXCO PACKAGING,231.17,shipping_supplies,model,0.9736955895519589,False
+card,card_activity_1.csv,82,2026-08-23,card,FACEBK *LWNHGEP2 fb.me/ads CA,2000.0,ad_spend,model,0.9984955565754924,False
+card,card_activity_1.csv,83,2026-08-24,card,CORNER BISTRO NYC,31.79,travel_other,model,0.977639671989134,False
+card,card_activity_1.csv,84,2026-08-24,card,GOOGLE *ADS0513105677,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,85,2026-08-25,card,FACEBK *URQ9AGY7,2000.0,ad_spend,model,0.9898383836047361,False
+card,card_activity_1.csv,86,2026-08-26,card,GOOGLE *ADS0868639751,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,87,2026-08-26,card,FACEBK *HJDDV8X5,2000.0,ad_spend,model,0.9947182631910366,False
+card,card_activity_1.csv,88,2026-08-28,card,GOOGLE *ADS1054970176 cc@google.com CA,1000.0,ad_spend,model,0.9986496500153679,False
+card,card_activity_1.csv,89,2026-08-28,card,FACEBK *JE8KUDR6 fb.me/ads CA,2000.0,ad_spend,model,0.9981632181083898,False
+card,card_activity_1.csv,90,2026-08-30,card,FACEBK *2LQYSCSH fb.me/ads CA,2000.0,ad_spend,model,0.9985040786158105,False
+card,card_activity_1.csv,91,2026-08-31,card,GOOGLE *ADS6933318987,1000.0,ad_spend,model,0.999332251833653,False

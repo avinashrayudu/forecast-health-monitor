@@ -1,0 +1,181 @@
+source,file,row,date,account,description,amount,label,method,confidence,is_duplicate
+bank,transactions_1.csv,0,2026-07-01,operating,Shopify payout,16819.47,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,1,2026-07-01,operating,Red Hook Studios,-5950.0,rent,model,0.9085799594935795,False
+bank,transactions_1.csv,2,2026-07-02,operating,Shopify payout,13879.43,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,3,2026-07-03,operating,Shopify payout,13717.79,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,4,2026-07-03,operating,Facebook Ads,-3500.0,ad_spend,model,0.9891111629717734,False
+bank,transactions_1.csv,5,2026-07-03,operating,Rippling - payroll taxes,-7165.14,payroll,model,0.9762472776798612,False
+bank,transactions_1.csv,6,2026-07-03,operating,Rippling - payroll,-22689.62,payroll,model,0.9772146975391737,False
+bank,transactions_1.csv,7,2026-07-06,operating,Transfer to Savings ••8636,-161000.0,own_account_transfer,tie-out,1.0,False
+bank,transactions_1.csv,8,2026-07-06,savings,Transfer from Operating ••1509,161000.0,own_account_transfer,tie-out,1.0,False
+bank,transactions_1.csv,9,2026-07-06,operating,Shopify payout,17246.43,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,10,2026-07-06,operating,Facebook Ads,-3500.0,ad_spend,model,0.9891111629717734,False
+bank,transactions_1.csv,11,2026-07-07,operating,Shopify payout,50908.57,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,12,2026-07-08,operating,Shopify payout,13641.3,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,13,2026-07-08,operating,International wire fee,-35.0,bank_fee,model,0.9486513818265162,False
+bank,transactions_1.csv,14,2026-07-08,operating,Facebook Ads,-3500.0,ad_spend,model,0.9891111629717734,False
+bank,transactions_1.csv,15,2026-07-08,operating,Wire to Baywater Swim Mfg,-100980.0,inventory_purchase,model,0.9306635576999545,False
+bank,transactions_1.csv,16,2026-07-09,operating,Shopify payout,16822.12,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,17,2026-07-10,operating,Amazon.com Services - settlement,25493.69,marketplace_payout,tie-out,1.0,False
+bank,transactions_1.csv,18,2026-07-10,operating,Shopify payout,14268.65,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,19,2026-07-10,operating,Boxline Logistics,-32024.22,fulfillment_3pl,model,0.8745316334030556,False
+bank,transactions_1.csv,20,2026-07-11,operating,Facebook Ads,-3500.0,ad_spend,model,0.9891111629717734,False
+bank,transactions_1.csv,21,2026-07-13,operating,Shopify payout,15599.37,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,22,2026-07-13,operating,Facebook Ads,-3500.0,ad_spend,model,0.9891111629717734,False
+bank,transactions_1.csv,23,2026-07-14,operating,Shopify payout,49347.94,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,24,2026-07-15,operating,Shopify payout,17180.61,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,25,2026-07-15,operating,Intuit,-275.0,software_opex,model,0.984836120416271,False
+bank,transactions_1.csv,26,2026-07-15,operating,Facebook Ads,-3500.0,ad_spend,model,0.9891111629717734,False
+bank,transactions_1.csv,27,2026-07-16,operating,Shopify payout,17413.47,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,28,2026-07-17,operating,Shopify payout,16079.35,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,29,2026-07-17,operating,Rippling - payroll taxes,-7131.87,payroll,model,0.9762472776798612,False
+bank,transactions_1.csv,30,2026-07-17,operating,Rippling - payroll,-22584.26,payroll,model,0.9772146975391737,False
+bank,transactions_1.csv,31,2026-07-18,operating,Facebook Ads,-3500.0,ad_spend,model,0.9891111629717734,False
+bank,transactions_1.csv,32,2026-07-20,operating,Shopify payout,17525.09,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,33,2026-07-20,operating,Facebook Ads,-3500.0,ad_spend,model,0.9891111629717734,False
+bank,transactions_1.csv,34,2026-07-20,operating,CA CDTFA,-12065.7,sales_tax,model,0.8932770942118101,False
+bank,transactions_1.csv,35,2026-07-21,operating,Shopify payout,48618.41,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,36,2026-07-22,operating,Shopify payout,12908.34,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,37,2026-07-22,operating,Facebook Ads,-3500.0,ad_spend,model,0.9891111629717734,False
+bank,transactions_1.csv,38,2026-07-22,operating,Keystone card payment,-33149.87,card_payment,tie-out,1.0,False
+bank,transactions_1.csv,39,2026-07-23,operating,Shopify payout,14924.12,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,40,2026-07-23,operating,Boxline Logistics - refund,365.08,vendor_refund,model,0.8629041594424007,False
+bank,transactions_1.csv,41,2026-07-24,operating,Amazon.com Services - settlement,26397.33,marketplace_payout,tie-out,1.0,False
+bank,transactions_1.csv,42,2026-07-24,operating,Shopify payout,14377.27,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,43,2026-07-25,operating,Facebook Ads,-3500.0,ad_spend,model,0.9891111629717734,False
+bank,transactions_1.csv,44,2026-07-27,operating,Transfer to Savings ••8636,-151000.0,own_account_transfer,tie-out,1.0,False
+bank,transactions_1.csv,45,2026-07-27,savings,Transfer from Operating ••1509,151000.0,own_account_transfer,tie-out,1.0,False
+bank,transactions_1.csv,46,2026-07-27,operating,Shopify payout,17320.2,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,47,2026-07-27,operating,Facebook Ads,-3500.0,ad_spend,model,0.9891111629717734,False
+bank,transactions_1.csv,48,2026-07-28,operating,Shopify payout,53901.96,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,49,2026-07-28,operating,Baywater Swim Mfg - refund,2051.05,vendor_refund,model,0.8555718659002273,False
+bank,transactions_1.csv,50,2026-07-28,savings,Interest earned,1220.23,interest_income,model,0.8639290882036456,False
+bank,transactions_1.csv,51,2026-07-29,operating,Shopify payout,14233.69,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,52,2026-07-30,operating,Shopify payout,14519.75,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,53,2026-07-30,operating,Facebook Ads,-3500.0,ad_spend,model,0.9891111629717734,False
+bank,transactions_1.csv,54,2026-07-31,operating,Shopify payout,15169.36,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,55,2026-07-31,operating,Rippling - payroll taxes,-6892.94,payroll,model,0.9762472776798612,False
+bank,transactions_1.csv,56,2026-07-31,operating,Rippling - payroll,-21827.65,payroll,model,0.9772146975391737,False
+bank,transactions_1.csv,57,2026-08-01,operating,Facebook Ads,-3500.0,ad_spend,model,0.9891111629717734,False
+bank,transactions_1.csv,58,2026-08-03,operating,Shopify payout,16971.34,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,59,2026-08-03,operating,Red Hook Studios,-5950.0,rent,model,0.9085799594935795,False
+bank,transactions_1.csv,60,2026-08-04,operating,Shopify payout,51506.65,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,61,2026-08-04,operating,Facebook Ads,-3500.0,ad_spend,model,0.9891111629717734,False
+bank,transactions_1.csv,62,2026-08-05,operating,Shopify payout,17033.98,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,63,2026-08-05,operating,International wire fee,-35.0,bank_fee,model,0.9486513818265162,False
+bank,transactions_1.csv,64,2026-08-05,operating,Wire to Baywater Swim Mfg,-192780.0,inventory_purchase,model,0.9306635576999545,False
+bank,transactions_1.csv,65,2026-08-06,operating,Shopify payout,12242.55,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,66,2026-08-06,operating,Facebook Ads,-3500.0,ad_spend,model,0.9891111629717734,False
+bank,transactions_1.csv,67,2026-08-07,operating,Amazon.com Services - settlement,24367.9,marketplace_payout,tie-out,1.0,False
+bank,transactions_1.csv,68,2026-08-07,operating,Shopify payout,15009.57,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,69,2026-08-09,operating,Facebook Ads,-3500.0,ad_spend,model,0.9891111629717734,False
+bank,transactions_1.csv,70,2026-08-10,operating,Shopify payout,15867.58,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,71,2026-08-10,operating,Boxline Logistics,-31007.26,fulfillment_3pl,model,0.8745316334030556,False
+bank,transactions_1.csv,72,2026-08-11,operating,Shopify payout,54810.26,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,73,2026-08-11,operating,Facebook Ads,-3500.0,ad_spend,model,0.9891111629717734,False
+bank,transactions_1.csv,74,2026-08-12,operating,Shopify payout,12034.22,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,75,2026-08-12,operating,International wire fee,-35.0,bank_fee,model,0.9486513818265162,False
+bank,transactions_1.csv,76,2026-08-12,operating,Wire to Baywater Swim Mfg,-235620.0,inventory_purchase,model,0.9306635576999545,False
+bank,transactions_1.csv,77,2026-08-13,operating,Shopify payout,14427.84,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,78,2026-08-14,operating,Shopify payout,16476.96,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,79,2026-08-14,operating,Facebook Ads,-3500.0,ad_spend,model,0.9891111629717734,False
+bank,transactions_1.csv,80,2026-08-14,operating,Rippling - payroll taxes,-6946.73,payroll,model,0.9762472776798612,False
+bank,transactions_1.csv,81,2026-08-14,operating,Rippling - payroll,-21997.97,payroll,model,0.9772146975391737,False
+bank,transactions_1.csv,82,2026-08-16,operating,Facebook Ads,-3500.0,ad_spend,model,0.9891111629717734,False
+bank,transactions_1.csv,83,2026-08-17,operating,Shopify payout,14440.94,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,84,2026-08-17,operating,Intuit,-275.0,software_opex,model,0.984836120416271,False
+bank,transactions_1.csv,85,2026-08-18,operating,Shopify payout,58435.45,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,86,2026-08-18,operating,Facebook Ads,-3500.0,ad_spend,model,0.9891111629717734,False
+bank,transactions_1.csv,87,2026-08-19,operating,Shopify payout,16538.53,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,88,2026-08-20,operating,Shopify payout,14817.99,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,89,2026-08-20,operating,CA CDTFA,-35686.47,sales_tax,model,0.8932770942118101,False
+bank,transactions_1.csv,90,2026-08-21,operating,Amazon.com Services - settlement,26622.22,marketplace_payout,tie-out,1.0,False
+bank,transactions_1.csv,91,2026-08-21,operating,Shopify payout,16876.88,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,92,2026-08-21,operating,Facebook Ads,-3500.0,ad_spend,model,0.9891111629717734,False
+bank,transactions_1.csv,93,2026-08-22,operating,Keystone card payment,-40365.85,card_payment,tie-out,1.0,False
+bank,transactions_1.csv,94,2026-08-23,operating,Facebook Ads,-3500.0,ad_spend,model,0.9891111629717734,False
+bank,transactions_1.csv,95,2026-08-24,operating,Shopify payout,18546.53,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,96,2026-08-25,operating,Shopify payout,56774.03,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,97,2026-08-26,operating,Shopify payout,17002.62,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,98,2026-08-26,operating,Facebook Ads,-3500.0,ad_spend,model,0.9891111629717734,False
+bank,transactions_1.csv,99,2026-08-27,operating,Shopify payout,16364.57,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,100,2026-08-28,operating,Shopify payout,15695.55,processor_payout,tie-out,1.0,False
+bank,transactions_1.csv,101,2026-08-28,operating,Facebook Ads,-3500.0,ad_spend,model,0.9891111629717734,False
+bank,transactions_1.csv,102,2026-08-28,operating,Rippling - payroll taxes,-7021.94,payroll,model,0.9762472776798612,False
+bank,transactions_1.csv,103,2026-08-28,operating,Rippling - payroll,-22236.15,payroll,model,0.9772146975391737,False
+bank,transactions_1.csv,104,2026-08-28,savings,Interest earned,1222.85,interest_income,model,0.8639290882036456,False
+bank,transactions_1.csv,105,2026-08-30,operating,Facebook Ads,-3500.0,ad_spend,model,0.9891111629717734,False
+bank,transactions_1.csv,106,2026-08-31,operating,Shopify payout,17289.63,processor_payout,tie-out,1.0,False
+card,card_1.csv,0,2026-06-29,card,GOOGLE *ADS5574238179 cc@google.com CA,2000.0,ad_spend,model,0.9986496500153679,False
+card,card_1.csv,1,2026-07-01,card,TIKTOK.COM ADS,280.6,ad_spend,model,0.9747179328934037,False
+card,card_1.csv,2,2026-07-01,card,TIKTOK.COM ADS,1500.0,ad_spend,model,0.9969262148422005,False
+card,card_1.csv,3,2026-07-01,card,GOOGLE *ADS6438978510 cc@google.com CA,1822.59,ad_spend,model,0.9986496500153679,False
+card,card_1.csv,4,2026-07-02,card,MARRIOTT BROOKLYN,404.69,travel_other,model,0.9721370692799173,False
+card,card_1.csv,5,2026-07-02,card,ULINE *S3969986,550.49,shipping_supplies,model,0.9829343037349523,False
+card,card_1.csv,6,2026-07-03,card,STAMPS.COM,81.35,shipping_supplies,model,0.921353579849733,False
+card,card_1.csv,7,2026-07-04,card,KLAVIYO INC. BOSTON MA,690.0,software_opex,model,0.9830206844572791,False
+card,card_1.csv,8,2026-07-04,card,STAMPS.COM,866.75,shipping_supplies,model,0.9796669160527142,False
+card,card_1.csv,9,2026-07-04,card,GOOGLE *ADS4331835289,2000.0,ad_spend,model,0.999332251833653,False
+card,card_1.csv,10,2026-07-05,card,TIKTOK ADS 83365228,1500.0,ad_spend,model,0.9964968903399859,False
+card,card_1.csv,11,2026-07-07,card,JETBLUE 2259112102,123.41,travel_other,model,0.983617759636565,False
+card,card_1.csv,12,2026-07-07,card,GOOGLE *ADS8774549017 cc@google.com CA,2000.0,ad_spend,model,0.9986496500153679,False
+card,card_1.csv,13,2026-07-08,card,SHOPIFY* 387113690,399.0,software_opex,model,0.984379079129398,False
+card,card_1.csv,14,2026-07-10,card,TIKTOK.COM ADS,1500.0,ad_spend,model,0.9969262148422005,False
+card,card_1.csv,15,2026-07-10,card,GOOGLE *ADS3785300569 cc@google.com CA,2000.0,ad_spend,model,0.9986496500153679,False
+card,card_1.csv,16,2026-07-11,card,JETBLUE 2200346685,216.13,travel_other,model,0.983617759636565,False
+card,card_1.csv,17,2026-07-12,card,ULINE *S4420902,1372.51,shipping_supplies,model,0.9827790485037372,False
+card,card_1.csv,18,2026-07-13,card,STAMPS.COM,822.72,shipping_supplies,model,0.9796669160527142,False
+card,card_1.csv,19,2026-07-13,card,TIKTOK ADS 72456137,1500.0,ad_spend,model,0.9964968903399859,False
+card,card_1.csv,20,2026-07-13,card,GOOGLE *ADS7012954003,2000.0,ad_spend,model,0.999332251833653,False
+card,card_1.csv,21,2026-07-14,card,"NOTION LABS, INC.",96.0,software_opex,model,0.9396181342813447,False
+card,card_1.csv,22,2026-07-15,card,GOOGLE *ADS4706532270,2000.0,ad_spend,model,0.999332251833653,False
+card,card_1.csv,23,2026-07-18,card,TIKTOK.COM ADS,1500.0,ad_spend,model,0.9969262148422005,False
+card,card_1.csv,24,2026-07-18,card,GOOGLE *ADS1738791129 cc@google.com CA,2000.0,ad_spend,model,0.9986496500153679,False
+card,card_1.csv,25,2026-07-19,card,UBER *TRIP HELP.UBER.COM,247.38,travel_other,model,0.9878936160298961,False
+card,card_1.csv,26,2026-07-21,card,GOOGLE *ADS8348844376,2000.0,ad_spend,model,0.999332251833653,False
+card,card_1.csv,27,2026-07-22,card,PAYMENT - THANK YOU,-33149.87,card_payment_received,tie-out,1.0,False
+card,card_1.csv,28,2026-07-22,card,TIKTOK ADS 01980280,1500.0,ad_spend,model,0.9964968903399859,False
+card,card_1.csv,29,2026-07-23,card,JETBLUE 7296707044,29.0,travel_other,model,0.9735505436821574,False
+card,card_1.csv,30,2026-07-24,card,GOOGLE *ADS4292360344 cc@google.com CA,2000.0,ad_spend,model,0.9986496500153679,False
+card,card_1.csv,31,2026-07-25,card,TRIPLE WHALE,279.0,software_opex,model,0.9273483288681114,False
+card,card_1.csv,32,2026-07-26,card,MARRIOTT BROOKLYN,335.77,travel_other,model,0.9721370692799173,False
+card,card_1.csv,33,2026-07-26,card,TIKTOK ADS 18646018,1500.0,ad_spend,model,0.9964968903399859,False
+card,card_1.csv,34,2026-07-27,card,ULINE *S5192223,995.72,shipping_supplies,model,0.9829343037349523,False
+card,card_1.csv,35,2026-07-27,card,GOOGLE *ADS4333142047,2000.0,ad_spend,model,0.999332251833653,False
+card,card_1.csv,36,2026-07-28,card,JETBLUE 4353979140,252.74,travel_other,model,0.983617759636565,False
+card,card_1.csv,37,2026-07-29,card,STAMPS.COM,227.94,shipping_supplies,model,0.9796669160527142,False
+card,card_1.csv,38,2026-07-30,card,MARRIOTT BROOKLYN,160.52,travel_other,model,0.9721370692799173,False
+card,card_1.csv,39,2026-07-30,card,TIKTOK ADS 84445234,1500.0,ad_spend,model,0.9964968903399859,False
+card,card_1.csv,40,2026-07-30,card,GOOGLE *ADS6166556269,2000.0,ad_spend,model,0.999332251833653,False
+card,card_1.csv,41,2026-08-01,card,TIKTOK.COM ADS,884.39,ad_spend,model,0.9747179328934037,False
+card,card_1.csv,42,2026-08-01,card,GOOGLE *ADS3974230007,1993.86,ad_spend,model,0.999332251833653,False
+card,card_1.csv,43,2026-08-04,card,JETBLUE 3378586174,393.15,travel_other,model,0.983617759636565,False
+card,card_1.csv,44,2026-08-04,card,KLAVIYO INC. BOSTON MA,690.0,software_opex,model,0.9830206844572791,False
+card,card_1.csv,45,2026-08-04,card,GOOGLE *ADS0927815432,2000.0,ad_spend,model,0.999332251833653,False
+card,card_1.csv,46,2026-08-06,card,TIKTOK.COM ADS,1500.0,ad_spend,model,0.9969262148422005,False
+card,card_1.csv,47,2026-08-07,card,GOOGLE *ADS6174477030,2000.0,ad_spend,model,0.999332251833653,False
+card,card_1.csv,48,2026-08-08,card,SHOPIFY* 115675770,399.0,software_opex,model,0.984379079129398,False
+card,card_1.csv,49,2026-08-09,card,ULINE *S8706143,1315.36,shipping_supplies,model,0.9827790485037372,False
+card,card_1.csv,50,2026-08-10,card,TIKTOK ADS 23739870,1500.0,ad_spend,model,0.9964968903399859,False
+card,card_1.csv,51,2026-08-10,card,GOOGLE *ADS2135728631,2000.0,ad_spend,model,0.999332251833653,False
+card,card_1.csv,52,2026-08-11,card,JETBLUE 5359083598,234.37,travel_other,model,0.983617759636565,False
+card,card_1.csv,53,2026-08-12,card,MARRIOTT BROOKLYN,336.58,travel_other,model,0.9721370692799173,False
+card,card_1.csv,54,2026-08-13,card,STAMPS.COM,733.86,shipping_supplies,model,0.9796669160527142,False
+card,card_1.csv,55,2026-08-13,card,GOOGLE *ADS9190953877 cc@google.com CA,2000.0,ad_spend,model,0.9986496500153679,False
+card,card_1.csv,56,2026-08-14,card,"NOTION LABS, INC.",96.0,software_opex,model,0.9396181342813447,False
+card,card_1.csv,57,2026-08-14,card,TIKTOK.COM ADS,1500.0,ad_spend,model,0.9969262148422005,False
+card,card_1.csv,58,2026-08-15,card,GOOGLE *ADS0202838932 cc@google.com CA,2000.0,ad_spend,model,0.9986496500153679,False
+card,card_1.csv,59,2026-08-17,card,UBER *TRIP HELP.UBER.COM,313.27,travel_other,model,0.9878936160298961,False
+card,card_1.csv,60,2026-08-18,card,TIKTOK.COM ADS,1500.0,ad_spend,model,0.9969262148422005,False
+card,card_1.csv,61,2026-08-18,card,GOOGLE *ADS0744819164,2000.0,ad_spend,model,0.999332251833653,False
+card,card_1.csv,62,2026-08-19,card,ULINE *S6448953,152.96,shipping_supplies,model,0.9829343037349523,False
+card,card_1.csv,63,2026-08-21,card,GOOGLE *ADS3827533440,2000.0,ad_spend,model,0.999332251833653,False
+card,card_1.csv,64,2026-08-22,card,PAYMENT - THANK YOU,-40365.85,card_payment_received,tie-out,1.0,False
+card,card_1.csv,65,2026-08-22,card,TIKTOK.COM ADS,1500.0,ad_spend,model,0.9969262148422005,False
+card,card_1.csv,66,2026-08-24,card,GOOGLE *ADS2379778342,2000.0,ad_spend,model,0.999332251833653,False
+card,card_1.csv,67,2026-08-25,card,TRIPLE WHALE,279.0,software_opex,model,0.9273483288681114,False
+card,card_1.csv,68,2026-08-26,card,TIKTOK ADS 27391667,1500.0,ad_spend,model,0.9964968903399859,False
+card,card_1.csv,69,2026-08-27,card,GOOGLE *ADS7977670440,2000.0,ad_spend,model,0.999332251833653,False
+card,card_1.csv,70,2026-08-29,card,UBER *TRIP,61.85,travel_other,model,0.980275390950055,False
+card,card_1.csv,71,2026-08-30,card,TIKTOK ADS 30145431,1500.0,ad_spend,model,0.9964968903399859,False
+card,card_1.csv,72,2026-08-30,card,GOOGLE *ADS4346011899,2000.0,ad_spend,model,0.999332251833653,False

@@ -1,0 +1,158 @@
+source,file,row,date,account,description,amount,label,method,confidence,is_duplicate
+bank,export_1.csv,0,2026-07-01,operating,ACH DEPOSIT SHOPIFY INC 0701,8993.91,processor_payout,tie-out,1.0,False
+bank,export_1.csv,1,2026-07-01,operating,ACH DEBIT LIBERTY AVE PARTNERS,-4433.33,rent,model,0.9034200784304947,False
+bank,export_1.csv,2,2026-07-02,operating,ACH DEPOSIT SHOPIFY INC 0702,8736.41,processor_payout,tie-out,1.0,False
+bank,export_1.csv,3,2026-07-03,operating,ACH DEPOSIT SHOPIFY INC 0703,9673.81,processor_payout,tie-out,1.0,False
+bank,export_1.csv,4,2026-07-03,operating,ACH DEBIT ADP PAYROLL TAX,-5372.94,payroll,model,0.9888825466876665,False
+bank,export_1.csv,5,2026-07-03,operating,ACH DEBIT ADP PAYROLL,-17014.32,payroll,model,0.9750476138477233,False
+bank,export_1.csv,6,2026-07-04,operating,ACH DEBIT FACEBK ADS,-3500.0,ad_spend,model,0.9851167875665026,False
+bank,export_1.csv,7,2026-07-06,operating,XFER TO SHARE 01,-100000.0,own_account_transfer,tie-out,1.0,False
+bank,export_1.csv,8,2026-07-06,savings,XFER FROM CHECKING 10,100000.0,own_account_transfer,tie-out,1.0,False
+bank,export_1.csv,9,2026-07-06,operating,ACH DEPOSIT SHOPIFY INC 0706,10966.3,processor_payout,tie-out,1.0,False
+bank,export_1.csv,10,2026-07-07,operating,ACH DEPOSIT SHOPIFY INC 0707,33728.64,processor_payout,tie-out,1.0,False
+bank,export_1.csv,11,2026-07-07,operating,ACH DEBIT FACEBK ADS,-3500.0,ad_spend,model,0.9851167875665026,False
+bank,export_1.csv,12,2026-07-08,operating,ACH DEPOSIT SHOPIFY INC 0708,9529.07,processor_payout,tie-out,1.0,False
+bank,export_1.csv,13,2026-07-08,operating,WIRE OUT FEE,-35.0,bank_fee,model,0.9706121694282176,False
+bank,export_1.csv,14,2026-07-08,operating,WIRE OUT HEXTON PET PRODUCTS,-75240.0,inventory_purchase,model,0.9026772417334307,False
+bank,export_1.csv,15,2026-07-09,operating,ACH DEPOSIT SHOPIFY INC 0709,9745.64,processor_payout,tie-out,1.0,False
+bank,export_1.csv,16,2026-07-10,operating,ACH DEPOSIT AMAZON PAYMENTS 0710,42075.7,marketplace_payout,tie-out,1.0,False
+bank,export_1.csv,17,2026-07-10,operating,ACH DEPOSIT SHOPIFY INC 0710,9546.53,processor_payout,tie-out,1.0,False
+bank,export_1.csv,18,2026-07-10,operating,ACH DEBIT FACEBK ADS,-3500.0,ad_spend,model,0.9851167875665026,False
+bank,export_1.csv,19,2026-07-10,operating,ACH DEBIT CRATEWAY FULFILLMENT,-24626.71,fulfillment_3pl,model,0.9242469812869303,False
+bank,export_1.csv,20,2026-07-13,operating,ACH DEPOSIT SHOPIFY INC 0713,7931.65,processor_payout,tie-out,1.0,False
+bank,export_1.csv,21,2026-07-13,operating,ACH DEBIT FACEBK ADS,-3500.0,ad_spend,model,0.9851167875665026,False
+bank,export_1.csv,22,2026-07-14,operating,ACH DEPOSIT SHOPIFY INC 0714,35744.96,processor_payout,tie-out,1.0,False
+bank,export_1.csv,23,2026-07-15,operating,ACH DEPOSIT SHOPIFY INC 0715,9423.74,processor_payout,tie-out,1.0,False
+bank,export_1.csv,24,2026-07-15,operating,ACH DEBIT INTUIT,-275.0,software_opex,model,0.9628073274446414,False
+bank,export_1.csv,25,2026-07-16,operating,ACH DEPOSIT SHOPIFY INC 0716,10948.45,processor_payout,tie-out,1.0,False
+bank,export_1.csv,26,2026-07-17,operating,ACH DEPOSIT SHOPIFY INC 0717,8844.53,processor_payout,tie-out,1.0,False
+bank,export_1.csv,27,2026-07-17,operating,ACH DEBIT FACEBK ADS,-3500.0,ad_spend,model,0.9851167875665026,False
+bank,export_1.csv,28,2026-07-17,operating,ACH DEBIT ADP PAYROLL TAX,-5121.26,payroll,model,0.9888825466876665,False
+bank,export_1.csv,29,2026-07-17,operating,ACH DEBIT ADP PAYROLL,-16217.31,payroll,model,0.9750476138477233,False
+bank,export_1.csv,30,2026-07-20,operating,ACH DEPOSIT SHOPIFY INC 0720,9303.34,processor_payout,tie-out,1.0,False
+bank,export_1.csv,31,2026-07-20,operating,ACH DEBIT FACEBK ADS,-3500.0,ad_spend,model,0.9851167875665026,False
+bank,export_1.csv,32,2026-07-20,operating,ACH DEBIT PA DEPT OF REVENUE,-5963.33,sales_tax,model,0.8683634590118673,False
+bank,export_1.csv,33,2026-07-21,operating,ACH DEPOSIT SHOPIFY INC 0721,33350.53,processor_payout,tie-out,1.0,False
+bank,export_1.csv,34,2026-07-22,operating,ACH DEPOSIT SHOPIFY INC 0722,9984.91,processor_payout,tie-out,1.0,False
+bank,export_1.csv,35,2026-07-22,operating,ACH DEBIT KEYSTONE CARD PMT,-27751.94,card_payment,tie-out,1.0,False
+bank,export_1.csv,36,2026-07-23,operating,ACH DEPOSIT SHOPIFY INC 0723,7428.39,processor_payout,tie-out,1.0,False
+bank,export_1.csv,37,2026-07-23,operating,ACH DEBIT FACEBK ADS,-3500.0,ad_spend,model,0.9851167875665026,False
+bank,export_1.csv,38,2026-07-24,operating,ACH DEPOSIT AMAZON PAYMENTS 0724,39354.97,marketplace_payout,tie-out,1.0,False
+bank,export_1.csv,39,2026-07-24,operating,ACH DEPOSIT SHOPIFY INC 0724,8889.21,processor_payout,tie-out,1.0,False
+bank,export_1.csv,40,2026-07-27,operating,XFER TO SHARE 01,-116000.0,own_account_transfer,tie-out,1.0,False
+bank,export_1.csv,41,2026-07-27,savings,XFER FROM CHECKING 10,116000.0,own_account_transfer,tie-out,1.0,False
+bank,export_1.csv,42,2026-07-27,operating,ACH DEPOSIT SHOPIFY INC 0727,9805.15,processor_payout,tie-out,1.0,False
+bank,export_1.csv,43,2026-07-27,operating,ACH DEBIT FACEBK ADS,-3500.0,ad_spend,model,0.9851167875665026,False
+bank,export_1.csv,44,2026-07-28,operating,ACH DEPOSIT SHOPIFY INC 0728,32335.04,processor_payout,tie-out,1.0,False
+bank,export_1.csv,45,2026-07-28,savings,DIVIDEND,873.78,interest_income,model,0.9300222187733374,False
+bank,export_1.csv,46,2026-07-29,operating,ACH DEPOSIT SHOPIFY INC 0729,9360.81,processor_payout,tie-out,1.0,False
+bank,export_1.csv,47,2026-07-30,operating,ACH DEPOSIT SHOPIFY INC 0730,9896.28,processor_payout,tie-out,1.0,False
+bank,export_1.csv,48,2026-07-30,operating,ACH DEBIT FACEBK ADS,-3500.0,ad_spend,model,0.9851167875665026,False
+bank,export_1.csv,49,2026-07-31,operating,ACH DEPOSIT SHOPIFY INC 0731,9292.44,processor_payout,tie-out,1.0,False
+bank,export_1.csv,50,2026-07-31,operating,ACH DEBIT ADP PAYROLL TAX,-5175.21,payroll,model,0.9888825466876665,False
+bank,export_1.csv,51,2026-07-31,operating,ACH DEBIT ADP PAYROLL,-16388.16,payroll,model,0.9750476138477233,False
+bank,export_1.csv,52,2026-08-02,operating,ACH DEBIT FACEBK ADS,-3500.0,ad_spend,model,0.9851167875665026,False
+bank,export_1.csv,53,2026-08-03,operating,ACH DEPOSIT SHOPIFY INC 0803,7584.08,processor_payout,tie-out,1.0,False
+bank,export_1.csv,54,2026-08-03,operating,ACH DEBIT LIBERTY AVE PARTNERS,-4433.33,rent,model,0.9034200784304947,False
+bank,export_1.csv,55,2026-08-04,operating,ACH DEPOSIT SHOPIFY INC 0804,34327.35,processor_payout,tie-out,1.0,False
+bank,export_1.csv,56,2026-08-05,operating,ACH DEPOSIT SHOPIFY INC 0805,9316.46,processor_payout,tie-out,1.0,False
+bank,export_1.csv,57,2026-08-05,operating,WIRE OUT FEE,-35.0,bank_fee,model,0.9706121694282176,False
+bank,export_1.csv,58,2026-08-05,operating,WIRE OUT HEXTON PET PRODUCTS,-143640.0,inventory_purchase,model,0.9572015326345169,False
+bank,export_1.csv,59,2026-08-06,operating,ACH DEPOSIT SHOPIFY INC 0806,10727.02,processor_payout,tie-out,1.0,False
+bank,export_1.csv,60,2026-08-06,operating,ACH DEBIT FACEBK ADS,-3500.0,ad_spend,model,0.9851167875665026,False
+bank,export_1.csv,61,2026-08-07,operating,ACH DEPOSIT AMAZON PAYMENTS 0807,36436.13,marketplace_payout,tie-out,1.0,False
+bank,export_1.csv,62,2026-08-07,operating,ACH DEPOSIT SHOPIFY INC 0807,10979.85,processor_payout,tie-out,1.0,False
+bank,export_1.csv,63,2026-08-09,operating,ACH DEBIT FACEBK ADS,-3500.0,ad_spend,model,0.9851167875665026,False
+bank,export_1.csv,64,2026-08-10,operating,ACH DEPOSIT SHOPIFY INC 0810,10485.85,processor_payout,tie-out,1.0,False
+bank,export_1.csv,65,2026-08-10,operating,ACH DEBIT CRATEWAY FULFILLMENT,-23080.25,fulfillment_3pl,model,0.9242469812869303,False
+bank,export_1.csv,66,2026-08-11,operating,ACH DEPOSIT SHOPIFY INC 0811,31534.15,processor_payout,tie-out,1.0,False
+bank,export_1.csv,67,2026-08-12,operating,ACH DEPOSIT SHOPIFY INC 0812,9941.72,processor_payout,tie-out,1.0,False
+bank,export_1.csv,68,2026-08-12,operating,WIRE OUT FEE,-35.0,bank_fee,model,0.9706121694282176,False
+bank,export_1.csv,69,2026-08-12,operating,ACH DEBIT FACEBK ADS,-3500.0,ad_spend,model,0.9851167875665026,False
+bank,export_1.csv,70,2026-08-12,operating,WIRE OUT HEXTON PET PRODUCTS,-175560.0,inventory_purchase,model,0.9572015326345169,False
+bank,export_1.csv,71,2026-08-13,operating,ACH DEPOSIT SHOPIFY INC 0813,10720.87,processor_payout,tie-out,1.0,False
+bank,export_1.csv,72,2026-08-14,operating,ACH DEPOSIT SHOPIFY INC 0814,9937.65,processor_payout,tie-out,1.0,False
+bank,export_1.csv,73,2026-08-14,operating,ACH DEBIT ADP PAYROLL TAX,-5320.76,payroll,model,0.9888825466876665,False
+bank,export_1.csv,74,2026-08-14,operating,ACH DEBIT ADP PAYROLL,-16849.06,payroll,model,0.9750476138477233,False
+bank,export_1.csv,75,2026-08-16,operating,ACH DEBIT FACEBK ADS,-3500.0,ad_spend,model,0.9851167875665026,False
+bank,export_1.csv,76,2026-08-17,operating,ACH DEPOSIT SHOPIFY INC 0817,10199.76,processor_payout,tie-out,1.0,False
+bank,export_1.csv,77,2026-08-17,operating,ACH DEBIT INTUIT,-275.0,software_opex,model,0.9628073274446414,False
+bank,export_1.csv,78,2026-08-18,operating,ACH DEPOSIT SHOPIFY INC 0818,35796.03,processor_payout,tie-out,1.0,False
+bank,export_1.csv,79,2026-08-19,operating,ACH DEPOSIT SHOPIFY INC 0819,10860.17,processor_payout,tie-out,1.0,False
+bank,export_1.csv,80,2026-08-19,operating,ACH DEBIT FACEBK ADS,-3500.0,ad_spend,model,0.9851167875665026,False
+bank,export_1.csv,81,2026-08-20,operating,ACH DEPOSIT SHOPIFY INC 0820,11059.11,processor_payout,tie-out,1.0,False
+bank,export_1.csv,82,2026-08-20,operating,ACH DEBIT PA DEPT OF REVENUE,-18153.54,sales_tax,model,0.9108518312589944,False
+bank,export_1.csv,83,2026-08-21,operating,ACH DEPOSIT AMAZON PAYMENTS 0821,42394.54,marketplace_payout,tie-out,1.0,False
+bank,export_1.csv,84,2026-08-21,operating,ACH DEPOSIT SHOPIFY INC 0821,7517.49,processor_payout,tie-out,1.0,False
+bank,export_1.csv,85,2026-08-22,operating,ACH DEBIT FACEBK ADS,-3500.0,ad_spend,model,0.9851167875665026,False
+bank,export_1.csv,86,2026-08-22,operating,ACH DEBIT KEYSTONE CARD PMT,-32055.76,card_payment,tie-out,1.0,False
+bank,export_1.csv,87,2026-08-24,operating,ACH DEPOSIT SHOPIFY INC 0824,9696.23,processor_payout,tie-out,1.0,False
+bank,export_1.csv,88,2026-08-25,operating,ACH DEPOSIT SHOPIFY INC 0825,34048.67,processor_payout,tie-out,1.0,False
+bank,export_1.csv,89,2026-08-26,operating,ACH DEPOSIT SHOPIFY INC 0826,8053.12,processor_payout,tie-out,1.0,False
+bank,export_1.csv,90,2026-08-26,operating,ACH DEBIT FACEBK ADS,-3500.0,ad_spend,model,0.9851167875665026,False
+bank,export_1.csv,91,2026-08-27,operating,ACH DEPOSIT SHOPIFY INC 0827,10511.01,processor_payout,tie-out,1.0,False
+bank,export_1.csv,92,2026-08-28,operating,ACH DEPOSIT SHOPIFY INC 0828,8224.92,processor_payout,tie-out,1.0,False
+bank,export_1.csv,93,2026-08-28,operating,ACH DEBIT ADP PAYROLL TAX,-5305.4,payroll,model,0.9888825466876665,False
+bank,export_1.csv,94,2026-08-28,operating,ACH DEBIT ADP PAYROLL,-16800.43,payroll,model,0.9750476138477233,False
+bank,export_1.csv,95,2026-08-28,savings,DIVIDEND,875.66,interest_income,model,0.9300222187733374,False
+bank,export_1.csv,96,2026-08-29,operating,ACH DEBIT FACEBK ADS,-3500.0,ad_spend,model,0.9851167875665026,False
+bank,export_1.csv,97,2026-08-31,operating,ACH DEPOSIT SHOPIFY INC 0831,8595.19,processor_payout,tie-out,1.0,False
+card,activity_1.csv,0,2026-06-29,card,GOOGLE *ADS2560540961 cc@google.com CA,2000.0,ad_spend,model,0.9986496500153679,False
+card,activity_1.csv,1,2026-07-01,card,UBER *TRIP HELP.UBER.COM,371.25,travel_other,model,0.9878936160298961,False
+card,activity_1.csv,2,2026-07-01,card,GOOGLE *ADS9233245836 cc@google.com CA,1883.52,ad_spend,model,0.9986496500153679,False
+card,activity_1.csv,3,2026-07-02,card,KLAVIYO INC.,690.0,software_opex,model,0.9841098248080055,False
+card,activity_1.csv,4,2026-07-02,card,ULINE *S5975685,726.12,shipping_supplies,model,0.9829343037349523,False
+card,activity_1.csv,5,2026-07-04,card,CORNER BISTRO NYC,390.77,travel_other,model,0.9836085582097129,False
+card,activity_1.csv,6,2026-07-04,card,GOOGLE *ADS7660599666,2000.0,ad_spend,model,0.999332251833653,False
+card,activity_1.csv,7,2026-07-06,card,GOOGLE *ADS0262588688,2000.0,ad_spend,model,0.999332251833653,False
+card,activity_1.csv,8,2026-07-08,card,UBER *TRIP,171.87,travel_other,model,0.9884422212508686,False
+card,activity_1.csv,9,2026-07-08,card,SHOPIFY* 069321030,399.0,software_opex,model,0.984379079129398,False
+card,activity_1.csv,10,2026-07-09,card,UBER *TRIP,120.25,travel_other,model,0.9884422212508686,False
+card,activity_1.csv,11,2026-07-09,card,GOOGLE *ADS7745881310,2000.0,ad_spend,model,0.999332251833653,False
+card,activity_1.csv,12,2026-07-11,card,GOOGLE *ADS1873399466 cc@google.com CA,2000.0,ad_spend,model,0.9986496500153679,False
+card,activity_1.csv,13,2026-07-13,card,GOOGLE *ADS7869230945 cc@google.com CA,2000.0,ad_spend,model,0.9986496500153679,False
+card,activity_1.csv,14,2026-07-15,card,RECHARGE PAYMENTS,99.0,software_opex,model,0.9591960972193663,False
+card,activity_1.csv,15,2026-07-15,card,GOOGLE *ADS5599687159 cc@google.com CA,2000.0,ad_spend,model,0.9986496500153679,False
+card,activity_1.csv,16,2026-07-17,card,UBER *TRIP,417.95,travel_other,model,0.9884422212508686,False
+card,activity_1.csv,17,2026-07-17,card,BOXCO PACKAGING,539.52,shipping_supplies,model,0.9736955895519589,False
+card,activity_1.csv,18,2026-07-18,card,GOOGLE *ADS3416715815,2000.0,ad_spend,model,0.999332251833653,False
+card,activity_1.csv,19,2026-07-20,card,GOOGLE *ADS1237994667,2000.0,ad_spend,model,0.999332251833653,False
+card,activity_1.csv,20,2026-07-22,card,AUTOPAY PAYMENT RECEIVED - THANK YOU,-27751.94,card_payment_received,tie-out,1.0,False
+card,activity_1.csv,21,2026-07-22,card,STAMPS.COM,1316.3,shipping_supplies,model,0.9761283189680924,False
+card,activity_1.csv,22,2026-07-23,card,GOOGLE *ADS9668010985,2000.0,ad_spend,model,0.999332251833653,False
+card,activity_1.csv,23,2026-07-25,card,UBER *TRIP,183.55,travel_other,model,0.9884422212508686,False
+card,activity_1.csv,24,2026-07-25,card,BOXCO PACKAGING,746.66,shipping_supplies,model,0.9736955895519589,False
+card,activity_1.csv,25,2026-07-25,card,GOOGLE *ADS3428975258,2000.0,ad_spend,model,0.999332251833653,False
+card,activity_1.csv,26,2026-07-27,card,GOOGLE *ADS9920986544,2000.0,ad_spend,model,0.999332251833653,False
+card,activity_1.csv,27,2026-07-29,card,GOOGLE *ADS8189521288 cc@google.com CA,2000.0,ad_spend,model,0.9986496500153679,False
+card,activity_1.csv,28,2026-08-01,card,GOOGLE *ADS6028374998,743.86,ad_spend,model,0.9820395042338691,False
+card,activity_1.csv,29,2026-08-01,card,GOOGLE *ADS8624584442,2000.0,ad_spend,model,0.999332251833653,False
+card,activity_1.csv,30,2026-08-02,card,UBER *TRIP,364.04,travel_other,model,0.9884422212508686,False
+card,activity_1.csv,31,2026-08-02,card,KLAVIYO INC. BOSTON MA,690.0,software_opex,model,0.9830206844572791,False
+card,activity_1.csv,32,2026-08-03,card,UBER *TRIP HELP.UBER.COM,56.25,travel_other,model,0.9851916351452635,False
+card,activity_1.csv,33,2026-08-04,card,GOOGLE *ADS3485337347 cc@google.com CA,2000.0,ad_spend,model,0.9986496500153679,False
+card,activity_1.csv,34,2026-08-06,card,CORNER BISTRO NYC,404.42,travel_other,model,0.9836085582097129,False
+card,activity_1.csv,35,2026-08-06,card,GOOGLE *ADS0449535543 cc@google.com CA,2000.0,ad_spend,model,0.9986496500153679,False
+card,activity_1.csv,36,2026-08-07,card,CORNER BISTRO NYC,353.48,travel_other,model,0.9836085582097129,False
+card,activity_1.csv,37,2026-08-08,card,SHOPIFY* 980522171 SHOPIFY.COM ON,399.0,software_opex,model,0.9712790398469683,False
+card,activity_1.csv,38,2026-08-09,card,GOOGLE *ADS6340810712 cc@google.com CA,2000.0,ad_spend,model,0.9986496500153679,False
+card,activity_1.csv,39,2026-08-11,card,GOOGLE *ADS1438068498 cc@google.com CA,2000.0,ad_spend,model,0.9986496500153679,False
+card,activity_1.csv,40,2026-08-12,card,ULINE *S7038874,1172.1,shipping_supplies,model,0.9827790485037372,False
+card,activity_1.csv,41,2026-08-13,card,CORNER BISTRO NYC,178.0,travel_other,model,0.9836085582097129,False
+card,activity_1.csv,42,2026-08-14,card,BOXCO PACKAGING,925.25,shipping_supplies,model,0.9736955895519589,False
+card,activity_1.csv,43,2026-08-14,card,GOOGLE *ADS4027967596,2000.0,ad_spend,model,0.999332251833653,False
+card,activity_1.csv,44,2026-08-15,card,RECHARGE PAYMENTS,99.0,software_opex,model,0.9591960972193663,False
+card,activity_1.csv,45,2026-08-16,card,UBER *TRIP,369.35,travel_other,model,0.9884422212508686,False
+card,activity_1.csv,46,2026-08-16,card,GOOGLE *ADS3181533873,2000.0,ad_spend,model,0.999332251833653,False
+card,activity_1.csv,47,2026-08-18,card,UBER *TRIP HELP.UBER.COM,410.09,travel_other,model,0.9878936160298961,False
+card,activity_1.csv,48,2026-08-18,card,GOOGLE *ADS5357525104 cc@google.com CA,2000.0,ad_spend,model,0.9986496500153679,False
+card,activity_1.csv,49,2026-08-20,card,BOXCO PACKAGING,205.86,shipping_supplies,model,0.9736955895519589,False
+card,activity_1.csv,50,2026-08-21,card,GOOGLE *ADS9431457480 cc@google.com CA,2000.0,ad_spend,model,0.9986496500153679,False
+card,activity_1.csv,51,2026-08-22,card,AUTOPAY PAYMENT RECEIVED - THANK YOU,-32055.76,card_payment_received,tie-out,1.0,False
+card,activity_1.csv,52,2026-08-22,card,UBER *TRIP,46.08,travel_other,model,0.980275390950055,False
+card,activity_1.csv,53,2026-08-23,card,GOOGLE *ADS7872979821,2000.0,ad_spend,model,0.999332251833653,False
+card,activity_1.csv,54,2026-08-25,card,GOOGLE *ADS0683719590 cc@google.com CA,2000.0,ad_spend,model,0.9986496500153679,False
+card,activity_1.csv,55,2026-08-27,card,GOOGLE *ADS8266029727 cc@google.com CA,2000.0,ad_spend,model,0.9986496500153679,False
+card,activity_1.csv,56,2026-08-30,card,UBER *TRIP HELP.UBER.COM,284.71,travel_other,model,0.9878936160298961,False
+card,activity_1.csv,57,2026-08-30,card,BOXCO PACKAGING,1094.56,shipping_supplies,model,0.9723758955669262,False
+card,activity_1.csv,58,2026-08-30,card,GOOGLE *ADS7780541033,2000.0,ad_spend,model,0.999332251833653,False

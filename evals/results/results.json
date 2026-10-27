@@ -1,0 +1,860 @@
+{
+ "detector_params": {
+  "z": 3.0,
+  "windows": [
+   1,
+   2,
+   4
+  ],
+  "merge_gap_weeks": 2
+ },
+ "freeze": "CHANGED since freeze: ['world/calibrate.py', 'config/overrides.yaml', 'monitor/detect.py', 'monitor/reforecast.py', 'actions/plan.py', 'actions/vendor_rules.yaml']",
+ "dev": {
+  "scenario": "dev",
+  "detection": {
+   "events": 12,
+   "detected": 12,
+   "recall": 1.0,
+   "attribution_correct": 12,
+   "attribution_accuracy": 1.0,
+   "median_lag_weeks": 0.0,
+   "max_lag_weeks": 1,
+   "findings": 18,
+   "matched_findings": 17,
+   "precision": 0.944,
+   "false_alarms": 1,
+   "false_alarms_per_100_brand_weeks": 0.77,
+   "events_detail": [
+    {
+     "id": "E01",
+     "brand": "fernwood-goods",
+     "cause": "refunds",
+     "start_week": 1,
+     "cash_impact": -17975.01,
+     "detected": true,
+     "diagnosed_cause": "refunds",
+     "attribution_correct": true,
+     "lag_weeks": 0,
+     "first_finding": "Refunds ran 1.5x forecast (week of Nov 2 to Nov 16); SKU FW-2201 is 98% of the excess. Payouts $17,040 below forecast.",
+     "findings": 1
+    },
+    {
+     "id": "E02",
+     "brand": "lark-and-pine",
+     "cause": "timing",
+     "start_week": 5,
+     "cash_impact": 0.0,
+     "detected": true,
+     "diagnosed_cause": "timing",
+     "attribution_correct": true,
+     "lag_weeks": 0,
+     "first_finding": "Shopify paid out a smaller share of the week's sales than usual (week of Nov 30); $91,018 is held and should arrive in the following payout.",
+     "findings": 2
+    },
+    {
+     "id": "E03",
+     "brand": "tidewater-swim",
+     "cause": "reserve",
+     "start_week": 4,
+     "cash_impact": 0.0,
+     "detected": true,
+     "diagnosed_cause": "reserve",
+     "attribution_correct": true,
+     "lag_weeks": 0,
+     "first_finding": "Amazon settlement held $15,443 as a reserve (week of Nov 23).",
+     "findings": 2
+    },
+    {
+     "id": "E04",
+     "brand": "copperleaf-tea",
+     "cause": "late_receivable",
+     "start_week": 3,
+     "cash_impact": -0.0,
+     "detected": true,
+     "diagnosed_cause": "late_receivable",
+     "attribution_correct": true,
+     "lag_weeks": 0,
+     "first_finding": "Mapleton Gifts has not paid invoices that were due (week of Nov 16 to Nov 30); $10,841 overdue.",
+     "findings": 2
+    },
+    {
+     "id": "E05",
+     "brand": "north-arc-outdoor",
+     "cause": "overspend",
+     "start_week": 2,
+     "cash_impact": -50367.48,
+     "detected": true,
+     "diagnosed_cause": "overspend",
+     "attribution_correct": true,
+     "lag_weeks": 1,
+     "first_finding": "Meta spend ran +54% vs plan (week of Nov 16 to Nov 30); $48,797 extra will hit the card statement and the next autopay.",
+     "findings": 2
+    },
+    {
+     "id": "E11",
+     "brand": "north-arc-outdoor",
+     "cause": "one_off",
+     "start_week": 9,
+     "cash_impact": -24000.0,
+     "detected": true,
+     "diagnosed_cause": "one_off",
+     "attribution_correct": true,
+     "lag_weeks": 0,
+     "first_finding": "Unplanned payment to Hartwell Legal LLP ($24,000) (week of Dec 28).",
+     "findings": 1
+    },
+    {
+     "id": "E07",
+     "brand": "marigold-skin",
+     "cause": "volume",
+     "start_week": 7,
+     "cash_impact": -119619.69,
+     "detected": true,
+     "diagnosed_cause": "volume",
+     "attribution_correct": true,
+     "lag_weeks": 0,
+     "first_finding": "Shopify sales ran -24% vs forecast (week of Dec 14 to Jan 4); payouts $113,513 below forecast.",
+     "findings": 1
+    },
+    {
+     "id": "E08",
+     "brand": "bramble-pet",
+     "cause": "chargebacks",
+     "start_week": 6,
+     "cash_impact": -9000.0,
+     "detected": true,
+     "diagnosed_cause": "chargebacks",
+     "attribution_correct": true,
+     "lag_weeks": 0,
+     "first_finding": "Chargebacks of $9,745 vs $539 expected (week of Dec 7 to Dec 14).",
+     "findings": 1
+    },
+    {
+     "id": "E12",
+     "brand": "bramble-pet",
+     "cause": "price",
+     "start_week": 10,
+     "cash_impact": -17141.47,
+     "detected": true,
+     "diagnosed_cause": "price",
+     "attribution_correct": true,
+     "lag_weeks": 0,
+     "first_finding": "TPL-202612 (Crateway Fulfillment) billed 29% above forecast ($17,141).",
+     "findings": 1
+    },
+    {
+     "id": "E09",
+     "brand": "quillon-coffee",
+     "cause": "timing",
+     "start_week": 7,
+     "cash_impact": -0.0,
+     "detected": true,
+     "diagnosed_cause": "timing",
+     "attribution_correct": true,
+     "lag_weeks": 0,
+     "first_finding": "PO-SPRING-DEP (Altura Green Coffee) paid week of Dec 14 instead of Jan 4 ($87,100).",
+     "findings": 2
+    },
+    {
+     "id": "E06",
+     "brand": "saltmarsh-apparel",
+     "cause": "fx",
+     "start_week": 10,
+     "cash_impact": -9839.02,
+     "detected": true,
+     "diagnosed_cause": "fx",
+     "attribution_correct": true,
+     "lag_weeks": 0,
+     "first_finding": "PO-SPRING-DEP (Fenwick Mills) cost $13,467 more after the exchange rate moved (week of Jan 4).",
+     "findings": 1
+    },
+    {
+     "id": "E10",
+     "brand": "hollis-home",
+     "cause": "price",
+     "start_week": 2,
+     "cash_impact": -33660.0,
+     "detected": true,
+     "diagnosed_cause": "price",
+     "attribution_correct": true,
+     "lag_weeks": 0,
+     "first_finding": "FRT-BFCM (Orchard Line Freight) billed 60% above forecast ($33,660).",
+     "findings": 1
+    }
+   ],
+   "false_alarm_detail": [
+    {
+     "brand": "fernwood-goods",
+     "line": "ad_spend_accrual",
+     "component": "overspend:google",
+     "detected_week": 0,
+     "amount": -2759.48,
+     "explanation": "Google spend ran +30% vs plan (week of Oct 26); $2,759 extra will hit the card statement and the next autopay."
+    }
+   ]
+  },
+  "reforecast": {
+   "low_err_roll": 9998.0,
+   "low_err_rules": 6371.0,
+   "end_err_roll": 19308.0,
+   "end_err_rules": 13081.0,
+   "points": 18,
+   "rules_better_or_equal_low": 17,
+   "rules_better_or_equal_end": 17
+  },
+  "forecast": {
+   "mean_abs_low_point_error": 4605,
+   "low_week_hit_rate": 1.0,
+   "brands": [
+    {
+     "brand": "fernwood-goods",
+     "forecast_low": 194498,
+     "actual_low": 182371,
+     "forecast_low_week": 3,
+     "actual_low_week": 3,
+     "abs_err": 12127,
+     "pct_of_buffer": 0.04
+    },
+    {
+     "brand": "lark-and-pine",
+     "forecast_low": 197267,
+     "actual_low": 201422,
+     "forecast_low_week": 1,
+     "actual_low_week": 1,
+     "abs_err": 4155,
+     "pct_of_buffer": 0.026
+    },
+    {
+     "brand": "tidewater-swim",
+     "forecast_low": 233847,
+     "actual_low": 238851,
+     "forecast_low_week": 1,
+     "actual_low_week": 1,
+     "abs_err": 5004,
+     "pct_of_buffer": 0.02
+    },
+    {
+     "brand": "copperleaf-tea",
+     "forecast_low": 122854,
+     "actual_low": 121556,
+     "forecast_low_week": 1,
+     "actual_low_week": 1,
+     "abs_err": 1298,
+     "pct_of_buffer": 0.01
+    },
+    {
+     "brand": "north-arc-outdoor",
+     "forecast_low": 401391,
+     "actual_low": 408383,
+     "forecast_low_week": 1,
+     "actual_low_week": 1,
+     "abs_err": 6992,
+     "pct_of_buffer": 0.022
+    },
+    {
+     "brand": "marigold-skin",
+     "forecast_low": 226137,
+     "actual_low": 227790,
+     "forecast_low_week": 1,
+     "actual_low_week": 1,
+     "abs_err": 1652,
+     "pct_of_buffer": 0.008
+    },
+    {
+     "brand": "bramble-pet",
+     "forecast_low": 161714,
+     "actual_low": 155904,
+     "forecast_low_week": 1,
+     "actual_low_week": 1,
+     "abs_err": 5811,
+     "pct_of_buffer": 0.031
+    },
+    {
+     "brand": "quillon-coffee",
+     "forecast_low": 149545,
+     "actual_low": 148468,
+     "forecast_low_week": 1,
+     "actual_low_week": 1,
+     "abs_err": 1077,
+     "pct_of_buffer": 0.007
+    },
+    {
+     "brand": "saltmarsh-apparel",
+     "forecast_low": 147361,
+     "actual_low": 141679,
+     "forecast_low_week": 1,
+     "actual_low_week": 1,
+     "abs_err": 5682,
+     "pct_of_buffer": 0.027
+    },
+    {
+     "brand": "hollis-home",
+     "forecast_low": 283981,
+     "actual_low": 281730,
+     "forecast_low_week": 1,
+     "actual_low_week": 1,
+     "abs_err": 2251,
+     "pct_of_buffer": 0.008
+    }
+   ]
+  },
+  "ap_policies": {
+   "due_date": {
+    "discounts": 0.0,
+    "interest": 952.0,
+    "net": -952.0,
+    "unplanned_breach_weeks": 0,
+    "worst_unplanned_gap": 0.0,
+    "overdraft_weeks": 0,
+    "rules_broken": 0
+   },
+   "pay_early": {
+    "discounts": 35237.0,
+    "interest": 1111.0,
+    "net": 34127.0,
+    "unplanned_breach_weeks": 0,
+    "worst_unplanned_gap": 0.0,
+    "overdraft_weeks": 0,
+    "rules_broken": 0
+   },
+   "plan_once": {
+    "discounts": 35237.0,
+    "interest": 1111.0,
+    "net": 34127.0,
+    "unplanned_breach_weeks": 0,
+    "worst_unplanned_gap": 0.0,
+    "overdraft_weeks": 0,
+    "rules_broken": 0
+   },
+   "monitored": {
+    "discounts": 35237.0,
+    "interest": 1111.0,
+    "net": 34127.0,
+    "unplanned_breach_weeks": 0,
+    "worst_unplanned_gap": 0.0,
+    "overdraft_weeks": 0,
+    "rules_broken": 0
+   }
+  },
+  "ap_policies_tight_credit": {
+   "due_date": {
+    "discounts": 0.0,
+    "interest": 635.0,
+    "net": -635.0,
+    "unplanned_breach_weeks": 2,
+    "worst_unplanned_gap": 67629.0,
+    "overdraft_weeks": 0,
+    "rules_broken": 0
+   },
+   "pay_early": {
+    "discounts": 35237.0,
+    "interest": 635.0,
+    "net": 34603.0,
+    "unplanned_breach_weeks": 2,
+    "worst_unplanned_gap": 140937.0,
+    "overdraft_weeks": 0,
+    "rules_broken": 0
+   },
+   "plan_once": {
+    "discounts": 25343.0,
+    "interest": 635.0,
+    "net": 24709.0,
+    "unplanned_breach_weeks": 2,
+    "worst_unplanned_gap": 67629.0,
+    "overdraft_weeks": 0,
+    "rules_broken": 0
+   },
+   "monitored": {
+    "discounts": 25343.0,
+    "interest": 635.0,
+    "net": 24709.0,
+    "unplanned_breach_weeks": 2,
+    "worst_unplanned_gap": 67629.0,
+    "overdraft_weeks": 0,
+    "rules_broken": 0
+   }
+  }
+ },
+ "noise_only": {
+  "worlds": 5,
+  "brand_weeks": 650,
+  "line_weeks": 9750,
+  "false_alarms": 8,
+  "per_100_brand_weeks": 1.23,
+  "per_100_line_weeks": 0.082,
+  "per_brand_per_13_weeks": 0.16,
+  "detail": [
+   {
+    "brand": "saltmarsh-apparel",
+    "line": "ad_spend_accrual",
+    "component": "overspend:meta",
+    "detected_week": 8,
+    "amount": 7182.14,
+    "explanation": "Meta spend ran -13% vs plan (week of Nov 30 to Dec 21); $7,182 extra will hit the card statement and the next autopay."
+   },
+   {
+    "brand": "hollis-home",
+    "line": "ad_direct",
+    "component": "overspend:meta",
+    "detected_week": 0,
+    "amount": -4310.57,
+    "explanation": "Meta direct-debit spend $4,311 above plan (week of Oct 26)."
+   },
+   {
+    "brand": "marigold-skin",
+    "line": "wholesale_receipts",
+    "component": "volume",
+    "detected_week": 9,
+    "amount": 36980.69,
+    "explanation": "Wholesale invoices $36,981 above forecast (week of Dec 21 to Dec 28)."
+   },
+   {
+    "brand": "saltmarsh-apparel",
+    "line": "wholesale_receipts",
+    "component": "volume",
+    "detected_week": 12,
+    "amount": 12475.84,
+    "explanation": "Wholesale invoices $12,476 above forecast (week of Jan 11 to Jan 18)."
+   },
+   {
+    "brand": "north-arc-outdoor",
+    "line": "ad_spend_accrual",
+    "component": "overspend:google",
+    "detected_week": 11,
+    "amount": -9290.03,
+    "explanation": "Google spend ran +24% vs plan (week of Dec 21 to Jan 11); $9,290 extra will hit the card statement and the next autopay."
+   },
+   {
+    "brand": "north-arc-outdoor",
+    "line": "ad_spend_accrual",
+    "component": "overspend:meta",
+    "detected_week": 4,
+    "amount": -25498.33,
+    "explanation": "Meta spend ran +54% vs plan (week of Nov 23); $25,498 extra will hit the card statement and the next autopay."
+   },
+   {
+    "brand": "north-arc-outdoor",
+    "line": "ad_spend_accrual",
+    "component": "overspend:meta",
+    "detected_week": 11,
+    "amount": -3990.24,
+    "explanation": "Meta spend ran +43% vs plan (week of Jan 11); $3,990 extra will hit the card statement and the next autopay."
+   },
+   {
+    "brand": "hollis-home",
+    "line": "ad_spend_accrual",
+    "component": "overspend:google",
+    "detected_week": 6,
+    "amount": -3449.14,
+    "explanation": "Google spend ran +31% vs plan (week of Dec 7); $3,449 extra will hit the card statement and the next autopay."
+   }
+  ],
+  "forecast_mean_abs_low_point_error": 6434,
+  "ap_policies": {
+   "due_date": {
+    "discounts": 0.0,
+    "interest": 952.0,
+    "net": -952.0,
+    "unplanned_breach_weeks": 0,
+    "worst_unplanned_gap": 0.0,
+    "overdraft_weeks": 0,
+    "rules_broken": 0
+   },
+   "pay_early": {
+    "discounts": 35058.0,
+    "interest": 1111.0,
+    "net": 33948.0,
+    "unplanned_breach_weeks": 0,
+    "worst_unplanned_gap": 0.0,
+    "overdraft_weeks": 0,
+    "rules_broken": 0
+   },
+   "plan_once": {
+    "discounts": 35058.0,
+    "interest": 1111.0,
+    "net": 33948.0,
+    "unplanned_breach_weeks": 0,
+    "worst_unplanned_gap": 0.0,
+    "overdraft_weeks": 0,
+    "rules_broken": 0
+   },
+   "monitored": {
+    "discounts": 35058.0,
+    "interest": 952.0,
+    "net": 34106.0,
+    "unplanned_breach_weeks": 0,
+    "worst_unplanned_gap": 0.0,
+    "overdraft_weeks": 0,
+    "rules_broken": 0
+   }
+  },
+  "ap_policies_tight_credit": {
+   "due_date": {
+    "discounts": 0.0,
+    "interest": 635.0,
+    "net": -635.0,
+    "unplanned_breach_weeks": 2,
+    "worst_unplanned_gap": 37770.0,
+    "overdraft_weeks": 0,
+    "rules_broken": 0
+   },
+   "pay_early": {
+    "discounts": 35058.0,
+    "interest": 635.0,
+    "net": 34424.0,
+    "unplanned_breach_weeks": 2,
+    "worst_unplanned_gap": 111865.0,
+    "overdraft_weeks": 0,
+    "rules_broken": 0
+   },
+   "plan_once": {
+    "discounts": 24967.0,
+    "interest": 635.0,
+    "net": 24333.0,
+    "unplanned_breach_weeks": 2,
+    "worst_unplanned_gap": 37770.0,
+    "overdraft_weeks": 0,
+    "rules_broken": 0
+   },
+   "monitored": {
+    "discounts": 24967.0,
+    "interest": 529.0,
+    "net": 24438.0,
+    "unplanned_breach_weeks": 2,
+    "worst_unplanned_gap": 37770.0,
+    "overdraft_weeks": 0,
+    "rules_broken": 0
+   }
+  }
+ },
+ "holdout": {
+  "scenario": "holdout",
+  "detection": {
+   "events": 8,
+   "detected": 8,
+   "recall": 1.0,
+   "attribution_correct": 8,
+   "attribution_accuracy": 1.0,
+   "median_lag_weeks": 0.5,
+   "max_lag_weeks": 2,
+   "findings": 14,
+   "matched_findings": 11,
+   "precision": 0.786,
+   "false_alarms": 3,
+   "false_alarms_per_100_brand_weeks": 2.31,
+   "events_detail": [
+    {
+     "id": "H01",
+     "brand": "fernwood-goods",
+     "cause": "fees",
+     "start_week": 4,
+     "cash_impact": -8168.67,
+     "detected": true,
+     "diagnosed_cause": "fees",
+     "attribution_correct": true,
+     "lag_weeks": 1,
+     "first_finding": "Processing fees $2,900 above forecast (week of Nov 23 to Nov 30); check the fee rate.",
+     "findings": 1
+    },
+    {
+     "id": "H07",
+     "brand": "lark-and-pine",
+     "cause": "one_off",
+     "start_week": 4,
+     "cash_impact": -15000.0,
+     "detected": true,
+     "diagnosed_cause": "one_off",
+     "attribution_correct": true,
+     "lag_weeks": 0,
+     "first_finding": "Unplanned payment to Brightline Studio ($15,000) (week of Nov 23).",
+     "findings": 1
+    },
+    {
+     "id": "H03",
+     "brand": "tidewater-swim",
+     "cause": "timing",
+     "start_week": 4,
+     "cash_impact": 0.0,
+     "detected": true,
+     "diagnosed_cause": "timing",
+     "attribution_correct": true,
+     "lag_weeks": 0,
+     "first_finding": "Shopify paid out a smaller share of the week's sales than usual (week of Nov 23); $234,869 is held and should arrive in the following payout.",
+     "findings": 2
+    },
+    {
+     "id": "H06",
+     "brand": "copperleaf-tea",
+     "cause": "volume",
+     "start_week": 3,
+     "cash_impact": -51836.37,
+     "detected": true,
+     "diagnosed_cause": "volume",
+     "attribution_correct": true,
+     "lag_weeks": 1,
+     "first_finding": "Shopify sales ran -20% vs forecast (week of Nov 23 to Nov 30); payouts $45,015 below forecast.",
+     "findings": 2
+    },
+    {
+     "id": "H02",
+     "brand": "bramble-pet",
+     "cause": "fees",
+     "start_week": 6,
+     "cash_impact": -6578.82,
+     "detected": true,
+     "diagnosed_cause": "fees",
+     "attribution_correct": true,
+     "lag_weeks": 2,
+     "first_finding": "Amazon fees $5,318 above forecast (week of Dec 21 to Jan 4); check the fee rate.",
+     "findings": 1
+    },
+    {
+     "id": "H04",
+     "brand": "quillon-coffee",
+     "cause": "late_receivable",
+     "start_week": 6,
+     "cash_impact": -0.0,
+     "detected": true,
+     "diagnosed_cause": "late_receivable",
+     "attribution_correct": true,
+     "lag_weeks": 0,
+     "first_finding": "Corner Larder has not paid invoices that were due (week of Dec 7 to Dec 21); $19,543 overdue.",
+     "findings": 2
+    },
+    {
+     "id": "H08",
+     "brand": "saltmarsh-apparel",
+     "cause": "overspend",
+     "start_week": 6,
+     "cash_impact": -7069.08,
+     "detected": true,
+     "diagnosed_cause": "overspend",
+     "attribution_correct": true,
+     "lag_weeks": 1,
+     "first_finding": "Google spend ran +94% vs plan (week of Dec 14); $5,334 extra will hit the card statement and the next autopay.",
+     "findings": 1
+    },
+    {
+     "id": "H05",
+     "brand": "hollis-home",
+     "cause": "refunds",
+     "start_week": 9,
+     "cash_impact": -10085.11,
+     "detected": true,
+     "diagnosed_cause": "refunds",
+     "attribution_correct": true,
+     "lag_weeks": 0,
+     "first_finding": "Refunds ran 1.6x forecast (week of Dec 28 to Jan 11); SKU HH-THROW is 88% of the excess. Payouts $12,167 below forecast.",
+     "findings": 1
+    }
+   ],
+   "false_alarm_detail": [
+    {
+     "brand": "north-arc-outdoor",
+     "line": "ad_spend_accrual",
+     "component": "overspend:meta",
+     "detected_week": 12,
+     "amount": -5237.13,
+     "explanation": "Meta spend ran +57% vs plan (week of Jan 18); $5,237 extra will hit the card statement and the next autopay."
+    },
+    {
+     "brand": "marigold-skin",
+     "line": "ad_spend_accrual",
+     "component": "overspend:meta",
+     "detected_week": 1,
+     "amount": -5605.47,
+     "explanation": "Meta spend ran +11% vs plan (week of Nov 2 to Nov 16); $5,605 extra will hit the card statement and the next autopay."
+    },
+    {
+     "brand": "saltmarsh-apparel",
+     "line": "wholesale_receipts",
+     "component": "volume",
+     "detected_week": 7,
+     "amount": 24210.17,
+     "explanation": "Wholesale invoices $24,210 above forecast (week of Dec 14)."
+    }
+   ]
+  },
+  "reforecast": {
+   "low_err_roll": 6473.0,
+   "low_err_rules": 5600.0,
+   "end_err_roll": 12855.0,
+   "end_err_rules": 13924.0,
+   "points": 12,
+   "rules_better_or_equal_low": 10,
+   "rules_better_or_equal_end": 9
+  },
+  "forecast": {
+   "mean_abs_low_point_error": 6088,
+   "low_week_hit_rate": 1.0,
+   "brands": [
+    {
+     "brand": "fernwood-goods",
+     "forecast_low": 194498,
+     "actual_low": 197177,
+     "forecast_low_week": 3,
+     "actual_low_week": 3,
+     "abs_err": 2679,
+     "pct_of_buffer": 0.009
+    },
+    {
+     "brand": "lark-and-pine",
+     "forecast_low": 197267,
+     "actual_low": 201328,
+     "forecast_low_week": 1,
+     "actual_low_week": 1,
+     "abs_err": 4061,
+     "pct_of_buffer": 0.026
+    },
+    {
+     "brand": "tidewater-swim",
+     "forecast_low": 233847,
+     "actual_low": 227283,
+     "forecast_low_week": 1,
+     "actual_low_week": 1,
+     "abs_err": 6565,
+     "pct_of_buffer": 0.026
+    },
+    {
+     "brand": "copperleaf-tea",
+     "forecast_low": 122854,
+     "actual_low": 125956,
+     "forecast_low_week": 1,
+     "actual_low_week": 1,
+     "abs_err": 3102,
+     "pct_of_buffer": 0.024
+    },
+    {
+     "brand": "north-arc-outdoor",
+     "forecast_low": 401391,
+     "actual_low": 414168,
+     "forecast_low_week": 1,
+     "actual_low_week": 1,
+     "abs_err": 12777,
+     "pct_of_buffer": 0.04
+    },
+    {
+     "brand": "marigold-skin",
+     "forecast_low": 226137,
+     "actual_low": 228900,
+     "forecast_low_week": 1,
+     "actual_low_week": 1,
+     "abs_err": 2763,
+     "pct_of_buffer": 0.013
+    },
+    {
+     "brand": "bramble-pet",
+     "forecast_low": 161714,
+     "actual_low": 162713,
+     "forecast_low_week": 1,
+     "actual_low_week": 1,
+     "abs_err": 998,
+     "pct_of_buffer": 0.005
+    },
+    {
+     "brand": "quillon-coffee",
+     "forecast_low": 149545,
+     "actual_low": 143959,
+     "forecast_low_week": 1,
+     "actual_low_week": 1,
+     "abs_err": 5586,
+     "pct_of_buffer": 0.038
+    },
+    {
+     "brand": "saltmarsh-apparel",
+     "forecast_low": 147361,
+     "actual_low": 142061,
+     "forecast_low_week": 1,
+     "actual_low_week": 1,
+     "abs_err": 5300,
+     "pct_of_buffer": 0.025
+    },
+    {
+     "brand": "hollis-home",
+     "forecast_low": 283981,
+     "actual_low": 301027,
+     "forecast_low_week": 1,
+     "actual_low_week": 1,
+     "abs_err": 17046,
+     "pct_of_buffer": 0.062
+    }
+   ]
+  },
+  "ap_policies": {
+   "due_date": {
+    "discounts": 0.0,
+    "interest": 952.0,
+    "net": -952.0,
+    "unplanned_breach_weeks": 0,
+    "worst_unplanned_gap": 0.0,
+    "overdraft_weeks": 0,
+    "rules_broken": 0
+   },
+   "pay_early": {
+    "discounts": 34848.0,
+    "interest": 1111.0,
+    "net": 33738.0,
+    "unplanned_breach_weeks": 0,
+    "worst_unplanned_gap": 0.0,
+    "overdraft_weeks": 0,
+    "rules_broken": 0
+   },
+   "plan_once": {
+    "discounts": 34848.0,
+    "interest": 1111.0,
+    "net": 33738.0,
+    "unplanned_breach_weeks": 0,
+    "worst_unplanned_gap": 0.0,
+    "overdraft_weeks": 0,
+    "rules_broken": 0
+   },
+   "monitored": {
+    "discounts": 34848.0,
+    "interest": 1005.0,
+    "net": 33843.0,
+    "unplanned_breach_weeks": 0,
+    "worst_unplanned_gap": 0.0,
+    "overdraft_weeks": 0,
+    "rules_broken": 0
+   }
+  },
+  "ap_policies_tight_credit": {
+   "due_date": {
+    "discounts": 0.0,
+    "interest": 635.0,
+    "net": -635.0,
+    "unplanned_breach_weeks": 2,
+    "worst_unplanned_gap": 52823.0,
+    "overdraft_weeks": 0,
+    "rules_broken": 0
+   },
+   "pay_early": {
+    "discounts": 34848.0,
+    "interest": 635.0,
+    "net": 34214.0,
+    "unplanned_breach_weeks": 2,
+    "worst_unplanned_gap": 127012.0,
+    "overdraft_weeks": 0,
+    "rules_broken": 0
+   },
+   "plan_once": {
+    "discounts": 25080.0,
+    "interest": 635.0,
+    "net": 24446.0,
+    "unplanned_breach_weeks": 2,
+    "worst_unplanned_gap": 52823.0,
+    "overdraft_weeks": 0,
+    "rules_broken": 0
+   },
+   "monitored": {
+    "discounts": 25080.0,
+    "interest": 582.0,
+    "net": 24499.0,
+    "unplanned_breach_weeks": 2,
+    "worst_unplanned_gap": 52823.0,
+    "overdraft_weeks": 0,
+    "rules_broken": 0
+   }
+  }
+ }
+}

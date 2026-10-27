@@ -1,0 +1,214 @@
+source,file,row,date,account,description,amount,label,method,confidence,is_duplicate
+bank,export_1.csv,0,2026-07-01,operating,ACH DEPOSIT SHOPIFY INC 0701,5081.75,processor_payout,tie-out,1.0,False
+bank,export_1.csv,1,2026-07-01,operating,ACH DEBIT BUSHWICK WORKS LLC,-3033.33,rent,model,0.911807661640084,False
+bank,export_1.csv,2,2026-07-02,operating,ACH DEPOSIT SHOPIFY INC 0702,6125.5,processor_payout,tie-out,1.0,False
+bank,export_1.csv,3,2026-07-02,operating,ACH DEPOSIT FAIRE WHOLESALE 0702,899.21,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,4,2026-07-03,operating,ACH DEPOSIT SHOPIFY INC 0703,5468.54,processor_payout,tie-out,1.0,False
+bank,export_1.csv,5,2026-07-03,operating,ACH DEPOSIT FAIRE WHOLESALE 0703,2244.71,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,6,2026-07-03,operating,ACH DEBIT JUSTWORKS PAYROLL TAX,-3684.68,payroll,model,0.9840484377397772,False
+bank,export_1.csv,7,2026-07-03,operating,ACH DEBIT JUSTWORKS PAYROLL,-11668.15,payroll,model,0.9657680710472817,False
+bank,export_1.csv,8,2026-07-06,operating,XFER TO SHARE 01,-71000.0,own_account_transfer,tie-out,1.0,False
+bank,export_1.csv,9,2026-07-06,savings,XFER FROM CHECKING 10,71000.0,own_account_transfer,tie-out,1.0,False
+bank,export_1.csv,10,2026-07-06,operating,ACH DEPOSIT SHOPIFY INC 0706,6710.54,processor_payout,tie-out,1.0,False
+bank,export_1.csv,11,2026-07-06,operating,ACH DEPOSIT FAIRE WHOLESALE 0706,455.24,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,12,2026-07-07,operating,ACH DEPOSIT SHOPIFY INC 0707,15609.59,processor_payout,tie-out,1.0,False
+bank,export_1.csv,13,2026-07-07,operating,ACH DEPOSIT FAIRE WHOLESALE 0707,5353.78,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,14,2026-07-08,operating,ACH DEPOSIT SHOPIFY INC 0708,4479.56,processor_payout,tie-out,1.0,False
+bank,export_1.csv,15,2026-07-08,operating,ACH DEPOSIT FAIRE WHOLESALE 0708,366.21,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,16,2026-07-08,operating,WIRE OUT FEE,-35.0,bank_fee,model,0.9706121694282176,False
+bank,export_1.csv,17,2026-07-08,operating,WIRE OUT GRAYSON TEA ESTATES,-51480.0,inventory_purchase,model,0.8830133120613521,False
+bank,export_1.csv,18,2026-07-09,operating,ACH DEPOSIT SHOPIFY INC 0709,5372.52,processor_payout,tie-out,1.0,False
+bank,export_1.csv,19,2026-07-09,operating,ACH DEPOSIT FAIRE WHOLESALE 0709,2017.14,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,20,2026-07-10,operating,ACH DEPOSIT AMAZON PAYMENTS 0710,23211.76,marketplace_payout,tie-out,1.0,False
+bank,export_1.csv,21,2026-07-10,operating,ACH DEPOSIT SHOPIFY INC 0710,6408.24,processor_payout,tie-out,1.0,False
+bank,export_1.csv,22,2026-07-10,operating,ACH DEPOSIT FAIRE WHOLESALE 0710,756.38,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,23,2026-07-10,operating,ACH DEBIT FULCRUM FULFILLMENT,-16831.39,fulfillment_3pl,model,0.9261542822507659,False
+bank,export_1.csv,24,2026-07-13,operating,ACH DEPOSIT SHOPIFY INC 0713,4864.73,processor_payout,tie-out,1.0,False
+bank,export_1.csv,25,2026-07-13,operating,ACH DEPOSIT FAIRE WHOLESALE 0713,756.48,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,26,2026-07-14,operating,ACH DEPOSIT SHOPIFY INC 0714,17461.12,processor_payout,tie-out,1.0,False
+bank,export_1.csv,27,2026-07-14,operating,ACH DEPOSIT FAIRE WHOLESALE 0714,5180.25,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,28,2026-07-15,operating,ACH DEPOSIT SHOPIFY INC 0715,6416.44,processor_payout,tie-out,1.0,False
+bank,export_1.csv,29,2026-07-15,operating,ACH DEPOSIT FAIRE WHOLESALE 0715,1363.95,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,30,2026-07-15,operating,ACH DEBIT INTUIT,-275.0,software_opex,model,0.9628073274446414,False
+bank,export_1.csv,31,2026-07-16,operating,ACH DEPOSIT SHOPIFY INC 0716,5533.63,processor_payout,tie-out,1.0,False
+bank,export_1.csv,32,2026-07-16,operating,ACH DEPOSIT FAIRE WHOLESALE 0716,948.51,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,33,2026-07-17,operating,ACH DEPOSIT SHOPIFY INC 0717,5116.21,processor_payout,tie-out,1.0,False
+bank,export_1.csv,34,2026-07-17,operating,ACH DEPOSIT FAIRE WHOLESALE 0717,3327.4,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,35,2026-07-17,operating,ACH DEBIT JUSTWORKS PAYROLL TAX,-3548.48,payroll,model,0.9840484377397772,False
+bank,export_1.csv,36,2026-07-17,operating,ACH DEBIT JUSTWORKS PAYROLL,-11236.85,payroll,model,0.9657680710472817,False
+bank,export_1.csv,37,2026-07-20,operating,ACH DEPOSIT SHOPIFY INC 0720,6382.81,processor_payout,tie-out,1.0,False
+bank,export_1.csv,38,2026-07-20,operating,ACH DEBIT TX COMPTROLLER,-3373.42,sales_tax,model,0.8563527760819126,False
+bank,export_1.csv,39,2026-07-21,operating,ACH DEPOSIT SHOPIFY INC 0721,17401.8,processor_payout,tie-out,1.0,False
+bank,export_1.csv,40,2026-07-21,operating,ACH DEPOSIT FAIRE WHOLESALE 0721,7510.9,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,41,2026-07-22,operating,ACH DEPOSIT SHOPIFY INC 0722,4496.74,processor_payout,tie-out,1.0,False
+bank,export_1.csv,42,2026-07-22,operating,ACH DEPOSIT FAIRE WHOLESALE 0722,1091.21,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,43,2026-07-22,operating,ACH DEBIT ASHFORD CARD PMT,-36832.35,card_payment,tie-out,1.0,False
+bank,export_1.csv,44,2026-07-23,operating,ACH DEPOSIT SHOPIFY INC 0723,3788.9,processor_payout,tie-out,1.0,False
+bank,export_1.csv,45,2026-07-23,operating,ACH DEPOSIT FAIRE WHOLESALE 0723,889.3,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,46,2026-07-24,operating,ACH DEPOSIT AMAZON PAYMENTS 0724,23394.8,marketplace_payout,tie-out,1.0,False
+bank,export_1.csv,47,2026-07-24,operating,ACH DEPOSIT SHOPIFY INC 0724,4627.84,processor_payout,tie-out,1.0,False
+bank,export_1.csv,48,2026-07-27,operating,XFER TO SHARE 01,-68000.0,own_account_transfer,tie-out,1.0,False
+bank,export_1.csv,49,2026-07-27,savings,XFER FROM CHECKING 10,68000.0,own_account_transfer,tie-out,1.0,False
+bank,export_1.csv,50,2026-07-27,operating,ACH DEPOSIT SHOPIFY INC 0727,5040.51,processor_payout,tie-out,1.0,False
+bank,export_1.csv,51,2026-07-27,operating,ACH CREDIT GRAYSON TEA ESTATES REFUND,2304.74,vendor_refund,model,0.8600422345898298,False
+bank,export_1.csv,52,2026-07-27,operating,ACH DEPOSIT FAIRE WHOLESALE 0727,932.53,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,53,2026-07-28,operating,ACH DEPOSIT SHOPIFY INC 0728,18346.47,processor_payout,tie-out,1.0,False
+bank,export_1.csv,54,2026-07-28,operating,ACH DEPOSIT FAIRE WHOLESALE 0728,5058.16,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,55,2026-07-28,savings,DIVIDEND,578.95,interest_income,model,0.9300222187733374,False
+bank,export_1.csv,56,2026-07-29,operating,ACH DEPOSIT SHOPIFY INC 0729,3917.38,processor_payout,tie-out,1.0,False
+bank,export_1.csv,57,2026-07-29,operating,ACH DEPOSIT FAIRE WHOLESALE 0729,561.48,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,58,2026-07-30,operating,ACH DEPOSIT SHOPIFY INC 0730,5485.71,processor_payout,tie-out,1.0,False
+bank,export_1.csv,59,2026-07-30,operating,ACH DEPOSIT FAIRE WHOLESALE 0730,2914.01,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,60,2026-07-31,operating,ACH DEPOSIT SHOPIFY INC 0731,4865.73,processor_payout,tie-out,1.0,False
+bank,export_1.csv,61,2026-07-31,operating,ACH DEPOSIT FAIRE WHOLESALE 0731,2045.91,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,62,2026-07-31,operating,ACH DEBIT JUSTWORKS PAYROLL TAX,-3543.67,payroll,model,0.9840484377397772,False
+bank,export_1.csv,63,2026-07-31,operating,ACH DEBIT JUSTWORKS PAYROLL,-11221.63,payroll,model,0.9657680710472817,False
+bank,export_1.csv,64,2026-08-03,operating,ACH DEPOSIT SHOPIFY INC 0803,5861.79,processor_payout,tie-out,1.0,False
+bank,export_1.csv,65,2026-08-03,operating,ACH DEPOSIT FAIRE WHOLESALE 0803,686.79,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,66,2026-08-03,operating,ACH DEBIT BUSHWICK WORKS LLC,-3033.33,rent,model,0.911807661640084,False
+bank,export_1.csv,67,2026-08-04,operating,ACH DEPOSIT SHOPIFY INC 0804,16064.4,processor_payout,tie-out,1.0,False
+bank,export_1.csv,68,2026-08-04,operating,ACH DEPOSIT FAIRE WHOLESALE 0804,6476.44,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,69,2026-08-05,operating,ACH CREDIT MAPLETON GIFTS,9031.05,wholesale_receipt,model,0.8738297685444676,False
+bank,export_1.csv,70,2026-08-05,operating,ACH DEPOSIT SHOPIFY INC 0805,4407.16,processor_payout,tie-out,1.0,False
+bank,export_1.csv,71,2026-08-05,operating,ACH DEPOSIT FAIRE WHOLESALE 0805,2623.16,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,72,2026-08-05,operating,ACH CREDIT FULCRUM FULFILLMENT REFUND,1729.34,vendor_refund,model,0.8934890986921047,False
+bank,export_1.csv,73,2026-08-05,operating,WIRE OUT FEE,-35.0,bank_fee,model,0.9706121694282176,False
+bank,export_1.csv,74,2026-08-05,operating,WIRE OUT VELLUM PAPER MILLS,-98280.0,inventory_purchase,model,0.8400577691922041,False
+bank,export_1.csv,75,2026-08-06,operating,ACH DEPOSIT SHOPIFY INC 0806,4953.8,processor_payout,tie-out,1.0,False
+bank,export_1.csv,76,2026-08-07,operating,ACH DEPOSIT AMAZON PAYMENTS 0807,25819.71,marketplace_payout,tie-out,1.0,False
+bank,export_1.csv,77,2026-08-07,operating,ACH DEPOSIT SHOPIFY INC 0807,4731.81,processor_payout,tie-out,1.0,False
+bank,export_1.csv,78,2026-08-07,operating,ACH DEPOSIT FAIRE WHOLESALE 0807,1935.11,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,79,2026-08-10,operating,ACH DEPOSIT SHOPIFY INC 0810,5469.09,processor_payout,tie-out,1.0,False
+bank,export_1.csv,80,2026-08-10,operating,ACH DEPOSIT FAIRE WHOLESALE 0810,3868.76,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,81,2026-08-10,operating,ACH DEBIT FULCRUM FULFILLMENT,-16693.23,fulfillment_3pl,model,0.9261542822507659,False
+bank,export_1.csv,82,2026-08-11,operating,ACH DEPOSIT SHOPIFY INC 0811,18256.03,processor_payout,tie-out,1.0,False
+bank,export_1.csv,83,2026-08-11,operating,ACH DEPOSIT FAIRE WHOLESALE 0811,3680.44,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,84,2026-08-12,operating,ACH DEPOSIT SHOPIFY INC 0812,5162.28,processor_payout,tie-out,1.0,False
+bank,export_1.csv,85,2026-08-12,operating,ACH DEPOSIT FAIRE WHOLESALE 0812,1436.68,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,86,2026-08-12,operating,WIRE OUT FEE,-35.0,bank_fee,model,0.9706121694282176,False
+bank,export_1.csv,87,2026-08-12,operating,WIRE OUT GRAYSON TEA ESTATES,-120120.0,inventory_purchase,model,0.9467168220602444,False
+bank,export_1.csv,88,2026-08-13,operating,ACH DEPOSIT SHOPIFY INC 0813,5053.42,processor_payout,tie-out,1.0,False
+bank,export_1.csv,89,2026-08-14,operating,ACH DEPOSIT SHOPIFY INC 0814,5318.57,processor_payout,tie-out,1.0,False
+bank,export_1.csv,90,2026-08-14,operating,ACH DEPOSIT FAIRE WHOLESALE 0814,1282.2,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,91,2026-08-14,operating,ACH DEBIT JUSTWORKS PAYROLL TAX,-3689.19,payroll,model,0.9840484377397772,False
+bank,export_1.csv,92,2026-08-14,operating,ACH DEBIT JUSTWORKS PAYROLL,-11682.43,payroll,model,0.9657680710472817,False
+bank,export_1.csv,93,2026-08-17,operating,ACH DEPOSIT SHOPIFY INC 0817,6497.28,processor_payout,tie-out,1.0,False
+bank,export_1.csv,94,2026-08-17,operating,ACH DEPOSIT FAIRE WHOLESALE 0817,874.71,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,95,2026-08-17,operating,ACH DEBIT INTUIT,-275.0,software_opex,model,0.9628073274446414,False
+bank,export_1.csv,96,2026-08-18,operating,ACH DEPOSIT SHOPIFY INC 0818,18385.95,processor_payout,tie-out,1.0,False
+bank,export_1.csv,97,2026-08-18,operating,ACH DEPOSIT FAIRE WHOLESALE 0818,6000.19,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,98,2026-08-19,operating,ACH DEPOSIT SHOPIFY INC 0819,5208.43,processor_payout,tie-out,1.0,False
+bank,export_1.csv,99,2026-08-19,operating,ACH DEPOSIT FAIRE WHOLESALE 0819,1481.53,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,100,2026-08-20,operating,ACH DEPOSIT SHOPIFY INC 0820,6163.61,processor_payout,tie-out,1.0,False
+bank,export_1.csv,101,2026-08-20,operating,ACH DEPOSIT FAIRE WHOLESALE 0820,2815.11,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,102,2026-08-20,operating,ACH DEBIT TX COMPTROLLER,-9789.35,sales_tax,model,0.8563527760819126,False
+bank,export_1.csv,103,2026-08-21,operating,ACH DEPOSIT AMAZON PAYMENTS 0821,23856.63,marketplace_payout,tie-out,1.0,False
+bank,export_1.csv,104,2026-08-21,operating,ACH DEPOSIT SHOPIFY INC 0821,6035.82,processor_payout,tie-out,1.0,False
+bank,export_1.csv,105,2026-08-21,operating,ACH DEPOSIT FAIRE WHOLESALE 0821,1360.26,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,106,2026-08-22,operating,ACH DEBIT ASHFORD CARD PMT,-42405.49,card_payment,tie-out,1.0,False
+bank,export_1.csv,107,2026-08-24,operating,ACH DEPOSIT SHOPIFY INC 0824,6837.02,processor_payout,tie-out,1.0,False
+bank,export_1.csv,108,2026-08-24,operating,ACH DEPOSIT FAIRE WHOLESALE 0824,3088.84,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,109,2026-08-25,operating,ACH DEPOSIT SHOPIFY INC 0825,17189.0,processor_payout,tie-out,1.0,False
+bank,export_1.csv,110,2026-08-25,operating,ACH DEPOSIT FAIRE WHOLESALE 0825,8404.08,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,111,2026-08-26,operating,ACH DEPOSIT SHOPIFY INC 0826,4396.91,processor_payout,tie-out,1.0,False
+bank,export_1.csv,112,2026-08-26,operating,ACH DEPOSIT FAIRE WHOLESALE 0826,3027.91,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,113,2026-08-27,operating,ACH DEPOSIT SHOPIFY INC 0827,4561.76,processor_payout,tie-out,1.0,False
+bank,export_1.csv,114,2026-08-27,operating,ACH DEPOSIT FAIRE WHOLESALE 0827,2762.94,wholesale_payout,tie-out,1.0,False
+bank,export_1.csv,115,2026-08-28,operating,ACH DEPOSIT SHOPIFY INC 0828,6728.82,processor_payout,tie-out,1.0,False
+bank,export_1.csv,116,2026-08-28,operating,ACH DEBIT JUSTWORKS PAYROLL TAX,-3503.45,payroll,model,0.9840484377397772,False
+bank,export_1.csv,117,2026-08-28,operating,ACH DEBIT JUSTWORKS PAYROLL,-11094.25,payroll,model,0.9657680710472817,False
+bank,export_1.csv,118,2026-08-28,savings,DIVIDEND,580.2,interest_income,model,0.9300222187733374,False
+bank,export_1.csv,119,2026-08-31,operating,ACH DEPOSIT SHOPIFY INC 0831,6382.2,processor_payout,tie-out,1.0,False
+bank,export_1.csv,120,2026-08-31,operating,ACH DEPOSIT FAIRE WHOLESALE 0831,276.9,wholesale_payout,tie-out,1.0,False
+card,card_activity_1.csv,0,2026-07-01,card,GOOGLE *ADS1464955056,396.67,ad_spend,model,0.9820395042338691,False
+card,card_activity_1.csv,1,2026-07-01,card,FACEBK *A7YRQUP9 fb.me/ads CA,650.8,ad_spend,model,0.9908603656813204,False
+card,card_activity_1.csv,2,2026-07-01,card,GOOGLE *ADS8100341433,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,3,2026-07-01,card,FACEBK *FWYFU4XN fb.me/ads CA,1500.0,ad_spend,model,0.997727940042324,False
+card,card_activity_1.csv,4,2026-07-03,card,GOOGLE *ADS0934532319,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,5,2026-07-04,card,FACEBK *F69MVBHD fb.me/ads CA,1500.0,ad_spend,model,0.9966810114972555,False
+card,card_activity_1.csv,6,2026-07-05,card,KLAVIYO INC. BOSTON MA,690.0,software_opex,model,0.9830206844572791,False
+card,card_activity_1.csv,7,2026-07-05,card,GOOGLE *ADS3541312058,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,8,2026-07-06,card,FACEBK *XNP5FJ82,1500.0,ad_spend,model,0.9898493302279173,False
+card,card_activity_1.csv,9,2026-07-07,card,GOOGLE *ADS0457219185 cc@google.com CA,1000.0,ad_spend,model,0.9986496500153679,False
+card,card_activity_1.csv,10,2026-07-08,card,STAMPS.COM,275.35,shipping_supplies,model,0.9796669160527142,False
+card,card_activity_1.csv,11,2026-07-08,card,FACEBK *ASXYAQXV,1500.0,ad_spend,model,0.9972252737777465,False
+card,card_activity_1.csv,12,2026-07-09,card,SQ *NORTHSIDE COFFEE,154.35,travel_other,model,0.9741280795721938,False
+card,card_activity_1.csv,13,2026-07-09,card,GOOGLE *ADS5027062395 cc@google.com CA,1000.0,ad_spend,model,0.9986496500153679,False
+card,card_activity_1.csv,14,2026-07-10,card,FACEBK *PZHMUYPM fb.me/ads CA,1500.0,ad_spend,model,0.9994820087864258,False
+card,card_activity_1.csv,15,2026-07-11,card,SHOPIFY* 363785244 SHOPIFY.COM ON,399.0,software_opex,model,0.9712790398469683,False
+card,card_activity_1.csv,16,2026-07-11,card,GOOGLE *ADS2714064175 cc@google.com CA,1000.0,ad_spend,model,0.9986496500153679,False
+card,card_activity_1.csv,17,2026-07-12,card,UBER *TRIP,380.87,travel_other,model,0.9884422212508686,False
+card,card_activity_1.csv,18,2026-07-12,card,FACEBK *V9JBNCL8 fb.me/ads CA,1500.0,ad_spend,model,0.9973593096189011,False
+card,card_activity_1.csv,19,2026-07-13,card,GOOGLE *ADS4756742946,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,20,2026-07-14,card,FACEBK *L4XH6GBF fb.me/ads CA,1500.0,ad_spend,model,0.9966846993406069,False
+card,card_activity_1.csv,21,2026-07-15,card,SQ *NORTHSIDE COFFEE,124.18,travel_other,model,0.9741280795721938,False
+card,card_activity_1.csv,22,2026-07-16,card,GOOGLE *ADS5721865617,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,23,2026-07-16,card,STAMPS.COM,1032.97,shipping_supplies,model,0.9761283189680924,False
+card,card_activity_1.csv,24,2026-07-16,card,FACEBK *SALDNUSB,1500.0,ad_spend,model,0.9934507764752859,False
+card,card_activity_1.csv,25,2026-07-17,card,GOOGLE *GSUITE_BR3UYS,144.0,software_opex,model,0.8991784876035573,False
+card,card_activity_1.csv,26,2026-07-17,card,ULINE *S3381677,1040.12,shipping_supplies,model,0.9827790485037372,False
+card,card_activity_1.csv,27,2026-07-18,card,GOOGLE *ADS9094794664,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,28,2026-07-18,card,FACEBK *JQ2N2VG7 fb.me/ads CA,1500.0,ad_spend,model,0.9975273321415883,False
+card,card_activity_1.csv,29,2026-07-20,card,GOOGLE *ADS0787698456 cc@google.com CA,1000.0,ad_spend,model,0.9986496500153679,False
+card,card_activity_1.csv,30,2026-07-20,card,FACEBK *NZ4NJH8Q,1500.0,ad_spend,model,0.992464359721671,False
+card,card_activity_1.csv,31,2026-07-22,card,AUTOMATIC PAYMENT - THANK YOU,-36832.35,card_payment_received,tie-out,1.0,False
+card,card_activity_1.csv,32,2026-07-22,card,GOOGLE *ADS2619413133,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,33,2026-07-22,card,FACEBK *XGQFESXN fb.me/ads CA,1500.0,ad_spend,model,0.9986969278505854,False
+card,card_activity_1.csv,34,2026-07-24,card,GOOGLE *ADS8999490134 cc@google.com CA,1000.0,ad_spend,model,0.9986496500153679,False
+card,card_activity_1.csv,35,2026-07-24,card,FACEBK *WUQN9VAV,1500.0,ad_spend,model,0.994459424730655,False
+card,card_activity_1.csv,36,2026-07-26,card,GOOGLE *ADS2891259050 cc@google.com CA,1000.0,ad_spend,model,0.9986496500153679,False
+card,card_activity_1.csv,37,2026-07-26,card,STAMPS.COM,1267.06,shipping_supplies,model,0.9761283189680924,False
+card,card_activity_1.csv,38,2026-07-26,card,FACEBK *H8EY3CUV fb.me/ads CA,1500.0,ad_spend,model,0.9960066516038225,False
+card,card_activity_1.csv,39,2026-07-28,card,SQ *NORTHSIDE COFFEE,154.22,travel_other,model,0.9741280795721938,False
+card,card_activity_1.csv,40,2026-07-28,card,ULINE *S4931504,695.9,shipping_supplies,model,0.9829343037349523,False
+card,card_activity_1.csv,41,2026-07-28,card,GOOGLE *ADS1157113196,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,42,2026-07-28,card,FACEBK *FMPNG2NH fb.me/ads CA,1500.0,ad_spend,model,0.9983664256113455,False
+card,card_activity_1.csv,43,2026-07-30,card,SQ *NORTHSIDE COFFEE,247.19,travel_other,model,0.9741280795721938,False
+card,card_activity_1.csv,44,2026-07-30,card,GOOGLE *ADS2702782086,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,45,2026-07-30,card,FACEBK *MQPMDN4C,1500.0,ad_spend,model,0.9943550879376961,False
+card,card_activity_1.csv,46,2026-08-01,card,FACEBK *ZYFK3E3L fb.me/ads CA,110.1,ad_spend,model,0.9946298012133746,False
+card,card_activity_1.csv,47,2026-08-01,card,GOOGLE *ADS6785781069,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,48,2026-08-01,card,FACEBK *Y4WSV6DH,1500.0,ad_spend,model,0.987596194367164,False
+card,card_activity_1.csv,49,2026-08-04,card,GOOGLE *ADS9251669589,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,50,2026-08-04,card,FACEBK *XRQ5HD45 fb.me/ads CA,1500.0,ad_spend,model,0.9977369600662627,False
+card,card_activity_1.csv,51,2026-08-05,card,KLAVIYO INC. BOSTON MA,690.0,software_opex,model,0.9830206844572791,False
+card,card_activity_1.csv,52,2026-08-06,card,GOOGLE *ADS6954844640 cc@google.com CA,1000.0,ad_spend,model,0.9986496500153679,False
+card,card_activity_1.csv,53,2026-08-06,card,FACEBK *TY6YGJAJ,1500.0,ad_spend,model,0.9942669090070886,False
+card,card_activity_1.csv,54,2026-08-08,card,STAMPS.COM,845.7,shipping_supplies,model,0.9796669160527142,False
+card,card_activity_1.csv,55,2026-08-08,card,GOOGLE *ADS6691611774 cc@google.com CA,1000.0,ad_spend,model,0.9986496500153679,False
+card,card_activity_1.csv,56,2026-08-08,card,FACEBK *D4VW5X7Y fb.me/ads CA,1500.0,ad_spend,model,0.9972442642568177,False
+card,card_activity_1.csv,57,2026-08-10,card,GOOGLE *ADS4228769496 cc@google.com CA,1000.0,ad_spend,model,0.9986496500153679,False
+card,card_activity_1.csv,58,2026-08-10,card,FACEBK *HC6NXD7L fb.me/ads CA,1500.0,ad_spend,model,0.9980689930582752,False
+card,card_activity_1.csv,59,2026-08-11,card,SHOPIFY* 601107857,399.0,software_opex,model,0.984379079129398,False
+card,card_activity_1.csv,60,2026-08-12,card,GOOGLE *ADS4110279315,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,61,2026-08-12,card,FACEBK *LV4E2JXS fb.me/ads CA,1500.0,ad_spend,model,0.9981183722240722,False
+card,card_activity_1.csv,62,2026-08-13,card,SQ *NORTHSIDE COFFEE,53.29,travel_other,model,0.9676242482037422,False
+card,card_activity_1.csv,63,2026-08-14,card,GOOGLE *ADS1445113268,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,64,2026-08-14,card,FACEBK *ERLX3853 fb.me/ads CA,1500.0,ad_spend,model,0.9984953316316525,False
+card,card_activity_1.csv,65,2026-08-15,card,UBER *TRIP HELP.UBER.COM,58.27,travel_other,model,0.9851916351452635,False
+card,card_activity_1.csv,66,2026-08-16,card,STAMPS.COM,419.65,shipping_supplies,model,0.9796669160527142,False
+card,card_activity_1.csv,67,2026-08-16,card,GOOGLE *ADS0893441332 cc@google.com CA,1000.0,ad_spend,model,0.9986496500153679,False
+card,card_activity_1.csv,68,2026-08-16,card,FACEBK *BH3CKAFF,1500.0,ad_spend,model,0.9954544906325463,False
+card,card_activity_1.csv,69,2026-08-17,card,GOOGLE *GSUITE_RGLMPW,144.0,software_opex,model,0.9014787237934165,False
+card,card_activity_1.csv,70,2026-08-18,card,GOOGLE *ADS5910981380,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,71,2026-08-18,card,FACEBK *VUX3XAP2 fb.me/ads CA,1500.0,ad_spend,model,0.9988403878274889,False
+card,card_activity_1.csv,72,2026-08-19,card,SQ *NORTHSIDE COFFEE,50.89,travel_other,model,0.9676242482037422,False
+card,card_activity_1.csv,73,2026-08-20,card,GOOGLE *ADS8414936654 cc@google.com CA,1000.0,ad_spend,model,0.9986496500153679,False
+card,card_activity_1.csv,74,2026-08-20,card,FACEBK *AJJ5M5A4,1500.0,ad_spend,model,0.993928569414922,False
+card,card_activity_1.csv,75,2026-08-21,card,SQ *NORTHSIDE COFFEE,206.5,travel_other,model,0.9741280795721938,False
+card,card_activity_1.csv,76,2026-08-22,card,AUTOMATIC PAYMENT - THANK YOU,-42405.49,card_payment_received,tie-out,1.0,False
+card,card_activity_1.csv,77,2026-08-22,card,SQ *NORTHSIDE COFFEE,122.06,travel_other,model,0.9741280795721938,False
+card,card_activity_1.csv,78,2026-08-22,card,GOOGLE *ADS4301261090,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,79,2026-08-22,card,FACEBK *75TQ73GU fb.me/ads CA,1500.0,ad_spend,model,0.9970375803142568,False
+card,card_activity_1.csv,80,2026-08-24,card,FACEBK *UAQVJ2FK,1500.0,ad_spend,model,0.9922393524459832,False
+card,card_activity_1.csv,81,2026-08-25,card,GOOGLE *ADS8717120210 cc@google.com CA,1000.0,ad_spend,model,0.9986496500153679,False
+card,card_activity_1.csv,82,2026-08-26,card,ULINE *S1662457,465.28,shipping_supplies,model,0.9829343037349523,False
+card,card_activity_1.csv,83,2026-08-27,card,GOOGLE *ADS3796846997,1000.0,ad_spend,model,0.999332251833653,False
+card,card_activity_1.csv,84,2026-08-27,card,ULINE *S4358946,1375.84,shipping_supplies,model,0.9827790485037372,False
+card,card_activity_1.csv,85,2026-08-27,card,FACEBK *RAAHHKU2 fb.me/ads CA,1500.0,ad_spend,model,0.9987326866110948,False
+card,card_activity_1.csv,86,2026-08-29,card,STAMPS.COM,567.42,shipping_supplies,model,0.9796669160527142,False
+card,card_activity_1.csv,87,2026-08-29,card,GOOGLE *ADS4499229170 cc@google.com CA,1000.0,ad_spend,model,0.9986496500153679,False
+card,card_activity_1.csv,88,2026-08-29,card,FACEBK *D7JWEHVV,1500.0,ad_spend,model,0.9930708998356743,False
+card,card_activity_1.csv,89,2026-08-31,card,UBER *TRIP HELP.UBER.COM,84.1,travel_other,model,0.9851916351452635,False
+card,card_activity_1.csv,90,2026-08-31,card,GOOGLE *ADS1897378207 cc@google.com CA,1000.0,ad_spend,model,0.9986496500153679,False
+card,card_activity_1.csv,91,2026-08-31,card,FACEBK *HS8A5DMR,1500.0,ad_spend,model,0.9913558979236184,False

@@ -1,0 +1,126 @@
+# Per-brand facts an implementation lead captures on the kickoff call, on top of what the
+# onboarded ledger shows: vendors, retailer terms, SKU names, cash buffer policy, credit line.
+# Built by Avinash Rayudu. All brands and numbers are synthetic.
+
+defaults:
+  refund_rate: 0.055
+  fee_rate: 0.032
+  chargeback_rate: 0.002
+  payout_lag_share: 0.2857          # about 2 of 7 days of sales are paid out the following week
+  amz_fee_rate: 0.30
+  packaging_pct: 0.010
+  saas_annual: 9000
+  loc_apr: 0.11                     # illustrative credit line rate
+  savings_apy: 0.0258               # illustrative savings yield
+  opening_weeks_of_outflow: 3.0     # opening cash when the brand did not give a figure
+  buffer_weeks_of_outflow: 2.0      # cash buffer policy when the brand did not give one
+
+brands:
+  fernwood-goods:
+    # Corrected plan P&L (docs/fernwood_pnl.md). The onboarded ledger runs about 30% above this
+    # plan, so Fernwood's levels come from the plan; its ledger supplies noise and payment calendars.
+    plan:
+      annual_revenue: 8400000
+      channel_mix: {dtc: 0.80, amazon: 0.08, wholesale: 0.12}
+      gross_margin: 0.62
+      fulfillment_pct_revenue: 0.10
+      payment_fees_pct_revenue: 0.03
+      refunds_pct_revenue: 0.06
+      refunds_pct_january: 0.09
+      ads_pct_dtc: 0.22
+      ad_platforms: {meta: 0.70, google: 0.30}
+      payroll_biweekly: 50000
+      fixed_monthly: 34000
+      card_software_monthly: 10000  # part of the $34K fixed; paid on the card, so it arrives with the autopay
+      sales_tax_rate: 0.04
+      opening_cash: 300000          # lowered from the first draft's $1.0M, which never produced a trough
+      cash_buffer: 300000
+      loc_limit: 1500000
+      loc_drawn: 400000
+      purchase_orders:
+        - {id: PO-BFCM-BAL, vendor: Kestrel Knitworks Ltd, due_week: 3, amount: 520000}
+        - {id: PO-SPRING-DEP, vendor: Halden Textile Co, due_week: 10, amount: 200000}
+      freight_invoices:
+        - {id: FRT-BFCM, issue_week: 1, amount: 95000}
+    skus: {FW-2201: 0.22, FW-2205: 0.18, FW-1180: 0.15, FW-3302: 0.12, FW-0940: 0.10, other: 0.23}
+    retailers: [{name: Faire, share: 0.6, terms_weeks: 1}, {name: Hudson Mercantile, share: 0.4, terms_weeks: 9}]
+    threepl: ShipNest 3PL
+    forwarder: Harborline Freight
+    packaging_vendor: Noble Box Co
+    saas_vendor: Gorgias
+  lark-and-pine:
+    inventory_vendor: Ashgrove Ceramics
+    skus: {LPC-140: 0.25, LPC-122: 0.2, LPC-305: 0.15, other: 0.4}
+    retailers: [{name: Faire, share: 1.0, terms_weeks: 1}]
+    threepl: Packriver Fulfillment
+    forwarder: Bluewake Logistics
+    packaging_vendor: Paper Mart
+    saas_vendor: Klaviyo
+  tidewater-swim:
+    inventory_vendor: Coralline Textiles
+    skus: {TS-210: 0.3, TS-118: 0.2, other: 0.5}
+    retailers: []
+    threepl: Boxline Logistics
+    forwarder: Meridian Cargo
+    packaging_vendor: Uline
+    saas_vendor: Triple Whale
+  copperleaf-tea:
+    inventory_vendor: Uplands Leaf Co
+    skus: {CT-01: 0.3, CT-07: 0.2, other: 0.5}
+    retailers: [{name: Faire, share: 0.55, terms_weeks: 1}, {name: Mapleton Gifts, share: 0.25, terms_weeks: 4},
+                {name: Hollow Pine Grocers, share: 0.20, terms_weeks: 4}]
+    threepl: Fulcrum Fulfillment
+    forwarder: Crestway Forwarding
+    packaging_vendor: Vellum Paper Mills
+    saas_vendor: Klaviyo
+  north-arc-outdoor:
+    inventory_vendor: Ridgeback Manufacturing
+    skus: {NAO-500: 0.25, NAO-310: 0.25, other: 0.5}
+    retailers: []
+    threepl: Dockside 3PL
+    forwarder: Tidelink Freight
+    packaging_vendor: Uline
+    saas_vendor: Figma
+  marigold-skin:
+    inventory_vendor: Lumen Formulations
+    skus: {MS-SERUM: 0.35, MS-CLEAN: 0.25, other: 0.4}
+    retailers: [{name: Faire, share: 1.0, terms_weeks: 1}]
+    threepl: Parcelworks
+    forwarder: Northstar Shipping
+    packaging_vendor: Altamira Packaging Co
+    saas_vendor: Recharge
+  bramble-pet:
+    inventory_vendor: Thistle Pet Products
+    skus: {BPS-CHEW: 0.3, BPS-BED: 0.2, other: 0.5}
+    retailers: []
+    threepl: Crateway Fulfillment
+    forwarder: Pallas Logistics
+    packaging_vendor: Uline
+    saas_vendor: Recharge
+  quillon-coffee:
+    inventory_vendor: Altura Green Coffee
+    skus: {QC-ESP: 0.3, QC-DEC: 0.15, other: 0.55}
+    retailers: [{name: Faire, share: 0.6, terms_weeks: 1}, {name: Corner Larder, share: 0.2, terms_weeks: 4},
+                {name: Westgate Market Co, share: 0.2, terms_weeks: 4}]
+    threepl: Bundle & Ship
+    forwarder: Saltbox Freight
+    packaging_vendor: Tamsin Ceramics
+    saas_vendor: Recharge
+  saltmarsh-apparel:
+    inventory_vendor: Fenwick Mills
+    skus: {SA-PARKA: 0.3, SA-KNIT: 0.2, other: 0.5}
+    retailers: [{name: Faire, share: 1.0, terms_weeks: 1}]
+    threepl: Relay Fulfillment
+    forwarder: Kingsbridge Cargo
+    packaging_vendor: Boxco Packaging
+    saas_vendor: Gorgias
+    supplier_currency: USD          # pays suppliers in USD from a CAD account
+    fx_rate: 1.38                   # CAD per USD, illustrative
+  hollis-home:
+    inventory_vendor: Ostrava Home Goods
+    skus: {HH-THROW: 0.3, HH-MUG: 0.2, other: 0.5}
+    retailers: []
+    threepl: Corbel Warehousing
+    forwarder: Orchard Line Freight
+    packaging_vendor: Pirate Ship
+    saas_vendor: Notion
