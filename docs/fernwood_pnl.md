@@ -61,7 +61,7 @@ The P&L is annual and accrual-based. The forecast is weekly and cash-based, so a
 
 ## Plan vs the onboarded ledger
 
-Fernwood's ledger from dtc-cash-onboarding shows Shopify payouts of about $215K a week. That is roughly 30% above this plan. The other nine brands take their levels from their ledgers. Fernwood takes its levels from this plan and uses its ledger only for:
+Fernwood's ledger from dtc-cash-onboarding shows Shopify payouts of about $214K a week from Jul 6 to Oct 25. This plan implies about $115K a week of gross DTC sales for the same weeks, so the ledger runs at roughly 1.9 times the plan. (An earlier version of this note said "roughly 30% above"; that was wrong.) The two were built separately and I did not force them to agree. The other nine brands take their levels from their ledgers. Fernwood takes its levels from this plan and uses its ledger only for:
 
 - the size of its week-to-week noise,
 - its payroll Fridays,

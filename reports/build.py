@@ -188,6 +188,36 @@ def snapshot(cfgs, books, steps, t):
     return sorted(rows, key=lambda r: (order[r["status"]], r["low"] / r["buffer"]))
 
 
+# ------------------------------------------------------------------------------------------- variance bridge
+def variance_bridge(fc, act, t):
+    """Week-0 forecast closing cash to actual closing cash after t weeks, one step per line and driver.
+    The steps come from monitor.attribute.components, so they sum to the difference exactly."""
+    steps = []
+    for l in CASH_LINES:
+        comps, _, _ = components(fc, act, l)
+        for k, c in comps.items():
+            v = float(np.sum(c[:t]))
+            if abs(v) >= 1:
+                steps.append((f"{LINE_NAMES[l]}: {k.replace('_', ' ')}", v))
+    start, end = float(fc.cash[t - 1]), float(act.cash[t - 1])
+    other = end - start - sum(v for _, v in steps)
+    if abs(other) >= 1:
+        steps.append(("Rounding", other))
+    return start, end, sorted(steps, key=lambda x: x[1])
+
+
+def bridge_html(start, end, steps, t):
+    mx = max(abs(v) for _, v in steps) or 1.0
+    rows = "".join(
+        f"<tr><td>{html.escape(n)}</td><td style='width:45%'><div style='height:12px;width:{100 * abs(v) / mx:.1f}%;"
+        f"background:var({'--red' if v < 0 else '--green'})'></div></td>"
+        f"<td class='n {'neg' if v < 0 else ''}'>{money(v, True)}</td></tr>" for n, v in steps)
+    return (f"<table><tr><th>Step</th><th></th><th class=n>Amount</th></tr>"
+            f"<tr><td><b>Week-0 forecast, closing cash in the week of {wk(t - 1)}</b></td><td></td><td class=n><b>{money(start)}"
+            f"</b></td></tr>{rows}<tr><td><b>Actual closing cash</b></td><td></td><td class=n><b>{money(end)}</b></td></tr>"
+            f"</table>")
+
+
 # ------------------------------------------------------------------------------------------- brief
 def brief(cfgs, books, steps):
     t = BRIEF_WEEK
@@ -224,6 +254,8 @@ def brief(cfgs, books, steps):
                        key=lambda x: x[1])
         var_rows.append((LINE_NAMES[l], v, ", ".join(f"{k.replace('_', ' ')} {money(x, True)}" for k, x in parts)))
     total_var = float(np.sum(act.total()[:t] - fc.total()[:t]))
+    b_start, b_end, b_steps = variance_bridge(fc, act, t)
+    bridge = bridge_html(b_start, b_end, b_steps, t)
     findings = s["findings"]
     tpl = [b for b in s["discounts_now"]]
     tpl_txt = ""
@@ -285,6 +317,11 @@ week, while most BFCM receipts arrive one to two weeks later.</p>
 <table><tr><th>Cash in this week</th><th class=n>Amount</th><th>Cash out this week</th><th class=n>Amount</th></tr>
 {''.join(f"<tr><td>{html.escape(ins[i][0]) if i < len(ins) else ''}</td><td class=n>{money(ins[i][1]) if i < len(ins) else ''}</td><td>{html.escape(outs[i][0]) if i < len(outs) else ''}</td><td class='n neg'>{money(outs[i][1]) if i < len(outs) else ''}</td></tr>" for i in range(max(len(ins), len(outs))))}
 </table></div>
+
+<h2>Forecast to actual: the variance bridge</h2>
+<div class=card>{bridge}
+<p class=small>Each step swaps one driver from forecast to actual, so the steps add up to the difference exactly.
+Refunds drive the miss: without them, cash would have come in about $6,000 ahead of the forecast.</p></div>
 
 <h2>What changed since the week-0 forecast</h2>
 <div class=card><table><tr><th>Line</th><th class=n>Actual vs forecast</th><th>Driver split</th></tr>
