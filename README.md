@@ -1,12 +1,15 @@
 # forecast-health-monitor
 
+**Why it matters.** A founder does not need a forecast that is right; forecasts miss. They need to know on Monday
+why it missed and what to pay, draw or hold this week. This monitor answers that, with dates and dollar amounts.
 **What it is.** A 13-week cash forecast that explains its own misses and turns the explanation into dated actions:
 a credit draw with its repay date, which bills to pay early, and what to do with cash after the trough.
 **Best result.** It found and named all 8 holdout cash-drift events, written after the detector was frozen. When
 credit was tight, paying bills by the forecast held the worst unplanned dip to $67,629 instead of $140,937.
 **See it.** [The Monday Cash Brief](https://avinashrayudu.github.io/forecast-health-monitor/reports/cash_brief_fernwood.html) ·
 [10-brand health board](https://avinashrayudu.github.io/forecast-health-monitor/reports/portfolio_10_brands.html) ·
-[case study](https://www.avinashrayudu.com/work/forecast-health-monitor/)
+[case study](https://www.avinashrayudu.com/work/forecast-health-monitor/) ·
+[finance concepts](docs/finance_concepts.md)
 
 Built by Avinash Rayudu. Every brand, vendor and number here is synthetic.
 
@@ -106,15 +109,19 @@ on the Inputs tab moves the forecast.
 
 ## Why these numbers
 
-| Setting | Value | Where it comes from |
-|---|---|---|
-| Cash buffer | $300,000 for Fernwood | A little under two weeks of Fernwood's average forecast outflows ($2.13M over 13 weeks, about $164K a week). The other nine brands get the same policy computed from their own ledgers: two weeks of outflow (`buffer_weeks_of_outflow: 2.0`). |
-| Opening cash | $300,000 for Fernwood | Set in the corrected plan. The first draft opened with $1.0M, which never produced a trough, so there was nothing to manage (see `docs/fernwood_pnl.md`). |
-| Detection bar | 3 standard deviations | Each driver is tested every week over 1, 2 and 4-week windows. A lower bar multiplies false alarms across that many tests; at 3, the noise-only worlds produce about 0.16 false alarms per brand per quarter. |
-| Materiality | the larger of $2,500 or 1.5% of weekly receipts | A statistically real move that is too small to change a decision is not worth a founder's attention. The floor covers small brands; the percentage scales with size. |
-| Normal noise | 16 weeks of the brand's own history | The full history window in the onboarded ledgers (Jul 6 to Oct 25). |
-| Draw cushion | 1.65 standard deviations of the week's unseen receipts | One-sided 95%: receipts that have not landed yet push cash under the buffer in about 1 week in 20. Added after holdout v1, when two brands dipped by up to $2,717. |
-| Draw size | multiples of $25,000 | How credit lines are usually drawn; it also keeps the brief readable. |
+Every threshold, in plain language, with where it comes from.
+
+| Setting | Value | In plain language | Where it comes from |
+|---|---|---|---|
+| Cash buffer | $300,000 for Fernwood | The cash the brand never wants to go under: about two weeks of bills, so one bad week cannot stop payroll. | A little under two weeks of Fernwood's average forecast outflows ($2.13M over 13 weeks, about $164K a week). The other nine brands get the same policy from their own ledgers: two weeks of outflow (`buffer_weeks_of_outflow: 2.0`). |
+| Opening cash | $300,000 for Fernwood | Fernwood starts the quarter right at its buffer, so the November trough has to be managed. | Set in the corrected plan. The first draft opened with $1.0M, which never produced a trough (see `docs/fernwood_pnl.md`). |
+| Detection bar | 3 standard deviations | A driver is flagged only when it moves about three times as far as it normally wanders week to week. | Each driver is tested every week over 1, 2 and 4-week windows, so a lower bar multiplies false alarms. At 3, the noise-only worlds give about 0.16 false alarms per brand per quarter. |
+| Materiality | the larger of $2,500 or 1.5% of weekly receipts | A real move that is too small to change a decision is not worth a founder's attention. | The $2,500 floor covers small brands; the 1.5% scales with size. Set by hand. |
+| Normal noise | 16 weeks of the brand's own history | "Normal" is measured from the brand itself, not assumed. | The full history window in the onboarded ledgers (Jul 6 to Oct 25). |
+| Draw cushion | 1.65 standard deviations of the week's unseen receipts | Borrow a little extra so receipts that have not landed yet push cash under the buffer only about 1 week in 20. | One-sided 95%. Added after holdout v1, when two brands dipped by up to $2,717. |
+| Draw size | multiples of $25,000 | Round draws, the way credit lines are usually drawn. | Set by hand; it keeps the brief readable. |
+| Early-pay discount | 2/10 net 30 is worth about 37% a year | Paying 20 days early to save 2% is like earning 37% a year on that cash, far more than 11% interest. | 2/98 x 365/20. |
+| Credit line and savings rates | 11% APR, 2.58% APY | Illustrative rates. Paying down a line at 11% beats earning 2.58% in savings. | Set by hand; check against a brand's real terms. |
 
 ## What changed after the holdout
 
@@ -194,10 +201,46 @@ The board has a slider that replays the quarter one Monday at a time.
   retailer, bills with terms. Without that grain it can only say a line moved.
 - **The rates are illustrative:** the 11% credit line APR and the 2.58% savings APY.
 
+## Where this fits at Highbeam
+
+My reading of Highbeam's public Luma pages and the AI Implementation Associate posting. This project is not
+affiliated with Highbeam and uses no Highbeam data.
+
+| This project | Highbeam / Luma workflow it would show | The role's work it rehearses |
+|---|---|---|
+| A driver-based 13-week forecast per brand | Luma's baseline cash forecasting and "true cash position" view | Forecast health monitoring |
+| Miss attribution, detection and the Monday brief | The Alerts and reporting agent, which monitors key metrics and writes weekly reports | Explaining a messy cash situation clearly to a founder |
+| Draw sizing with a cushion and a repay date | Highbeam's revolving line of credit | Cash management recommendations |
+| Bill timing under vendor rules and discounts | Highbeam Bill Pay | AP and bill pay setup |
+| Paydown vs sweep after the trough | The Treasury agent, which maximizes yield and minimizes interest | Cash management recommendations |
+| The Excel twin that ties to the code | | Excel and Sheets modeling |
+
+Sources: [Introducing Luma](https://www.highbeam.com/blog/introducing-luma-a-world-class-finance-team-for-every-d2c-brand),
+[Luma](https://www.highbeam.com/luma),
+[Highbeam Intelligence](https://www.highbeam.com/blog/expert-finance-agents-for-consumer-brands-highbeam-intelligence).
+
+## Finance concepts
+
+The forecast is on a cash basis: it turns the accrual plan P&L into the weeks money actually moves. Accounts
+receivable shows up as wholesale receipts by retailer and terms; accounts payable as bills with terms, due dates and
+discounts. [docs/finance_concepts.md](docs/finance_concepts.md) covers AP and AR, cash vs accrual and the three-way
+match across all three projects.
+
+## How I built this
+
+I built this with Claude Code, Anthropic's coding agent. I chose the problem and set the rules the work had to
+follow: synthetic brands only, one engine for the forecast and the simulated actuals, hidden event labels the monitor
+never reads, freeze the detector before writing the holdout, and no number in this README that a committed run did
+not produce. Claude Code wrote most of the code, the workbook builder, the tests and first drafts of the docs under
+that direction and ran the evals. I read the results, decided what to fix and what to leave visible, and ran reviews
+from an implementation team's point of view that drove the last rounds of changes. [CHANGELOG.md](CHANGELOG.md) shows
+the order things happened in.
+
 ## Why I built this
 
-At Zacao Chocolate, a consumer products brand, I built a PO-to-invoice matching agent that cut the payment cycle by
-15 days. Faster payment only helps if you know which weeks can afford it. This project is the other half of that
-problem: knowing when cash is tight, why, and what to pay when.
+At Zacao Chocolate, a consumer products brand in Brooklyn, I reconciled the store invoices the books said were
+unpaid and found most had already been collected, never delivered or refused at delivery
+([case study](https://www.avinashrayudu.com/work/zacao-receivables/)). Knowing what is really owed is half of cash
+management. This project is the other half: knowing when cash is tight, why, and what to pay when.
 
 Built by Avinash Rayudu. MIT License.
